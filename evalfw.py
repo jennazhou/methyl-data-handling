@@ -56,18 +56,3 @@ def eval(clf_dict, X, y):
     plt.legend(loc="lower right")
     plt.show
         
-        
-def cross_val_5cv(clf_dict, X, y):
-    scoring=['accuracy','precision', 'recall', 'f1', 'roc_auc']
-    for key in clf_dict:
-        clf = clf_dict[key]
-        cv_results = cross_validate(clf, X, y, scoring=scoring, cv=5)
-#         cv_results = cross_val_score(clf, X, y, scoring='accuracy', cv=5)
-        print('Current model: ', key)
-        print('Fit time: ', cv_results['fit_time'])
-        print('Accuracy: ', cv_results['test_accuracy'])
-        print('Precision: ', cv_results['test_precision'])
-        print('Recall: ', cv_results['test_recall'])
-        print('F1: ', cv_results['test_f1'])
-        print('ROC AUC: ', cv_results['test_roc_auc'])
-        print()

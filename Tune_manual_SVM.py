@@ -3,9 +3,10 @@ import numpy as np
 
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import StratifiedShuffleSplit
+from sklearn.model_selection import StratifiedKFold
 from sklearn.preprocessing import StandardScaler
 
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LogisticRegression, Lasso
 from sklearn.model_selection import cross_val_predict, cross_val_score
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import GridSearchCV
@@ -17,6 +18,10 @@ from sklearn.pipeline import Pipeline
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
+from umap.umap_ import UMAP
+from sklearn.decomposition import FastICA
+
+from sklearn.feature_selection import SelectFromModel
 
 
 ppmi = pd.read_csv('./trans_processed_PPMI_data.csv')
@@ -87,33 +92,150 @@ X_test_scaled = scaler.transform(X_test)
 # # gamma = 0.0001
 # # kernel = rfb
 
-
-### Tune n_components for PCA+SVM
-
 n_components = [50, 100, 150, 200, 250]
 kernels = ['rbf', 'poly', 'linear', 'sigmoid']
-C_options=[0.01, 1, 1000]
+C_options=[0.001, 0.01, 0.1, 1]
 
-pipe = Pipeline([
-    ('pca', PCA()),
-    ('clf', SVC(gamma=0.0001))
-])
+### PCA
+# best_perf=0
+# for n in n_components:
+#     pca = PCA(n_components=n)
+#     X_train = pca.fit_transform(X_train_scaled)
+#     X_test = pca.transform(X_test_scaled)
+#     print('Shape of PCs:', X_train.shape[1])
+    
+### UMAP
+# best_perf=0
+# for n in n_components:
+#     umap = UMAP(n_components=n)
+#     X_train = umap.fit_transform(X_train_scaled)
+#     X_test = umap.transform(X_test_scaled)
+#     print('Shape of UMAP clusters:', X_train.shape[1])
+    
+# # ### ICA
+# best_perf=0
+# for n in n_components:
+#     ica = FastICA(n_components=n)
+#     X_train = ica.fit_transform(X_train_scaled)
+#     X_test = ica.transform(X_test_scaled)
 
-param_grid = [
-    {
-        'pca__n_components': n_components,
-        'clf__C': C_options,
-        'clf__kernel': kernels,
-    },
-]
 
-grid = GridSearchCV(pipe, param_grid=param_grid, scoring="accuracy", cv=5)
-grid.fit(X_train_scaled, y_train)
-# evaluation metric is accuray 
 
-mean_scores = np.array(grid.cv_results_['mean_test_score'])
-print(grid.cv_results_['params'])
-print(mean_scores)
-print('Best estimator: ', grid.best_params_)
+#Lasso Reg for FS
+alpha=[0.001,0.01, 0.1]
+for a in alpha:
+    sel_ = SelectFromModel(Lasso(alpha=a, tol=0.01, random_state=42))
+    sel_.fit(X_train_scaled, y_train)
+    X_train = sel_.transform(X_train_scaled)
+#     X_test_selected = sel_.transform(X_test_scaled)
+    print("Shape of training set with alpha=", a, ":", X_train.shape)
+    
+    
+    best_perf=0
+    for k in kernels:
+        svc = SVC(max_iter=3000, gamma=0.001, kernel=k, tol=0.01)
+        param_grid ={'C': C_options, }
+        grid = GridSearchCV(svc, param_grid=param_grid, scoring="accuracy", cv=StratifiedKFold(n_splits=3, shuffle=True, random_state=42), n_jobs=3)
+        grid.fit(X_train, y_train)
+        # evaluation metric is accuray 
 
+        print("SVM on FS Reg_alpha=", a, " and kernel ",k,":")
+#         print("SVM on n_compo=", n, " and kernel ",k,":")
+        print("Best accuracy:", grid.best_score_)
+        print('Best estimator: ', grid.best_params_)
+        print()
+        if grid.best_score_ > best_perf:
+            best_perf = grid.best_score_
+            best_param = grid.best_params_
+            kernel_flag = k
+            a_flag = a
+#             compo_flag = n
+    
+    print("SVM with Ref FS alpha=", a_flag, 'and kernel', kernel_flag, 'has best performance of',best_perf, "with", best_param)
+#     print("SVM with PCs=", compo_flag, 'and kernel', kernel_flag, 'has best performance of',best_perf, "with", best_param)
+#     print("SVM with UMAP clusters=", compo_flag, 'and kernel', kernel_flag, 'has best performance of',best_perf, "with", best_param)
+    print()
+    
+
+    
+########Documentation######
+####PCA+SVM
+# SVM on PCA pc= 50 :
+# Best accuracy: 0.7097701149425287
+# Best estimator:  {'C': 0.01, 'kernel': 'rbf'}
+# SVM on PCA pc= 100 :
+# Best accuracy: 0.7097701149425287
+# Best estimator:  {'C': 0.01, 'kernel': 'rbf'}
+# SVM on PCA pc= 150 :
+# Best accuracy: 0.7097701149425287
+# Best estimator:  {'C': 0.01, 'kernel': 'rbf'}
+# SVM on PCA pc= 200 :
+# Best accuracy: 0.7097701149425287
+# Best estimator:  {'C': 0.01, 'kernel': 'rbf'}
+# SVM on PCA pc= 250 :
+# Best accuracy: 0.7097701149425287
+# Best estimator:  {'C': 0.01, 'kernel': 'rbf'}
+###Showing same result with kernel='rbf', but an increase in the performance for other non-optimal kernels as n_PC increases
+##Hence use PC = 250
+
+#####UMAP+SVM
+# SVM on UMAP clusters= 50 :
+# Best accuracy: 0.7097701149425287
+# Best estimator:  {'C': 0.001, 'kernel': 'rbf'}
+# SVM on UMAP clusters= 100 :
+# Best accuracy: 0.7097701149425287
+# Best estimator:  {'C': 0.001, 'kernel': 'rbf'}
+# SVM on UMAP clusters= 150 :
+# Best accuracy: 0.7097701149425287
+# Best estimator:  {'C': 0.001, 'kernel': 'rbf'}
+# SVM on UMAP clusters= 200 :
+# Best accuracy: 0.7097701149425287
+# Best estimator:  {'C': 0.001, 'kernel': 'rbf'}
+# SVM on UMAP clusters= 250 :
+# Best accuracy: 0.7097701149425287
+# Best estimator:  {'C': 0.001, 'kernel': 'rbf'}
+###Both kernels give 0.709.... accuracy
+
+#####ICA+SVM
+# SVM on ICA ic= 50 :
+# Best accuracy: 0.7097701149425287
+# Best estimator:  {'C': 0.001, 'kernel': 'rbf'}
+# SVM on ICA ic= 100 :
+# Best accuracy: 0.7097701149425287
+# Best estimator:  {'C': 0.001, 'kernel': 'rbf'}
+# SVM on ICA ic= 150 :
+# Best accuracy: 0.7097701149425287
+# Best estimator:  {'C': 0.001, 'kernel': 'rbf'}
+# SVM on ICA ic= 200 :
+# Best accuracy: 0.7097701149425287
+# Best estimator:  {'C': 0.001, 'kernel': 'rbf'}
+# SVM on ICA ic= 250 :
+# Best accuracy: 0.7097701149425287
+# Best estimator:  {'C': 0.001, 'kernel': 'rbf'}
+###Showing same result with kernel='rbf', but an increase in the performance for other non-optimal kernels as n_PC increases
+##Hence use PC = 250
+
+######FS+SVM
+# Shape of training set with C= 1 : (348, 132072)
+# SVM with Ref FS C= 1 and kernel linear has best performance of 0.9396551724137931 with {'C': 0.001}
+
+# Shape of training set with C= 10 : (348, 155839)
+# VM with Ref FS C= 10 and kernel linear has best performance of 0.9367816091954023 with {'C': 0.001}
+
+# Shape of training set with C= 100 : (348, 190133)
+# SVM with Ref FS C= 100 and kernel linear has best performance of 0.9109195402298851 with {'C': 0.001}
+
+# Shape of training set with C= 1000 : (348, 190701)
+# SVM with Ref FS C= 100 and kernel linear has best performance of 0.9166666666666666 with {'C': 0.001}
+
+###With Lasso
+# Shape of training set with alpha= 0.001 : (348, 809)
+# SVM with Ref FS alpha= 0.001 and kernel linear has best performance of 1.0 with {'C': 0.001}
+
+# Shape of training set with alpha= 0.01 : (348, 323)
+# SVM with Ref FS alpha= 0.01 and kernel linear has best performance of 1.0 with {'C': 0.001}
+# This one has the highest accuracy for all four kernels compared to other two alpha values
+
+# Shape of training set with alpha= 0.1 : (348, 4)
+# SVM with Ref FS alpha= 0.1 and kernel linear has best performance of 0.7212643678160919 with {'C': 0.1}
 

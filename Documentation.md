@@ -60,7 +60,7 @@ Best estimator: Lasso alpha = 0.01, CLF C = 100, acc = 1.0
 Total variance covered: 0.6462956834157272
 Mean score of precision of the best C: 0.626496369787509
 With PCA= 40 and l2, the best params are:
-{'C': 0.1} for n_compo= 40
+{'C': 0.1/0.01} for n_compo= 40
 [[153  63]
  [ 58 158]]
  
@@ -72,52 +72,59 @@ recall of testing set: 0.6451612903225806
 accuracy of testing set: 0.7199074074074074
 
 #### UMAP + LR
-With UMAP= 45 and l1, the best params are:
-{'C': 1000} for n_compo= 45
-
-[[110 106]
- [ 56 160]]
-[[17 21]
- [45 48]]
-precision of testing set: 0.6956521739130435
-recall of testing set 0.5161290322580645
-accuracy of testing set 0.625
+With UMAP= 60 and l1, the best params are:
+{'C': 100} for n_compo= 60
+Confusion matrix of PPMI training set:
+[[132 115]
+ [ 76 171]]
+Confusion matrix of PPMI testing set:
+[[17  9]
+ [24 38]]
 
 With UMAP = 40 and l2, the best params are:
-{'C': 0.001} for n_compo= 40
-[[121  95]
- [ 87 129]]
-[[19 19]
- [30 63]]
-precision of testing set: 0.7682926829268293
-recall of testing set 0.6774193548387096
-accuracy of testing set 0.6259541984732825
-f1 of testing set 0.7199999999999999
+{'C': 100} for n_compo= 40
+Confusion matrix of PPMI training set:
+[[150  97]
+ [ 85 162]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [30 32]]
 
 #### ICA + LR
-With ICA= 35 and l1, the best params are:
-{'C': 1000} for n_compo= 35
-[[147  69]
- [ 56 160]]
-[[10 28]
- [32 61]]
-precision of testing set: 0.6853932584269663
-recall of testing set 0.6559139784946236
-accuracy of testing set 0.7106481481481481
-f1 of testing set 0.7191011235955055
+With ICA= 40 and l1, the best params are:
+{'C': 100} for n_compo= 40
+Confusion matrix of PPMI training set:
+[[187  60]
+ [ 65 182]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [19 43]]
 
 With ICA= 40 and l2, the best params are:
 {'C': 1000} for n_compo= 40
-LogisticRegression(C=1000, class_weight=None, dual=False, fit_intercept=True,
-                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
-                   multi_class='auto', n_jobs=None, penalty='l2',
-                   random_state=None, solver='saga', tol=0.1, verbose=0,
-                   warm_start=False)
-[[152  64]
- [ 65 151]]
-[[12 26]
- [35 58]]
-precision of testing set: 0.6904761904761905
-recall of testing set 0.6236559139784946
-accuracy of testing set 0.7013888888888888
-f1 of testing set 0.7006960556844548
+Confusion matrix of PPMI training set:
+[[185  62]
+ [ 66 181]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [20 42]]
+
+
+#### Lasso FS + LR
+With Lasso(L2) FS alpha= 0.09 and l1, the best params are:
+{'C': 1} for alpha= 0.09
+Confusion matrix of PPMI training set:
+[[224  23]
+ [ 16 231]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [13 49]]
+ 
+With Lasso(L2) FS alpha= 0.08 and l2, the best params are:
+{'C': 1} for alpha= 0.08
+Confusion matrix of PPMI training set:
+[[240   7]
+ [  3 244]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]] 

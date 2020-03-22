@@ -87,42 +87,15 @@ X_test_scaled = data['X_test_scaled']
 print ("Shape of final train and test sets:", X_train_scaled.shape, X_test_scaled.shape)
     
 C_options = [0.001, 0.01, 0.1, 1, 100, 1000]
-
-#-------------------------------------------------------
-### PCA
 n_components = [10,20,30,40,50,60,70]
 
-for n in n_components:
-    pca = PCA(n_components=n)
-    X_train = pca.fit_transform(X_train_scaled)
-    X_test = pca.transform(X_test_scaled)
-    print("PCA reduced check")
-    param_grid = [
-        {
-            'C': C_options,
-        },
-    ]
-    
-    print("Shape of X train:", X_train.shape)
-    print("Shape of y train:", y_train_sampled.shape)
-    
-    grid = GridSearchCV(LogisticRegression(max_iter=1000, penalty='l1', solver='saga'), param_grid=param_grid, scoring="precision", cv=StratifiedKFold(n_splits=3, shuffle=True, random_state=42), n_jobs=-1, verbose=3)
-    grid.fit(X_train, y_train_sampled)
-    # evaluation metric is f1 scoring
-    print("Mean score of precision of the best C:", grid.best_score_)
-    print("With PCA=",n,"and l1, the best params are:")
-    print(grid.best_params_, "for n_compo=", n)
-    
-    #Use Testing set to check for overfitting
-    clf = grid.best_estimator_
-    print(clf)
-    y_pred = clf.predict(X_test_scaled)
-    cm = confusion_matrix(y_test, y_pred)
-    print("Confusion matrix of PPMI testing set:")
-    print(cm)
-    
-    
-    
+#-------------------------------------------------------
+# ### PCA
+# for n in n_components:
+#     pca = PCA(n_components=n)
+#     X_train = pca.fit_transform(X_train_scaled)
+#     X_test = pca.transform(X_test_scaled)
+#     print("PCA reduced check") 
 
 #-------------------------------------------------------
 
@@ -130,31 +103,25 @@ for n in n_components:
 
 # for n in n_components:
 #     umap = UMAP(n_components=n)
-# X_train = umap.fit_transform(X_train_scaled)
-# X_test = umap.transform(X_test_scaled)
+#     X_train = umap.fit_transform(X_train_scaled)
+#     X_test = umap.transform(X_test_scaled)
 
 #-------------------------------------------------------
 
-## ICA
+# # ICA
 # for n in n_components:
 #     ica = FastICA(n_components=n)
 #     X_train = ica.fit_transform(X_train_scaled)
 #     X_test = ica.transform(X_test_scaled)
 
-## L1 Regularisation
-# alpha=[0.001,0.01, 0.1]
-# for a in alpha:
-#     sel_ = SelectFromModel(Lasso(alpha=a))
-#     sel_.fit(X_train_scaled, y_train_sampled)
-#     X_train_selected = sel_.transform(X_train_scaled)
-#     X_test_selected = sel_.transform(X_test_scaled)
-
-#     param_grid = [
-#         {
-#             'C': C_options
-#         },
-#     ]
-
+# L1 Regularisation
+alpha=[0.05, 0.06, 0.07, 0.08, 0.09, 0.1, 0.15, 0.2]
+for a in alpha:
+    sel_ = SelectFromModel(Lasso(alpha=a))
+    sel_.fit(X_train_scaled, y_train_sampled)
+    X_train = sel_.transform(X_train_scaled)
+    X_test = sel_.transform(X_test_scaled)
+    
 #     ####Use L1 LR for clf
 #     grid = GridSearchCV(LogisticRegression(max_iter=500, penalty='l2', solver='saga'), param_grid=param_grid, scoring="accuracy", cv=StratifiedKFold(n_splits=3, shuffle=True, random_state=42), n_jobs=3)
 #     grid.fit(X_train_selected, y_train)
@@ -165,24 +132,35 @@ for n in n_components:
 #     print(grid.best_params_)
 
 
-# ###TEST for FS using different
-# ####Lasso:
-# sel_lasso = SelectFromModel(Lasso(alpha=0.01, tol=0.01))
-# sel_lasso.fit(X_train_scaled, y_train)
-# X_train_selected = sel_lasso.transform(X_train_scaled)
-# X_test_selected = sel_lasso.transform(X_test_scaled)
-# clf_lasso = LogisticRegression(max_iter=1000, penalty='l2', solver='saga', C=100).fit(X_train_selected, y_train)
-# y_pred_lasso = clf_lasso.predict(X_test_selected)
+    param_grid = [
+        {
+            'C': C_options,
+        },
+    ]
 
-# ####LogReg:
-# sel_logreg = SelectFromModel(LogisticRegression(C=1000, penalty='l1', solver='saga', tol=0.01))
-# sel_logreg.fit(X_train_scaled, y_train)
-# X_train_selected = sel_logreg.transform(X_train_scaled)
-# X_test_selected = sel_logreg.transform(X_test_scaled)
-# clf_logreg = LogisticRegression(max_iter=1000, penalty='l2', solver='saga', C=0.1).fit(X_train_selected, y_train)
-# y_pred_logreg = clf_logreg.predict(X_test_selected)
+    print("Shape of X train:", X_train.shape)
+    print("Shape of y train:", y_train_sampled.shape)
 
-# print("Accuracy of LassoFS+LogReg:", accuracy_score(y_test, y_pred_lasso))
-# print("Accuracy of LogRegFS+LogReg:", accuracy_score(y_test, y_pred_logreg))
+    grid = GridSearchCV(LogisticRegression(max_iter=1000, penalty='l2', solver='saga'), param_grid=param_grid, scoring="precision", cv=StratifiedKFold(n_splits=3, shuffle=True, random_state=42), n_jobs=-1, verbose=3)
+    grid.fit(X_train, y_train_sampled)
+    print("Mean score of precision of the best C:", grid.best_score_)
+    print("With Lasso(L2) FS alpha=",a,"and l2, the best params are:")
+    print(grid.best_params_, "for alpha=", a)
+
+    #Use Testing set to check for overfitting
+    clf = grid.best_estimator_
+    print(clf)
+
+    y_pred_tr = clf.predict(X_train)
+    y_pred_te = clf.predict(X_test)
+    cm_tr = confusion_matrix(y_train_sampled, y_pred_tr)
+    cm_te = confusion_matrix(y_test, y_pred_te)
+    print("Confusion matrix of PPMI training set:")
+    print(cm_tr)
+    print("Confusion matrix of PPMI testing set:")
+    print(cm_te)
+   
+
+
 
 

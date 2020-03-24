@@ -128,3 +128,91 @@ Confusion matrix of PPMI training set:
 Confusion matrix of PPMI testing set:
 [[11 15]
  [13 49]] 
+ 
+ 
+ 
+ 
+#### PCA + SVM
+SVM with PCs= 16 kernel poly and gamma 1.5 has best performance of 0.760747071858182
+9 with {'C': 0.001}
+
+Current clf: SVC(C=1.0, break_ties=False, cache_size=200, class_weight='balanced', c
+oef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma=0.01, kernel='poly',
+    max_iter=3000, probability=False, random_state=None, shrinking=True,
+    tol=0.01, verbose=False)
+Confusion matrix of PPMI training set:
+[[246   1]
+ [ 12 235]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [13 49]]
+ 
+ #### UMAP + SVM
+
+SVM with UMAPs= 18 kernel rbf and gamma 1.5 has best performance of 0.6435273033944761 with {'C': 1}
+Current clf: SVC(C=1.0, break_ties=False, cache_size=200, class_weight='balanced', coef0=0.0, decision_function_shape='ovr', degree=3, gamma=1.5, kernel='rbf',max_iter=3000, probability=False, random_state=None, shrinking=True, tol=0.01, verbose=False)
+
+Confusion matrix of PPMI training set:
+[173  74]
+[ 71 176]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+[30 32]]
+
+
+#### ICA + SVM
+
+SVM with ICAs= 16 kernel rbf and gamma 1.5 has best performance of 0.6910791302964814 with {'C': 1000}
+
+Current clf: SVC(C=1.0, break_ties=False, cache_size=200, class_weight='balanced', coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma=1, kernel='rbf',
+    max_iter=3000, probability=False, random_state=None, shrinking=True,
+    tol=0.01, verbose=False)
+Confusion matrix of PPMI training set:
+[[130 117]
+ [ 74 173]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+ 
+ 
+#### FS + SVM
+SVM with Lasso FS alpha= 0.1 kernel poly and gamma 1.5 has best performance of 0.953568479324688 with {'C': 0.001}
+
+Current clf: SVC(C=1.0, break_ties=False, cache_size=200, class_weight='balanced', c
+oef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma=1.5, kernel='poly',
+    max_iter=3000, probability=False, random_state=None, shrinking=True,
+    tol=0.01, verbose=False)
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [26 36]]
+
+
+#### PCA + XGBoost
+XGBoost with n_compo= 10 , num_estmtr= 100 ,col_ratio= 0.5 has best performance of 0.7469201364518785 with {'max_depth': 5}
+Current score: 0.7469201364518785
+For 10 compo PCA, cur params are:
+{'num_estmtr': 100, 'col_ratio': 0.5, 'learning_rate': 0.3, 'max_depth': 5}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [11 51]]
+
+
+XGBoost with n_compo= 20 , num_estmtr= 50 ,col_ratio= 0.7 has best performance of 0.8020109964600438 with {'max_depth': 5}
+Current score: 0.8020109964600438
+For 20 compo PCA, cur params are:
+{'num_estmtr': 50, 'col_ratio': 0.7, 'learning_rate': 0.3, 'max_depth': 5}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[ 8 18]
+ [ 2 60]]

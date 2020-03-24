@@ -1,50 +1,93 @@
+import gc
+import ctypes
+
 import pandas as pd
 import numpy as np
 
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.model_selection import StratifiedKFold
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, MinMaxScaler
+from imblearn.over_sampling import SMOTE
+from imblearn.under_sampling import RandomUnderSampler
 
 from sklearn.linear_model import LogisticRegression, Lasso
+from sklearn.model_selection import cross_val_predict, cross_val_score
+from sklearn.metrics import accuracy_score, confusion_matrix
 from sklearn.model_selection import GridSearchCV
+
+from sklearn.svm import LinearSVC, SVC
+from sklearn.linear_model import SGDClassifier
+from sklearn.kernel_approximation import Nystroem
+from sklearn.pipeline import Pipeline
 
 from sklearn.decomposition import PCA
 from umap.umap_ import UMAP
 from sklearn.decomposition import FastICA
-
-from sklearn.feature_selection import SelectFromModel
 import xgboost as xgb
 
-from joblib import Parallel, delayed
+from sklearn.feature_selection import SelectFromModel
 
+from multiprocessing import Process, Manager
 
-ppmi = pd.read_csv('./trans_processed_PPMI_data.csv')
-ppmi.rename(columns={'Unnamed: 0':'Sentrix_position'}, inplace=True)
-ppmi.set_index('Sentrix_position', inplace=True)
-ppmi = ppmi.transpose()
+def set_Data(data):
+    ppmi = pd.read_csv('../../datasets/preprocessed/trans_processed_PPMI_data.csv')
+    ppmi.rename(columns={'Unnamed: 0':'Sentrix_position'}, inplace=True)
+    ppmi.set_index('Sentrix_position', inplace=True)
+    ppmi = ppmi.transpose()
 
-encoder = LabelEncoder()
-label = encoder.fit_transform(ppmi['Category'])
+    encoder = LabelEncoder()
+    label = encoder.fit_transform(ppmi['Category'])
 
-tr = ppmi.drop(['Category'], axis=1)
-X = tr.values
-y = label
-print(X.shape)
-print(y.shape)
+    tr = ppmi.drop(['Category'], axis=1)
+    X = tr.values
+    y = label
+    print(X.shape)
+    print(y.shape)
 
-split = StratifiedShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
-split.get_n_splits(X, y)
+    print("StratifiedSampling check")
+    split = StratifiedShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
+    split.get_n_splits(X, y)
 
-for train_index, test_index in split.split(X, y):
-    print("TRAIN:", len(train_index), "TEST:", len(test_index))
-    X_train, X_test = X[train_index], X[test_index]
-    y_train, y_test = y[train_index], y[test_index]
+    for train_index, test_index in split.split(X, y):
+        X_train, X_test = X[train_index], X[test_index]
+        y_train, data['y_test'] = y[train_index], y[test_index]
 
+    print("Oversampling check")
+    oversampler = SMOTE(random_state=42)
+    X_train_sampled, data['y_train_sampled'] = oversampler.fit_resample(X_train, y_train)
+    print("Scaling check")
+    scaler = StandardScaler()
+#     scaler = MinMaxScaler()
+    X_train_scaled = scaler.fit_transform(X_train_sampled)
+    data['X_train_scaled_1'] = X_train_scaled[:247].reshape((1, -1))
+    data['X_train_scaled_2'] = X_train_scaled[247:].reshape((1, -1))
+    data['X_test_scaled'] = scaler.transform(X_test)
     
-scaler = StandardScaler()
-X_train_scaled = scaler.fit_transform(X_train)
-X_test_scaled = scaler.transform(X_test)
+    print("Returning check")
+
+manager = Manager()
+data = manager.dict()
+
+print("CHECKPOINT1")
+#     p = Process(target=set_Data, args=(X_train_scaled, X_test_scaled, y_train_sampled, y_test,))
+p = Process(target=set_Data, args=(data,))
+print("CHECKPOINT2")
+p.start()
+print("CHECKPOINT3")
+p.join()
+
+y_train_sampled = data['y_train_sampled']
+y_test = data['y_test']
+X_train_scaled = np.append(data['X_train_scaled_1'], data['X_train_scaled_2']).reshape(494, 747668)
+X_test_scaled = data['X_test_scaled']
+
+# print(y_train_sampled)
+# print(X_train_scaled)
+print ("Shape of final train and test sets:", X_train_scaled.shape, X_test_scaled.shape)
+    
+C_options = [0.001, 0.01, 0.1, 1, 100, 1000]
+n_components = [15,25,30,40,50,60,70]
     
 # Train XGBoost classifier
 # DMatrix: a data structure that makes everything more efficient
@@ -58,24 +101,21 @@ X_test_scaled = scaler.transform(X_test)
 # # y_pred = bst.predict(dtest)
 # bst
 
-### PCA
-# n_components = [50, 100, 150, 200, 250]
-# for n in n_components:
-#     pca = PCA(n_components=n)
-#     X_train = pca.fit_transform(X_train_scaled)
-#     X_test = pca.transform(X_test_scaled)
+## PCA
+for n in n_components:
+    pca = PCA(n_components=n)
+    X_train = pca.fit_transform(X_train_scaled)
+    X_test = pca.transform(X_test_scaled)
 
 
 
 # ## UMAP
-# n_components = [250]
 # for n in n_components:
 #     umap = UMAP(n_components=n)
 #     X_train = umap.fit_transform(X_train_scaled)
 #     X_test = umap.transform(X_test_scaled)
 
 ## iCA
-# n_components = [50, 100, 150, 200, 250]
 # for n in n_components:
 #     ica = FastICA(n_components=n)
 #     X_train = ica.fit_transform(X_train_scaled)
@@ -90,13 +130,13 @@ X_test_scaled = scaler.transform(X_test)
 #     X_test = sel_.transform(X_test_scaled)
 #     print(X_train.shape)
 
-alpha=[0.0001]
-for a in alpha:
-    sel_ = SelectFromModel(Lasso(alpha=a, tol=0.01, random_state=42))
-    sel_.fit(X_train_scaled, y_train)
-    X_train = sel_.transform(X_train_scaled)
-#     X_test_selected = sel_.transform(X_test_scaled)
-    print("Shape of training set with alpha=", a, ":", X_train.shape)
+# alpha=[0.0001, 0.0005, 0.001, 0.005, 0.1, 0.15]
+# for a in alpha:
+#     sel_ = SelectFromModel(Lasso(alpha=a, tol=0.01, random_state=42))
+#     sel_.fit(X_train_scaled, y_train)
+#     X_train = sel_.transform(X_train_scaled)
+#     X_test = sel_.transform(X_test_scaled)
+#     print("Shape of training set with alpha=", a, ":", X_train.shape)
     
     
 #     param_grid = [
@@ -123,116 +163,86 @@ for a in alpha:
 #         }
 
  
-    colsample_bytree = [ 0.3, 0.5 , 0.7 ]
-    ne = [70, 100, 150, 200, 300] 
-    print("Number of values for estimators:", len(ne))
-    #A np array to store all perf to find the best one
+    colsample_bytree = [0.1, 0.3, 0.5 , 0.7 ]
+    ne = [10, 30, 50, 70, 100, 150, 200, 300] 
+    lr = [0.1, 0.3, 0.5]
+
     best_perf=0
-    #A list to store the dictionary of the best estimator
-    
+    cm_tp=50
     for n_estimator in ne:
         for colsample in colsample_bytree:
-            xgb_clf = xgb.XGBClassifier(
+            for e in lr:
+                xgb_clf = xgb.XGBClassifier(
+                    objective='binary:logistic', 
+                    seed=42, 
+                    tree_method='gpu_hist',
+                    learning_rate=e,
+                    gpu_id=1,
+                    colsample_bytree=colsample,
+                    n_estimators=n_estimator
+                )
+
+                param_grid = {
+                    "max_depth": [3, 5, 8]
+        #             "colsample_bytree": [ 0.3, 0.5 , 0.7 ],
+        #             "n_estimators":[5, 8, 10] # 30, 40, 50, 70
+                   }
+
+                grid = GridSearchCV(xgb_clf, param_grid=param_grid, scoring="precision", cv=StratifiedKFold(n_splits=3, shuffle=True, random_state=42), n_jobs=-1)
+                grid.fit(X_train, y_train_sampled)
+    #             print("Mean score of precision of the best max_depth:", grid.best_score_)
+    #             print()
+                print("Current score:", grid.best_score_)
+                cur_params = {
+                    "num_estmtr": n_estimator,
+                    "col_ratio": colsample,
+                    "learning_rate": e,
+                    "max_depth": grid.best_params_["max_depth"]
+                }
+                clf_sub = grid.best_estimator_
+#                 y_pred_tr = clf_sub.predict(X_train)
+                y_pred_te = clf_sub.predict(X_test)
+#                 cm_tr = confusion_matrix(y_train_sampled, y_pred_tr)
+                cm_te = confusion_matrix(y_test, y_pred_te)
+#                 print("Confusion matrix of PPMI training set:")
+#                 print(cm_tr)
+#                 print("Confusion matrix of PPMI testing set:")
+#                 print(cm_te)
+                if grid.best_score_ > best_perf:
+                    best_perf = grid.best_score_
+                    best_param = grid.best_params_
+                    tree_num_flag = n_estimator
+                    col_ratio_flag = colsample
+                    lr_flag = e
+                if cm_te[0][0] < cm_tp:
+                    cm_tp = cm_te[0][0]
+                    params_flag = cur_params
+
+    print("XGBoost with n_compo=", n, ', num_estmtr=', tree_num_flag,',col_ratio=',col_ratio_flag,'lr=',lr_flag,'has best performance of',best_perf, "with", best_param)
+    print("For n_compo=",n,",from confusion matrix of PPMI testing set, best params are:")
+    print(params_flag)
+    print()
+    
+    #Use Testing set to check for overfitting
+    clf = xgb.XGBClassifier(
                 objective='binary:logistic', 
                 seed=42, 
-#                 tree_method='gpu_hist',
-                learning_rate=0.3,
-#                 gpu_id=2,
-                colsample_bytree=colsample,
-                n_estimators=n_estimator
+                tree_method='gpu_hist',
+                learning_rate=lr_flag,
+                gpu_id=1,
+                colsample_bytree=col_ratio_flag,
+                n_estimators=tree_num_flag,
+                max_depth=best_param['max_depth']
             )
+    print(clf)
+    clf.fit(X_train, y_train_sampled)
 
-            param_grid = {
-                "max_depth": [3],#, 5, 8
-    #             "colsample_bytree": [ 0.3, 0.5 , 0.7 ],
-    #             "n_estimators":[5, 8, 10] # 30, 40, 50, 70
-               }
-
-            grid = GridSearchCV(xgb_clf, param_grid=param_grid, scoring="accuracy", cv=StratifiedKFold(n_splits=3, shuffle=True, random_state=42), n_jobs=3)
-            grid.fit(X_train, y_train)
-            print('XGBoost with FS reg alpha value=', a, ' n_trees=', n_estimator, 'and colsample=', colsample, ':')
-            print('Highest accuracy:',grid.best_score_)
-            print('Best estimator: ', grid.best_params_)
-            print()
-            if grid.best_score_ > best_perf:
-                best_perf = grid.best_score_
-                best_param = grid.best_params_
-                tree_flag = n_estimator
-                col_ratio_flag = colsample
-
-    print("XGBoost with", a, 'alpha value for Reg FS has best performance of',best_perf, "with", best_param, tree_flag, "trees and ", col_ratio_flag, "colsample ratio.")
-    print()
-
-
-##############Documentation
-#####XGBoost on original data
-# XGBoost with 0.3 colsample_bytree :
-# Highest accuracy: 0.6925287356
-# Best estimator:  {'max_depth': 3, 'n_estimator': 10}
-
-# XGBoost with 0.5 colsample_bytree :
-# Highest accuracy: 0.69827586206
-# Best estimator:  {'max_depth': 5, 'n_estimator': 10}
-
-# XGBoost with 0.7 colsample_bytree :
-# Highest accuracy: 0.6937235636
-# Best estimator:  {'max_depth': 3, 'n_estimator': 10}
-
-#####XGBoost with DR techniques
-###Common trend: as the number of tree increase, performance increases. After reaching peak, as number of trees increases, performance decreases probably due to overfitting
-
-#PCA
-# XGBoost with 50 PCs has best performance of 0.7068965517241379 with {'colsample_bytree': 0.3, 'max_depth': 5} and 30 trees.
-# XGBoost with 100 PCs has best performance of 0.7011494252873564 with {'colsample_bytree': 0.3, 'max_depth': 3} and 10 trees.
-# XGBoost with 150 PCs has best performance of 0.7183908045977012 with {'colsample_bytree': 0.5, 'max_depth': 3} and 50 trees.
-# XGBoost with 200 PCs has best performance of 0.7183908045977012 with {'colsample_bytree': 0.5, 'max_depth': 8} and 70 trees.
-# XGBoost with 250 PCs has best performance of 0.7097701149425287 with {'colsample_bytree': 0.3, 'max_depth': 8} and 30 trees.
-
-#UMAP
-# XGBoost with 50 UMAP clusters has best performance of 0.6982758620689654 with {'colsample_bytree': 0.7, 'max_depth': 3} and 20 trees.
-# XGBoost with 100 UMAP clusters has best performance of 0.6982758620689656 with {'colsample_bytree': 0.5, 'max_depth': 3} and 5 trees.
-# XGBoost with 150 UMAP clusters has best performance of 0.6896551724137931 with {'colsample_bytree': 0.7, 'max_depth': 5} and 10 trees.
-# XGBoost with 200 UMAP clusters has best performance of 0.7097701149425287 with {'colsample_bytree': 0.7, 'max_depth': 3} and 30 trees.
-# XGBoost with 250 UMAP clusters has best performance of 0.6896551724137931 with {'colsample_bytree': 0.3, 'max_depth': 3} and 8 trees.
-
-#####ICA
-# XGBoost with 50 ICs has best performance of 0.7068965517241379 with {'colsample_bytree': 0.5, 'max_depth': 8} and 50 trees.
-# XGBoost with 100 ICs has best performance of 0.7155172413793104 with {'colsample_bytree': 0.3, 'max_depth': 5} and 20 trees.
-# XGBoost with 150 ICs has best performance of 0.6925287356321839 with {'colsample_bytree': 0.3, 'max_depth': 5} and 30 trees.
-# XGBoost with 200 ICs has best performance of 0.7011494252873564 with {'colsample_bytree': 0.3, 'max_depth': 5} and 30 trees.
-# XGBoost with 250 ICs has best performance of 0.7126436781609197 with {'colsample_bytree': 0.3, 'max_depth': 8} and 5(100) trees.
-
-
-
-#XGBoost on selected features using regularisation
-##Note: computation cost increases significantly without much increase in the accuracy level
-# XGBoost with 0.1 C value for Reg FS has best performance of 0.7212643678160919 with {'colsample_bytree': 0.3, 'max_depth': 5} and 100 trees.
-#Num_of_features: 17454
-
-# XGBoost with 1 C value for Reg FS has best performance of 0.7068965517241379 with {'colsample_bytree': 0.7, 'max_depth': 3} and 30 trees. 
-#Num_of_features: 153327
-
-# XGBoost with 10 C value for Reg FS has best performance of 0.7126436781609197 with 
-# {'colsample_bytree': 0.5, 'max_depth': 3} and 70 trees.
-#Num_of_features: 185805
-
-# XGBoost with 100 C value for Reg FS has best performance of 0.7183908045977011 with {'colsample_bytree': 0.7, 'max_depth': 5} and 50 trees.
-#Num_of_features: 163107
-
-# XGBoost with 1000 C value for Reg FS has best performance of 0.7011494252873564 with {'colsample_bytree': 0.7, 'max_depth': 3} and 20 trees.
-#Num_of_features: 189971
-
-########Use lasso library
-# XGBoost on selected features using Reg with Lasso
-# Shape of training set with alpha= 0.1 : (348, 4)
-# XGBoost with 0.1 alpha value for Reg FS has best performance of 0.6925287356321839 with {'max_depth': 3} 70 trees and  0.5 colsample ratio.
-
-# Shape of training set with alpha= 0.01 : (348, 323)
-# XGBoost with 0.01 alpha value for Reg FS has best performance of 0.7988505747126436 with {'max_depth': 3} 100 trees and  0.3 colsample ratio.
-
-# Shape of training set with alpha= 0.001 : (348, 809)
-# XGBoost with 0.001 alpha value for Reg FS has best performance of 0.7729885057471265 with {'max_depth': 3} 100 trees and  0.3 colsample ratio.
-
-
-#####Time#####
-#In XGBoost, the increase in time is very significant and positively correlated with increase in the number of features used for classification
+    y_pred_tr = clf.predict(X_train)
+    y_pred_te = clf.predict(X_test)
+    cm_tr = confusion_matrix(y_train_sampled, y_pred_tr)
+    cm_te = confusion_matrix(y_test, y_pred_te)
+    print("Confusion matrix of PPMI training set:")
+    print(cm_tr)
+    print("Confusion matrix of PPMI testing set:")
+    print(cm_te)
+   

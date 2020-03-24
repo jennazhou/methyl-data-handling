@@ -29,6 +29,9 @@ from sklearn.feature_selection import SelectFromModel
 
 from multiprocessing import Process, Manager
 
+import warnings
+warnings.filterwarnings("ignore")
+
 
 def set_Data(data):
     ppmi = pd.read_csv('../../datasets/preprocessed/trans_processed_PPMI_data.csv')
@@ -87,19 +90,18 @@ X_test_scaled = data['X_test_scaled']
 print ("Shape of final train and test sets:", X_train_scaled.shape, X_test_scaled.shape)
     
 C_options = [0.001, 0.01, 0.1, 1, 100, 1000]
-n_components = [10,20,30,40,50,60,70]
+# n_components = [10,12,14,15,16,17,18,19,20,21,22]
 kernels = ['rbf', 'poly', 'linear', 'sigmoid']
 gamma=[1e-4, 0.001, 0.01, 1, 1.5]
 
 ## PCA
-for n in n_components:
-    pca = PCA(n_components=n)
-    X_train = pca.fit_transform(X_train_scaled)
-    X_test = pca.transform(X_test_scaled)
-    print('Shape of PCs:', X_train.shape[1])
+# for n in n_components:
+#     pca = PCA(n_components=n)
+#     X_train = pca.fit_transform(X_train_scaled)
+#     X_test = pca.transform(X_test_scaled)
+#     print('Shape of PCs:', X_train.shape[1])
     
-### UMAP
-# best_perf=0
+## UMAP
 # for n in n_components:
 #     umap = UMAP(n_components=n)
 #     X_train = umap.fit_transform(X_train_scaled)
@@ -115,44 +117,44 @@ for n in n_components:
 
 
 
-# #Lasso Reg for FS
-# alpha=[0.001,0.01, 0.1]
-# for a in alpha:
-#     sel_ = SelectFromModel(Lasso(alpha=a, tol=0.01, random_state=42))
-#     sel_.fit(X_train_scaled, y_train)
-#     X_train = sel_.transform(X_train_scaled)
-# #     X_test_selected = sel_.transform(X_test_scaled)
-#     print("Shape of training set with alpha=", a, ":", X_train.shape)
+#Lasso Reg for FS
+alpha=[0.0001, 0.001,0.01, 0.05, 0.08, 0.1, 0.12, 0.15, 0.18, 0.2]
+for a in alpha:
+    sel_ = SelectFromModel(Lasso(alpha=a, tol=0.01, random_state=42))
+    sel_.fit(X_train_scaled, y_train_sampled)
+    X_train = sel_.transform(X_train_scaled)
+    X_test = sel_.transform(X_test_scaled)
+    print("Shape of training set with alpha=", a, ":", X_train.shape)
     
     
     best_perf=0
     for k in kernels:
         for g in gamma:
-            svc = SVC(max_iter=3000, gamma=g, kernel=k, tol=0.01)
+            svc = SVC(max_iter=3000, gamma=g, kernel=k, tol=0.01,class_weight='balanced')
             param_grid ={'C': C_options, }
             grid = GridSearchCV(svc, param_grid=param_grid, scoring="precision", cv=StratifiedKFold(n_splits=3, shuffle=True, random_state=42), n_jobs=-1)
             grid.fit(X_train, y_train_sampled)
 #             print("SVM on FS Reg_alpha=", a, " and kernel ",k,":")
-            print("SVM on n_compo=", n, ", kernel=",k," and gamma=", g,":")
+            print("SVM on alpha=", a, ", kernel=",k," and gamma=", g,":")
             print("Mean score of precision of the best C:", grid.best_score_)
             print()
             if grid.best_score_ > best_perf:
                 best_perf = grid.best_score_
                 best_param = grid.best_params_
                 kernel_flag = k
-#                 a_flag = a
-                compo_flag = n
+                a_flag = a
+#                 compo_flag = n
                 gamma_flag = g
     
 #     print("SVM with Ref FS alpha=", a_flag, 'and kernel', kernel_flag, 'has best performance of',best_perf, "with", best_param)
-    print("SVM with PCs=", compo_flag, 'kernel', kernel_flag, 'and gamma',g,'has best performance of',best_perf, "with", best_param)
-#     print("SVM with UMAP clusters=", compo_flag, 'and kernel', kernel_flag, 'has best performance of',best_perf, "with", best_param)
+    print("SVM with Lasso FS alpha=", a_flag, 'kernel', kernel_flag, 'and gamma',g,'has best performance of',best_perf, "with", best_param)
     print()
     
     #Use Testing set to check for overfitting
-    clf = grid.best_estimator_
-    print(clf)
-
+    clf = SVC(max_iter=3000, gamma=gamma_flag, kernel=kernel_flag, tol=0.01,class_weight='balanced')
+    print("Current clf:",clf)
+    
+    clf.fit(X_train, y_train_sampled)
     y_pred_tr = clf.predict(X_train)
     y_pred_te = clf.predict(X_test)
     cm_tr = confusion_matrix(y_train_sampled, y_pred_tr)

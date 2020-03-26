@@ -194,25 +194,109 @@ Confusion matrix of PPMI testing set:
 
 
 #### PCA + XGBoost
-XGBoost with n_compo= 10 , num_estmtr= 100 ,col_ratio= 0.5 has best performance of 0.7469201364518785 with {'max_depth': 5}
-Current score: 0.7469201364518785
-For 10 compo PCA, cur params are:
-{'num_estmtr': 100, 'col_ratio': 0.5, 'learning_rate': 0.3, 'max_depth': 5}
-Confusion matrix of PPMI training set:
-[[247   0]
- [  0 247]]
+>PCA = 3:
+
 Confusion matrix of PPMI testing set:
-[[11 15]
- [11 51]]
+[[15 11]
+ [22 40]]
+ {'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+ 
+>PCA = 4:
+
+For n_compo= 4 ,from confusion matrix of PPMI testing set, best params are:
+{'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+[[18  8]
+ [28 34]]
+
+>PCA = 5:
+
+Current score: 0.6200941526701634
+Confusion matrix of PPMI testing set:
+[[16 10]
+ [22 40]]
+precision of testing set: 0.8
+{'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+
+> PCA = 6:
+
+Confusion matrix of PPMI testing set:
+[[16 10]
+ [25 37]]
+precision of testing set: 0.7872340425531915
+{'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+Current score: 0.6847733697048767
+
+>PCA = 7:
+
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [24 38]]
+precision of testing set: 0.7755102040816326
+{'num_estmtr': 150, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+
+> PCA = 8:
+
+Confusion matrix of PPMI testing set:
+[[16 10]
+ [27 35]]
+precision of testing set: 0.7777777777777778
+{'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+
+> PCA = 9:
+
+Current score: 0.685133431968875
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [16 46]]
+precision of testing set: 0.7796610169491526
+{'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+
+> PCA = 10:
+
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [19 43]]
+precision of testing set: 0.7818181818181819
+{'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+
+For n_compo= 10 ,from confusion matrix of PPMI testing set, best params are:
+{'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[16 10]
+ [16 46]]
 
 
-XGBoost with n_compo= 20 , num_estmtr= 50 ,col_ratio= 0.7 has best performance of 0.8020109964600438 with {'max_depth': 5}
-Current score: 0.8020109964600438
-For 20 compo PCA, cur params are:
-{'num_estmtr': 50, 'col_ratio': 0.7, 'learning_rate': 0.3, 'max_depth': 5}
-Confusion matrix of PPMI training set:
-[[247   0]
- [  0 247]]
+> PCA = 12:
+
 Confusion matrix of PPMI testing set:
-[[ 8 18]
- [ 2 60]]
+[[13 13]
+ [14 48]]
+precision of testing set: 0.7868852459016393
+{'num_estmtr': 150, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+Current score: 0.6977413419044924
+
+> PCA = 13:
+
+Confusion matrix of PPMI testing set:
+[[16 10]
+ [14 48]]
+precision of testing set: 0.8275862068965517
+{'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+
+#### UMAP + XGBoost
+
+For UMAP n_compo= 11 ,from confusion matrix of PPMI testing set, best params are:
+{'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+[[17  9]
+ [18 44]]
+ 
+ 
+For UMAP n_compo= 12 ,from confusion matrix of PPMI testing set, best params are:
+{'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+[[20  6]
+ [24 38]]
+precision of testing set: 0.8636363636363636
+
+For UMAP n_compo= 13 ,from confusion matrix of PPMI testing set, best params are:
+{'num_estmtr': 50, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[21  5]
+ [27 35]]

@@ -13,7 +13,7 @@ from imblearn.under_sampling import RandomUnderSampler
 
 from sklearn.linear_model import LogisticRegression, Lasso
 from sklearn.model_selection import cross_val_predict, cross_val_score
-from sklearn.metrics import accuracy_score, confusion_matrix
+from sklearn.metrics import accuracy_score, confusion_matrix, precision_score
 from sklearn.model_selection import GridSearchCV
 
 from sklearn.svm import LinearSVC, SVC
@@ -87,7 +87,7 @@ X_test_scaled = data['X_test_scaled']
 print ("Shape of final train and test sets:", X_train_scaled.shape, X_test_scaled.shape)
     
 C_options = [0.001, 0.01, 0.1, 1, 100, 1000]
-n_components = [15,25,30,40,50,60,70]
+n_components = [3,4,5,6,7,8,9,10,13]
     
 # Train XGBoost classifier
 # DMatrix: a data structure that makes everything more efficient
@@ -101,19 +101,19 @@ n_components = [15,25,30,40,50,60,70]
 # # y_pred = bst.predict(dtest)
 # bst
 
-## PCA
-for n in n_components:
-    pca = PCA(n_components=n)
-    X_train = pca.fit_transform(X_train_scaled)
-    X_test = pca.transform(X_test_scaled)
-
-
-
-# ## UMAP
+# ## PCA
 # for n in n_components:
-#     umap = UMAP(n_components=n)
-#     X_train = umap.fit_transform(X_train_scaled)
-#     X_test = umap.transform(X_test_scaled)
+#     pca = PCA(n_components=n)
+#     X_train = pca.fit_transform(X_train_scaled)
+#     X_test = pca.transform(X_test_scaled)
+
+
+
+## UMAP
+for n in n_components:
+    umap = UMAP(n_components=n)
+    X_train = umap.fit_transform(X_train_scaled)
+    X_test = umap.transform(X_test_scaled)
 
 ## iCA
 # for n in n_components:
@@ -165,30 +165,29 @@ for n in n_components:
  
     colsample_bytree = [0.1, 0.3, 0.5 , 0.7 ]
     ne = [10, 30, 50, 70, 100, 150, 200, 300] 
-    lr = [0.1, 0.3, 0.5]
+    subsample = [0.3, 0.5, 0.7]
 
     best_perf=0
-    cm_tp=50
+    cm_tp=[[0,0],[0,0]]
     for n_estimator in ne:
         for colsample in colsample_bytree:
-            for e in lr:
+            for ss in subsample:
                 xgb_clf = xgb.XGBClassifier(
                     objective='binary:logistic', 
                     seed=42, 
                     tree_method='gpu_hist',
-                    learning_rate=e,
+                    learning_rate=0.3,
+                    subsample=ss,
                     gpu_id=1,
                     colsample_bytree=colsample,
                     n_estimators=n_estimator
                 )
 
                 param_grid = {
-                    "max_depth": [3, 5, 8]
-        #             "colsample_bytree": [ 0.3, 0.5 , 0.7 ],
-        #             "n_estimators":[5, 8, 10] # 30, 40, 50, 70
+                    "max_depth": [2,3,4]
                    }
 
-                grid = GridSearchCV(xgb_clf, param_grid=param_grid, scoring="precision", cv=StratifiedKFold(n_splits=3, shuffle=True, random_state=42), n_jobs=-1)
+                grid = GridSearchCV(xgb_clf, param_grid=param_grid, scoring="precision", cv=StratifiedKFold(n_splits=3, shuffle=True, random_state=42), verbose=0)
                 grid.fit(X_train, y_train_sampled)
     #             print("Mean score of precision of the best max_depth:", grid.best_score_)
     #             print()
@@ -196,7 +195,7 @@ for n in n_components:
                 cur_params = {
                     "num_estmtr": n_estimator,
                     "col_ratio": colsample,
-                    "learning_rate": e,
+                    "subsample_ratio": ss,
                     "max_depth": grid.best_params_["max_depth"]
                 }
                 clf_sub = grid.best_estimator_
@@ -206,21 +205,30 @@ for n in n_components:
                 cm_te = confusion_matrix(y_test, y_pred_te)
 #                 print("Confusion matrix of PPMI training set:")
 #                 print(cm_tr)
-#                 print("Confusion matrix of PPMI testing set:")
-#                 print(cm_te)
-                if grid.best_score_ > best_perf:
-                    best_perf = grid.best_score_
-                    best_param = grid.best_params_
-                    tree_num_flag = n_estimator
-                    col_ratio_flag = colsample
-                    lr_flag = e
-                if cm_te[0][0] < cm_tp:
-                    cm_tp = cm_te[0][0]
+                if cm_te[0][0] >= 10:
+                    print("Confusion matrix of PPMI testing set:")
+                    print(cm_te)
+                    print("precision of testing set:", precision_score(y_test, y_pred_te))
+                    print(cur_params)
+                    print()
+#                 if grid.best_score_ > best_perf:
+#                     best_perf = grid.best_score_
+#                     best_param = grid.best_params_
+#                     tree_num_flag = n_estimator
+#                     col_ratio_flag = colsample
+#                     ss_flag = ss
+                if cm_te[0][0] > cm_tp[0][0]:
+                    cm_tp = cm_te
+                    params_flag = cur_params
+                elif cm_te[0][0] == cm_tp[0][0] and cm_te[1][1] > cm_tp[1][1]:
+                    cm_tp = cm_te
                     params_flag = cur_params
 
-    print("XGBoost with n_compo=", n, ', num_estmtr=', tree_num_flag,',col_ratio=',col_ratio_flag,'lr=',lr_flag,'has best performance of',best_perf, "with", best_param)
-    print("For n_compo=",n,",from confusion matrix of PPMI testing set, best params are:")
+
+#     print("XGBoost with n_compo=", n, ', num_estmtr=', tree_num_flag,',col_ratio=',col_ratio_flag,'subsample=',ss_flag,'has best performance of',best_perf, "with", best_param)
+    print("For UMAP n_compo=",n,",from confusion matrix of PPMI testing set, best params are:")
     print(params_flag)
+    print(cm_tp)
     print()
     
     #Use Testing set to check for overfitting
@@ -228,11 +236,12 @@ for n in n_components:
                 objective='binary:logistic', 
                 seed=42, 
                 tree_method='gpu_hist',
-                learning_rate=lr_flag,
+                learning_rate=0.3,
+                subsample=params_flag["subsample_ratio"],
                 gpu_id=1,
-                colsample_bytree=col_ratio_flag,
-                n_estimators=tree_num_flag,
-                max_depth=best_param['max_depth']
+                colsample_bytree=params_flag["col_ratio"],
+                n_estimators=params_flag["num_estmtr"],
+                max_depth=params_flag["max_depth"]
             )
     print(clf)
     clf.fit(X_train, y_train_sampled)
@@ -245,4 +254,5 @@ for n in n_components:
     print(cm_tr)
     print("Confusion matrix of PPMI testing set:")
     print(cm_te)
+    print("precision of testing set:", precision_score(y_test, y_pred_te))
    

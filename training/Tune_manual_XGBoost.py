@@ -87,7 +87,7 @@ X_test_scaled = data['X_test_scaled']
 print ("Shape of final train and test sets:", X_train_scaled.shape, X_test_scaled.shape)
     
 C_options = [0.001, 0.01, 0.1, 1, 100, 1000]
-n_components = [3,4,5,6,7,8,9,10,13]
+n_components = [3,5,7,9,11,13]
     
 # Train XGBoost classifier
 # DMatrix: a data structure that makes everything more efficient
@@ -109,34 +109,25 @@ n_components = [3,4,5,6,7,8,9,10,13]
 
 
 
-## UMAP
-for n in n_components:
-    umap = UMAP(n_components=n)
-    X_train = umap.fit_transform(X_train_scaled)
-    X_test = umap.transform(X_test_scaled)
+# ## UMAP
+# for n in n_components:
+#     umap = UMAP(n_components=n)
+#     X_train = umap.fit_transform(X_train_scaled)
+#     X_test = umap.transform(X_test_scaled)
 
-## iCA
+# # iCA
 # for n in n_components:
 #     ica = FastICA(n_components=n)
 #     X_train = ica.fit_transform(X_train_scaled)
 #     X_test = ica.transform(X_test_scaled)
 
-# FS using regularisation
-# lr_c = [1]
-# for C in lr_c:
-#     sel_ = SelectFromModel(LogisticRegression(C=C, penalty='l1', solver='saga', tol=0.1))
-#     sel_.fit(X_train_scaled, y_train)
-#     X_train = sel_.transform(X_train_scaled)
-#     X_test = sel_.transform(X_test_scaled)
-#     print(X_train.shape)
-
-# alpha=[0.0001, 0.0005, 0.001, 0.005, 0.1, 0.15]
-# for a in alpha:
-#     sel_ = SelectFromModel(Lasso(alpha=a, tol=0.01, random_state=42))
-#     sel_.fit(X_train_scaled, y_train)
-#     X_train = sel_.transform(X_train_scaled)
-#     X_test = sel_.transform(X_test_scaled)
-#     print("Shape of training set with alpha=", a, ":", X_train.shape)
+alpha=[0.0001, 0.0005, 0.001, 0.005, 0.1, 0.15]
+for a in alpha:
+    sel_ = SelectFromModel(Lasso(alpha=a, tol=0.01, random_state=42))
+    sel_.fit(X_train_scaled, y_train_sampled)
+    X_train = sel_.transform(X_train_scaled)
+    X_test = sel_.transform(X_test_scaled)
+    print("Shape of training set with alpha=", a, ":", X_train.shape)
     
     
 #     param_grid = [
@@ -205,12 +196,12 @@ for n in n_components:
                 cm_te = confusion_matrix(y_test, y_pred_te)
 #                 print("Confusion matrix of PPMI training set:")
 #                 print(cm_tr)
-                if cm_te[0][0] >= 10:
-                    print("Confusion matrix of PPMI testing set:")
-                    print(cm_te)
-                    print("precision of testing set:", precision_score(y_test, y_pred_te))
-                    print(cur_params)
-                    print()
+#                 if cm_te[0][0] >= 10:
+#                     print("Confusion matrix of PPMI testing set:")
+#                     print(cm_te)
+#                     print("precision of testing set:", precision_score(y_test, y_pred_te))
+#                     print(cur_params)
+#                     print()
 #                 if grid.best_score_ > best_perf:
 #                     best_perf = grid.best_score_
 #                     best_param = grid.best_params_
@@ -226,7 +217,8 @@ for n in n_components:
 
 
 #     print("XGBoost with n_compo=", n, ', num_estmtr=', tree_num_flag,',col_ratio=',col_ratio_flag,'subsample=',ss_flag,'has best performance of',best_perf, "with", best_param)
-    print("For UMAP n_compo=",n,",from confusion matrix of PPMI testing set, best params are:")
+#     print("For ICA n_compo=",n,",from confusion matrix of PPMI testing set, best params are:")
+    print("For FS alpha=",a,",from confusion matrix of PPMI testing set, best params are:")
     print(params_flag)
     print(cm_tp)
     print()

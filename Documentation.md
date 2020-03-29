@@ -251,6 +251,7 @@ Confusion matrix of PPMI testing set:
 precision of testing set: 0.7796610169491526
 {'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
 
+
 > PCA = 10:
 
 Confusion matrix of PPMI testing set:
@@ -274,21 +275,50 @@ precision of testing set: 0.7868852459016393
 {'num_estmtr': 150, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
 Current score: 0.6977413419044924
 
+-------------------
 > PCA = 13:
-
 Confusion matrix of PPMI testing set:
 [[16 10]
  [14 48]]
 precision of testing set: 0.8275862068965517
 {'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
 
+--------------
+
 #### UMAP + XGBoost
 
+----------------------
+For UMAP n_compo= 3 ,from confusion matrix of PPMI testing set, best params are:
+{'num_estmtr': 50, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[21  5]
+ [30 32]]
+precision of testing set: 0.864864864864
+
+----------------------
+
+For UMAP n_compo= 6 ,from confusion matrix of PPMI testing set, best params are:
+{'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 2}
+[[19  7]
+ [26 36]]
+precision of testing set: 0.8372093023
+ 
+For UMAP n_compo= 9 ,from confusion matrix of PPMI testing set, best params are:
+{'num_estmtr': 50, 'col_ratio': 0.1, 'subsample_ratio': 0.7, 'max_depth': 2}
+[[18  8]
+ [25 37]]
+precision of testing set: 0.82222222222
+ 
+For UMAP n_compo= 10 ,from confusion matrix of PPMI testing set, best params are:
+{'num_estmtr': 30, 'col_ratio': 0.1, 'subsample_ratio': 0.7, 'max_depth': 2}
+[[19  7]
+[28 34]]
+precision: 0.8292682926
+ 
 For UMAP n_compo= 11 ,from confusion matrix of PPMI testing set, best params are:
 {'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
 [[17  9]
  [18 44]]
- 
+precision: 0.83018868
  
 For UMAP n_compo= 12 ,from confusion matrix of PPMI testing set, best params are:
 {'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
@@ -296,7 +326,65 @@ For UMAP n_compo= 12 ,from confusion matrix of PPMI testing set, best params are
  [24 38]]
 precision of testing set: 0.8636363636363636
 
-For UMAP n_compo= 13 ,from confusion matrix of PPMI testing set, best params are:
+----------------------
+>For UMAP n_compo= 13 ,from confusion matrix of PPMI testing set, best params are:
 {'num_estmtr': 50, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
 [[21  5]
  [27 35]]
+ 
+ ----------------------
+
+#### ICA+ XGBoost
+For ICA n_compo= 3 ,from confusion matrix of PPMI testing set, best params are:
+{'num_estmtr': 10, 'col_ratio': 0.1, 'subsample_ratio': 0.5, 'max_depth': 3}
+Confusion matrix of PPMI training set:
+[[167  80]
+ [ 78 169]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [22 40]]
+precision of testing set: 0.7692307692307693
+
+--------------------------------
+>For ICA n_compo= 5 ,from confusion matrix of PPMI testing set, best params are:
+{'num_estmtr': 10, 'col_ratio': 0.1, 'subsample_ratio': 0.5, 'max_depth': 3}
+ Confusion matrix of PPMI training set:
+[[165  82]
+ [ 66 181]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [28 34]]
+precision of testing set: 0.8095238095238095
+
+--------------------------------
+precision of testing set: 0.7755102040816326
+For ICA n_compo= 9 ,from confusion matrix of PPMI testing set, best params are:
+{'num_estmtr': 300, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+[[16 10]
+ [26 36]]
+precision of testing set: 0.782608695652174
+
+For ICA n_compo= 11 ,from confusion matrix of PPMI testing set, best params are:
+{'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 2}
+Confusion matrix of PPMI training set:
+[[225  22]
+ [ 28 219]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [24 38]]
+precision of testing set: 0.7755102040816326
+ 
+ 
+For ICA n_compo= 13 ,from confusion matrix of PPMI testing set, best params are:
+{'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+Confusion matrix of PPMI training set:
+[[188  59]
+ [ 62 185]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [26 36]]
+precision of testing set: 0.7659574468085106
+

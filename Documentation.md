@@ -388,3 +388,37 @@ Confusion matrix of PPMI testing set:
  [26 36]]
 precision of testing set: 0.7659574468085106
 
+
+#### FS + XGBoost
+
+>For FS alpha= 0.005 ,from confusion matrix of PPMI testing set, best params are:
+{'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+Confusion matrix of PPMI training set:
+[[240   7]
+ [  3 244]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [15 47]]
+precision of testing set: 0.7966101694915254
+
+
+For FS alpha= 0.01 ,from confusion matrix of PPMI testing set, best params are:
+{'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+Confusion matrix of PPMI training set:
+[[245   2]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [ 9 53]]
+precision of testing set: 0.803030303030303
+
+
+For FS alpha= 0.04 ,from confusion matrix of PPMI testing set, best params are:
+{'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 2}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [ 6 56]]
+precision of testing set: 0.7887323943661971

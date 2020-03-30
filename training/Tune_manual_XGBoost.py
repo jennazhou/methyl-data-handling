@@ -121,7 +121,7 @@ n_components = [3,5,7,9,11,13]
 #     X_train = ica.fit_transform(X_train_scaled)
 #     X_test = ica.transform(X_test_scaled)
 
-alpha=[0.0001, 0.0005, 0.001, 0.005, 0.1, 0.15]
+alpha=[0.007, 0.009, 0.015, 0.02, 0.04]
 for a in alpha:
     sel_ = SelectFromModel(Lasso(alpha=a, tol=0.01, random_state=42))
     sel_.fit(X_train_scaled, y_train_sampled)

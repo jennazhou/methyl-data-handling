@@ -5,47 +5,6 @@
 - DR+LR:
 *****************
 ------------
-#### Accuracy as metrics (which should not be used)
-------------
-#### PCA+LR
-* PCA and L1:
-PCA__n_component: 100 
-L1__C: 0.1
-Acc = 0.52298
-
-* PCA and L2:
-PCA__n_component: 100
-L2__C: 0.01
-Acc = 0.54885057
-
-> Best estimator: PCA__n_component=100, C=0.01, penalty=l2
-
-
-#### UMAP+LR
-* UMAP and L1:
-Best: n = 50, C = 0.01, acc=0.69254658
-* UMAP and L2:
-Best: n = 150, C = 0.01, acc=0.69540373
-
-> Best estimator: UMAP__n_component=150, C=0.01, penalty=l2
-
-#### ICA+LR 
-* ICA and L1:
-Best: n = 100, C = 0.01, acc=0.64367816
-* ICA and L2:
-Best: n =50, C = 0.01, acc=0.64942529 
-
-> Best estimator: UMAP__n_component=50, C=0.01, penalty=l2
-
-#### Regularisation FS
-* L2 reg FS using Lasso (i.e. linear regression)
-Regularisation using L1 with diff alpha values, and then LR as CLF with different C values:
-Best estimator: Lasso alpha = 0.01, CLF C = 100, acc = 1.0
-
-> Regularisation using L1 with diff alpha values, and then LR as CLF with different C values:
-  Best estimator: Lasso alpha = 0.01, CLF C = 100, acc = 1.0 (this one has two '1.0' prediction)
-    
-------------
 ### F1 score as metrics (the higher the more desirable)
 #### with upsampling of the dataset
 ------------
@@ -422,3 +381,60 @@ Confusion matrix of PPMI testing set:
 [[11 15]
  [ 6 56]]
 precision of testing set: 0.7887323943661971
+
+
+#### Clustering + FS + XGBoost
+cluster: 6
+FS: a = 0.005, tol = 0.01, random_seed = 42
+XGB: n_estmt=50, learning_rate=0.3, colsample=0.5, subsample=0.5, max_depth=3
+Confusion matrix of clustered + reduced training set using UMAP+XGBoost:
+[[242   5]
+ [  0 247]]
+Confusion matrix of clustered + reduced testing set using UMAP+XGBoost:
+[[14 12]
+ [ 1 61]]
+precision of testing set: 0.8356164383561644
+
+FS: a = 0.005, tol = 0.01, random_seed = 42
+XGB: n_estmt=70, learning_rate=0.5, colsample=0.4, subsample=0.3, max_depth=3
+Confusion matrix of clustered + reduced training set using FS+XGBoost:
+[[239   8]
+ [  0 247]]
+Confusion matrix of clustered + reduced testing set using FS+XGBoost:
+[[17  9]
+ [ 4 58]]
+precision of testing set: 0.8656716417910447
+
+#### Clustering + FS + LR
+cluster: 6
+FS: a = 0.005, tol = 0.01, random_seed = 42
+LR: C = 1, penalty = l1
+Confusion matrix of clustered + reduced training set using FS+LR:
+[[247   0]
+ [  0 247]]
+Confusion matrix of clustered + reduced testing set using FS+LR:
+[[26  0]
+ [13 49]]
+precision of testing set: 1.0
+
+FS: a = 0.005, tol = 0.01, random_seed = 42
+LR: C = 1, penalty = l2
+Confusion matrix of clustered + reduced training set using FS+LR:
+[[247   0]
+ [  0 247]]
+Confusion matrix of clustered + reduced testing set using FS+LR:
+[[26  0]
+ [ 2 60]]
+precision of testing set: 1.0
+
+#### Clustering + FS + SVM
+cluster: 6
+FS: a = 0.08, tol = 0.01, random_seed = 42
+SVM: C = 0.0001, kernel = poly, gamma=1.5
+Confusion matrix of clustered + reduced training set using FS+LR:
+[[237  10]
+ [  0 247]]
+Confusion matrix of clustered + reduced testing set using FS+LR:
+[[13 13]
+ [ 1 61]]
+precision of testing set: 0.8243243243243243

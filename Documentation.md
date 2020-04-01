@@ -438,3 +438,5 @@ Confusion matrix of clustered + reduced testing set using FS+LR:
 [[13 13]
  [ 1 61]]
 precision of testing set: 0.8243243243243243
+
+#### VAE

@@ -9,6 +9,67 @@
 #### with upsampling of the dataset
 ------------
 
+-------------
+### Variance covered by different PCs
+-------------
+30:
+Total variance of dataset covered: 0.6078676049570196
+40:
+Total variance of dataset covered: 0.6374173508172822
+50:
+Total variance of dataset covered: 0.6614219167255786
+60:
+Total variance of dataset covered: 0.6836696320603294
+70:
+Total variance of dataset covered: 0.7036559740342414
+80:
+Total variance of dataset covered: 0.7220859447204653
+100:
+Total variance of dataset covered: 0.7552134425631912
+120:
+Total variance of dataset covered: 0.7838099132523845
+150:
+Total variance of dataset covered: 0.8212265973924266
+200:
+Total variance of dataset covered: 0.8755816915332136
+250:
+Total variance of dataset covered: 0.9234137877212798
+280:
+Total variance of dataset covered: 0.9494832410074734
+300:
+Total variance of dataset covered: 0.9659308941841616
+320:
+Total variance of dataset covered: 0.9814173586754761
+350:
+Total variance of dataset covered: 0.9999999999999992
+
+
+Results for PCA compo with variance > 87% (i.e. n = 200, 250, 280)
+n = 200 + LR:
+Mean score of precision of the best C: 0.8609848484848485
+Confusion matrix of PPMI testing set:
+[[ 2 24]
+ [ 3 59]]
+precision of testing set: 0.7108433734939759
+{'n_component': 200}
+{'C': 0.001}
+
+Mean score of precision of the best C: 0.86431989063568
+Confusion matrix of PPMI testing set:
+[[ 1 25]
+ [ 2 60]]
+precision of testing set: 0.7058823529411765
+{'n_component': 250}
+{'C': 0.001}
+
+Mean score of precision of the best C: 0.8700319655375836
+Confusion matrix of PPMI testing set:
+[[ 1 25]
+ [ 2 60]]
+precision of testing set: 0.7058823529411765
+{'n_component': 280}
+{'C': 0.001}
+
 ------------
 ### Precision score as metrics (the higher the more desirable)
 #### with upsampling of the dataset
@@ -49,6 +110,26 @@ Confusion matrix of PPMI testing set:
 [[14 12]
  [30 32]]
 
+
+----------------------------------
+Tune params of n_neighbours, min_dist, n_component:
+For LR_reg = l2:
+Confusion matrix of PPMI testing set:
+[[16 10]
+ [26 36]]
+precision of testing set: 0.782608695652174
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 40}
+{'C': 100}
+
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [26 36]]
+precision of testing set: 0.8181818181818182
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 60}
+{'C': 100}
+
+--------------------------------------------
+
 #### ICA + LR
 With ICA= 40 and l1, the best params are:
 {'C': 100} for n_compo= 40
@@ -70,7 +151,7 @@ Confusion matrix of PPMI testing set:
 
 
 #### Lasso FS + LR
-With Lasso(L2) FS alpha= 0.09 and l1, the best params are:
+With Lasso(L1) FS alpha= 0.09 and l1, the best params are:
 {'C': 1} for alpha= 0.09
 Confusion matrix of PPMI training set:
 [[224  23]
@@ -79,7 +160,7 @@ Confusion matrix of PPMI testing set:
 [[13 13]
  [13 49]]
  
-With Lasso(L2) FS alpha= 0.08 and l2, the best params are:
+With Lasso(L1) FS alpha= 0.08 and l2, the best params are:
 {'C': 1} for alpha= 0.08
 Confusion matrix of PPMI training set:
 [[240   7]
@@ -119,6 +200,121 @@ Confusion matrix of PPMI testing set:
 [[14 12]
 [30 32]]
 
+------------------------------
+
+Confusion matrix of PPMI training set:
+[[142 105]
+ [ 62 185]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [17 45]]
+precision of testing set: 0.7627118644067796
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 10, 'kernel'
+: 'poly', 'gamma': 1}
+{'C': 0.01}
+
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [22 40]]
+precision of testing set: 0.7547169811320755
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 10, 'kernel'
+: 'rbf', 'gamma': 1}
+{'C': 1}
+
+Confusion matrix of PPMI training set:                         
+[[163  84]                                                     
+ [ 54 193]]                                                    
+Confusion matrix of PPMI testing set:                          
+[[14 12]                                                       
+ [16 46]]                                                      
+precision of testing set: 0.7931034482758621                   
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 10, 'kernel'
+: 'poly', 'gamma': 1, 'coef0':10,}                                          
+{'C': 0.001}                                                   
+                                                               
+
+Confusion matrix of PPMI training set:
+[[154  93]
+ [ 66 181]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [21 41]]
+precision of testing set: 0.7454545454545455
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 14, 'kernel
+': 'rbf', 'gamma': 0.01}
+{'C': 1000}                                                  │
+                 
+
+<!-- kind of balanced but bad training confusion matrix -->
+Confusion matrix of PPMI training set:
+[[155  92]
+ [ 55 192]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [21 41]]
+precision of testing set: 0.7884615384615384
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 22, 'kernel'
+: 'poly', 'gamma': 1.5}
+{'C': 0.001}
+
+<!-- balanced with ok training confusion matrix -->
+Confusion matrix of PPMI training set:
+[[138 109]
+ [ 53 194]]
+Confusion matrix of PPMI testing set:
+[[17  9]
+ [24 38]]
+precision of testing set: 0.8085106382978723
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 14, 'kernel
+': 'poly', 'gamma': 1.5}
+{'C': 0.01}
+
+<!-- Skewed towards HC -->
+Confusion matrix of PPMI training set:
+[[158  89]
+ [ 47 200]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [35 27]]
+precision of testing set: 0.8181818181818182
+{'n_neighbour': 20, 'min_dist': 0.7, 'n_component': 20, 'kernel
+': 'poly', 'gamma': 1.5}
+{'C': 0.001}
+
+<!--  Balanced but skewed towards HC -->
+Confusion matrix of PPMI training set:
+[[155  92]
+ [ 52 195]]
+Confusion matrix of PPMI testing set:
+[[19  7]
+ [28 34]]
+precision of testing set: 0.8292682926829268
+{'n_neighbour': 10, 'min_dist': 0.7, 'n_component': 18, 'kernel
+': 'poly', 'gamma': 1.5}
+{'C': 0.001}
+
+Confusion matrix of PPMI training set:
+[[160  87]
+ [ 65 182]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [31 31]]
+precision of testing set: 0.7948717948717948
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 18, 'kernel
+': 'poly', 'gamma': 1.5}
+{'C': 0.001}
+
+<!-- Balanced with ok training confusion matrix -->
+Confusion matrix of PPMI training set:
+[[171  76]
+ [ 60 187]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [18 44]]
+precision of testing set: 0.7857142857142857
+{'n_neighbour': 5, 'min_dist': 0.7, 'n_component': 18, 'kernel'
+: 'poly', 'gamma': 1.5}
+{'C': 0.01}
 
 #### ICA + SVM
 
@@ -278,20 +474,20 @@ For UMAP n_compo= 11 ,from confusion matrix of PPMI testing set, best params are
 [[17  9]
  [18 44]]
 precision: 0.83018868
- 
-For UMAP n_compo= 12 ,from confusion matrix of PPMI testing set, best params are:
+
+
+>For UMAP n_compo= 12 ,from confusion matrix of PPMI testing set, best params are:
 {'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
 [[20  6]
  [24 38]]
 precision of testing set: 0.8636363636363636
 
-----------------------
->For UMAP n_compo= 13 ,from confusion matrix of PPMI testing set, best params are:
+
+For UMAP n_compo= 13 ,from confusion matrix of PPMI testing set, best params are:
 {'num_estmtr': 50, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
 [[21  5]
  [27 35]]
  
- ----------------------
 
 #### ICA+ XGBoost
 For ICA n_compo= 3 ,from confusion matrix of PPMI testing set, best params are:

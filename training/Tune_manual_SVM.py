@@ -13,7 +13,7 @@ from imblearn.under_sampling import RandomUnderSampler
 
 from sklearn.linear_model import LogisticRegression, Lasso
 from sklearn.model_selection import cross_val_predict, cross_val_score
-from sklearn.metrics import accuracy_score, confusion_matrix
+from sklearn.metrics import accuracy_score, confusion_matrix, precision_score
 from sklearn.model_selection import GridSearchCV
 
 from sklearn.svm import LinearSVC, SVC
@@ -90,8 +90,8 @@ X_test_scaled = data['X_test_scaled']
 print ("Shape of final train and test sets:", X_train_scaled.shape, X_test_scaled.shape)
     
 C_options = [0.001, 0.01, 0.1, 1, 100, 1000]
-# n_components = [10,12,14,15,16,17,18,19,20,21,22]
-kernels = ['rbf', 'poly', 'linear', 'sigmoid']
+n_components = [10,12,14,16,18,20,22]
+kernels = ['rbf', 'poly']
 gamma=[1e-4, 0.001, 0.01, 1, 1.5]
 
 ## PCA
@@ -101,12 +101,18 @@ gamma=[1e-4, 0.001, 0.01, 1, 1.5]
 #     X_test = pca.transform(X_test_scaled)
 #     print('Shape of PCs:', X_train.shape[1])
     
-## UMAP
-# for n in n_components:
-#     umap = UMAP(n_components=n)
-#     X_train = umap.fit_transform(X_train_scaled)
-#     X_test = umap.transform(X_test_scaled)
-#     print('Shape of UMAP clusters:', X_train.shape[1])
+# UMAP
+n_neighbours = [3, 5, 10, 15, 20, 50]
+min_dist = [0.1, 0.25, 0.4, 0.7]
+params_flag = {}
+cm_tp = [[0,0],[0,0]]
+for n in n_components:
+    for n_nei in n_neighbours:
+        for d in min_dist:
+            umap = UMAP(n_neighbors=n_nei, min_dist=d, n_components=n)
+            X_train = umap.fit_transform(X_train_scaled)
+            X_test = umap.transform(X_test_scaled)
+
     
 # # ### ICA
 # best_perf=0
@@ -117,51 +123,62 @@ gamma=[1e-4, 0.001, 0.01, 1, 1.5]
 
 
 
-#Lasso Reg for FS
-alpha=[0.0001, 0.001,0.01, 0.05, 0.08, 0.1, 0.12, 0.15, 0.18, 0.2]
-for a in alpha:
-    sel_ = SelectFromModel(Lasso(alpha=a, tol=0.01, random_state=42))
-    sel_.fit(X_train_scaled, y_train_sampled)
-    X_train = sel_.transform(X_train_scaled)
-    X_test = sel_.transform(X_test_scaled)
-    print("Shape of training set with alpha=", a, ":", X_train.shape)
+# #Lasso Reg for FS
+# alpha=[0.0001, 0.001,0.01, 0.05, 0.08, 0.1, 0.12, 0.15, 0.18, 0.2]
+# for a in alpha:
+#     sel_ = SelectFromModel(Lasso(alpha=a, tol=0.01, random_state=42))
+#     sel_.fit(X_train_scaled, y_train_sampled)
+#     X_train = sel_.transform(X_train_scaled)
+#     X_test = sel_.transform(X_test_scaled)
+#     print("Shape of training set with alpha=", a, ":", X_train.shape)
     
     
-    best_perf=0
-    for k in kernels:
-        for g in gamma:
-            svc = SVC(max_iter=3000, gamma=g, kernel=k, tol=0.01,class_weight='balanced')
-            param_grid ={'C': C_options, }
-            grid = GridSearchCV(svc, param_grid=param_grid, scoring="precision", cv=StratifiedKFold(n_splits=3, shuffle=True, random_state=42), n_jobs=-1)
-            grid.fit(X_train, y_train_sampled)
-#             print("SVM on FS Reg_alpha=", a, " and kernel ",k,":")
-            print("SVM on alpha=", a, ", kernel=",k," and gamma=", g,":")
-            print("Mean score of precision of the best C:", grid.best_score_)
-            print()
-            if grid.best_score_ > best_perf:
-                best_perf = grid.best_score_
-                best_param = grid.best_params_
-                kernel_flag = k
-                a_flag = a
-#                 compo_flag = n
-                gamma_flag = g
-    
-#     print("SVM with Ref FS alpha=", a_flag, 'and kernel', kernel_flag, 'has best performance of',best_perf, "with", best_param)
-    print("SVM with Lasso FS alpha=", a_flag, 'kernel', kernel_flag, 'and gamma',g,'has best performance of',best_perf, "with", best_param)
-    print()
-    
-    #Use Testing set to check for overfitting
-    clf = SVC(max_iter=3000, gamma=gamma_flag, kernel=kernel_flag, tol=0.01,class_weight='balanced')
-    print("Current clf:",clf)
-    
-    clf.fit(X_train, y_train_sampled)
-    y_pred_tr = clf.predict(X_train)
-    y_pred_te = clf.predict(X_test)
-    cm_tr = confusion_matrix(y_train_sampled, y_pred_tr)
-    cm_te = confusion_matrix(y_test, y_pred_te)
-    print("Confusion matrix of PPMI training set:")
-    print(cm_tr)
-    print("Confusion matrix of PPMI testing set:")
-    print(cm_te)
-   
+            for k in kernels:
+                for g in gamma:
+                    svc = SVC(max_iter=3000, gamma=g, kernel=k, tol=0.01,class_weight='balanced')
+                    param_grid ={'C': C_options, }
+                    grid = GridSearchCV(svc, param_grid=param_grid, scoring="precision", cv=StratifiedKFold(n_splits=3, shuffle=True, random_state=42), n_jobs=-1)
+                    grid.fit(X_train, y_train_sampled)
+
+        #             print("Confusion matrix of PPMI training set:")
+        #             print(cm_tr)
+        #             print("Confusion matrix of PPMI testing set:")
+        #             print(cm_te)
+                    cur_params = {
+                        "n_neighbour": n_nei,
+                        "min_dist": d,
+                        "n_component":n,
+                        "kernel": k,
+                        "gamma": g,
+                    }  
+
+                    clf = SVC(max_iter=3000, gamma=cur_params["gamma"], kernel=cur_params["kernel"], coef0=10, C=grid.best_params_["C"], tol=0.01,class_weight='balanced')
+                    clf.fit(X_train, y_train_sampled)
+                    y_pred_tr = clf.predict(X_train)
+                    y_pred_te = clf.predict(X_test)
+                    cm_tr = confusion_matrix(y_train_sampled, y_pred_tr)
+                    cm_te = confusion_matrix(y_test, y_pred_te)
+
+
+                    if cm_te[0][0] >= 10:
+                        print("Confusion matrix of PPMI training set:")
+                        print(cm_tr)
+                        print("Confusion matrix of PPMI testing set:")
+                        print(cm_te)
+                        print("precision of testing set:", precision_score(y_test, y_pred_te))
+                        print(cur_params)
+                        print(grid.best_params_)
+                        print()
+
+                    if cm_te[0][0] > cm_tp[0][0]:
+                        cm_tp = cm_te
+                        params_flag = cur_params
+                    elif cm_te[0][0] == cm_tp[0][0] and cm_te[1][1] > cm_tp[1][1]:
+                        cm_tp = cm_te
+                        params_flag = cur_params
+
+print("UMAP + SVM best performance params:")
+# print("PCA + LR best performance params:")
+print(params_flag)
+print(cm_tp)
  

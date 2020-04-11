@@ -190,29 +190,6 @@ Confusion matrix of PPMI testing set:
  
  #### UMAP + SVM
 
-SVM with UMAPs= 18 kernel rbf and gamma 1.5 has best performance of 0.6435273033944761 with {'C': 1}
-Current clf: SVC(C=1.0, break_ties=False, cache_size=200, class_weight='balanced', coef0=0.0, decision_function_shape='ovr', degree=3, gamma=1.5, kernel='rbf',max_iter=3000, probability=False, random_state=None, shrinking=True, tol=0.01, verbose=False)
-
-Confusion matrix of PPMI training set:
-[173  74]
-[ 71 176]]
-Confusion matrix of PPMI testing set:
-[[14 12]
-[30 32]]
-
-------------------------------
-
-Confusion matrix of PPMI training set:
-[[142 105]
- [ 62 185]]
-Confusion matrix of PPMI testing set:
-[[12 14]
- [17 45]]
-precision of testing set: 0.7627118644067796
-{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 10, 'kernel'
-: 'poly', 'gamma': 1}
-{'C': 0.01}
-
 Confusion matrix of PPMI testing set:
 [[13 13]
  [22 40]]
@@ -221,6 +198,7 @@ precision of testing set: 0.7547169811320755
 : 'rbf', 'gamma': 1}
 {'C': 1}
 
+>
 Confusion matrix of PPMI training set:                         
 [[163  84]                                                     
  [ 54 193]]                                                    
@@ -231,20 +209,8 @@ precision of testing set: 0.7931034482758621
 {'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 10, 'kernel'
 : 'poly', 'gamma': 1, 'coef0':10,}                                          
 {'C': 0.001}                                                   
-                                                               
-
-Confusion matrix of PPMI training set:
-[[154  93]
- [ 66 181]]
-Confusion matrix of PPMI testing set:
-[[12 14]
- [21 41]]
-precision of testing set: 0.7454545454545455
-{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 14, 'kernel
-': 'rbf', 'gamma': 0.01}
-{'C': 1000}                                                  │
-                 
-
+                                                                    
+>
 <!-- kind of balanced but bad training confusion matrix -->
 Confusion matrix of PPMI training set:
 [[155  92]
@@ -282,6 +248,7 @@ precision of testing set: 0.8181818181818182
 {'C': 0.001}
 
 <!--  Balanced but skewed towards HC -->
+>
 Confusion matrix of PPMI training set:
 [[155  92]
  [ 52 195]]
@@ -305,6 +272,7 @@ precision of testing set: 0.7948717948717948
 {'C': 0.001}
 
 <!-- Balanced with ok training confusion matrix -->
+>
 Confusion matrix of PPMI training set:
 [[171  76]
  [ 60 187]]
@@ -469,7 +437,7 @@ For UMAP n_compo= 10 ,from confusion matrix of PPMI testing set, best params are
 [28 34]]
 precision: 0.8292682926
  
-For UMAP n_compo= 11 ,from confusion matrix of PPMI testing set, best params are:
+>For UMAP n_compo= 11 ,from confusion matrix of PPMI testing set, best params are:
 {'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
 [[17  9]
  [18 44]]
@@ -557,7 +525,7 @@ Confusion matrix of PPMI testing set:
 precision of testing set: 0.7966101694915254
 
 
-For FS alpha= 0.01 ,from confusion matrix of PPMI testing set, best params are:
+>For FS alpha= 0.01 ,from confusion matrix of PPMI testing set, best params are:
 {'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
 Confusion matrix of PPMI training set:
 [[245   2]

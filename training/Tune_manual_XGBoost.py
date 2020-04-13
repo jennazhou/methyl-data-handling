@@ -34,7 +34,7 @@ X_test_scaled = np.load('../../datasets/preprocessed/X_test_scaled.npy')
 print("Complete loading data")
 #------------------------------------------
 # f = open("pca_xgb_experiments_log","w")  
-f = open("ica_xgb_experiments_log","w")  
+f = open("ica_xgb_experiments_log","a")  
 # f = open("umap_xgb_experiments_log","w")  
 # f = open("fs_xgb_experiments_log","w")  
 #--------------------------------------------
@@ -42,7 +42,7 @@ f = open("ica_xgb_experiments_log","w")
 print ("Shape of final train and test sets:", X_train_scaled.shape, X_test_scaled.shape)
 
 # C_options = [0.001, 0.01, 0.1, 1, 100, 1000]
-n_components = [5,7,10,12,13,14,15]
+n_components = [7,10,12,14,16]
     
 # # Train XGBoost classifier
 # # DMatrix: a data structure that makes everything more efficient
@@ -84,7 +84,7 @@ for n in n_components:
 
  
     colsample_bytree = [0.3, 0.4, 0.5 , 0.6, 0.7, 0.8, 0.9]
-    ne = [10,20,30,35, 40, 45, 50, 60, 70, 100, 200 ] 
+    ne = [10, 20, 30, 35, 40, 100, 200 ] 
     subsample = [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
 
     best_perf=0
@@ -98,7 +98,7 @@ for n in n_components:
                     tree_method='gpu_hist',
                     learning_rate=0.3,
                     subsample=ss,
-                    gpu_id=0,
+                    gpu_id=1,
                     colsample_bytree=colsample,
                     n_estimators=n_estimator
                 )

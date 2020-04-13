@@ -1,0 +1,1072 @@
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 0.5, 'C': 100}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 0.5, 'C': 100}
+[[ 1 25]
+ [ 5 57]]
+
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 1, 'C': 100}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 3, 'C': 100}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 5, 'C': 100}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 7, 'C': 100}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 10, 'C': 100}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 0.5, 'C': 100}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 1, 'C': 100}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 3, 'C': 100}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 5, 'C': 100}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 7, 'C': 100}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 10, 'C': 100}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 0.5, 'C': 100}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 1, 'C': 100}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 3, 'C': 100}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 5, 'C': 100}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 7, 'C': 100}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 10, 'C': 100}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 1, 'coef0': 0.5, 'C': 1}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 1, 'coef0': 1, 'C': 1}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 1, 'coef0': 3, 'C': 1}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 1, 'coef0': 5, 'C': 1}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 1, 'coef0': 7, 'C': 1}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 1, 'coef0': 10, 'C': 1}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 0.5, 'C': 1}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 1, 'C': 1}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 3, 'C': 1}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 5, 'C': 1}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 7, 'C': 1}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 10, 'C': 1}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 3, 'coef0': 0.5, 'C': 1}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 3, 'coef0': 1, 'C': 1}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 3, 'coef0': 3, 'C': 1}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 3, 'coef0': 5, 'C': 1}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 3, 'coef0': 7, 'C': 1}
+{'n_component': 10, 'kernel': 'rbf', 'gamma': 3, 'coef0': 10, 'C': 1}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[216  31]
+ [ 43 204]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [22 40]]
+precision of testing set:0.7272727272727273
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 0.001}
+[[11 15]
+ [22 40]]
+
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 1, 'C': 0.01}
+Confusion matrix of PPMI training set:
+[[184  63]
+ [ 34 213]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [14 48]]
+precision of testing set:0.75
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[226  21]
+ [ 35 212]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [18 44]]
+precision of testing set:0.7457627118644068
+[[11 15]
+ [18 44]]
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[221  26]
+ [ 30 217]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]]
+precision of testing set:0.765625
+[[11 15]
+ [13 49]]
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[226  21]
+ [ 33 214]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [18 44]]
+precision of testing set:0.7719298245614035
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 7, 'C': 0.001}
+[[13 13]
+ [18 44]]
+
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[221  26]
+ [ 32 215]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [13 49]]
+precision of testing set:0.7903225806451613
+[[13 13]
+ [13 49]]
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 1, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 3, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 5, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 7, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[201  46]
+ [ 99 148]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [28 34]]
+precision of testing set:0.7555555555555555
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 10, 'C': 0.001}
+[[15 11]
+ [28 34]]
+
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 1, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 3, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[129 118]
+ [ 58 189]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [15 47]]
+precision of testing set:0.746031746031746
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 7, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 10, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 1, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 1, 'coef0': 1, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 1, 'coef0': 3, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 1, 'coef0': 5, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 1, 'coef0': 7, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 1, 'coef0': 10, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 1, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 3, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 5, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 7, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 10, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 3, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 3, 'coef0': 1, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 3, 'coef0': 3, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 3, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[112 135]
+ [ 63 184]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [11 51]]
+precision of testing set:0.7611940298507462
+{'n_component': 10, 'kernel': 'poly', 'gamma': 3, 'coef0': 7, 'C': 0.001}
+{'n_component': 10, 'kernel': 'poly', 'gamma': 3, 'coef0': 10, 'C': 0.001}
+For PCA n_compo=10,from confusion matrix of PPMI testing set, best params are: 
+{'n_component': 10, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 10, 'C': 0.001}
+[[15 11]
+ [28 34]]
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 0.5, 'C': 100}
+[[ 0 26]
+ [ 1 61]]
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 1, 'C': 100}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 3, 'C': 100}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 5, 'C': 100}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 7, 'C': 100}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 10, 'C': 100}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 0.5, 'C': 100}
+[[ 0 26]
+ [ 0 62]]
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 1, 'C': 100}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 3, 'C': 100}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 5, 'C': 100}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 7, 'C': 100}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 10, 'C': 100}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 0.5, 'C': 100}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 1, 'C': 100}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 3, 'C': 100}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 5, 'C': 100}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 7, 'C': 100}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 10, 'C': 100}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 1, 'coef0': 0.5, 'C': 1}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 1, 'coef0': 1, 'C': 1}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 1, 'coef0': 3, 'C': 1}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 1, 'coef0': 5, 'C': 1}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 1, 'coef0': 7, 'C': 1}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 1, 'coef0': 10, 'C': 1}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 0.5, 'C': 1}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 1, 'C': 1}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 3, 'C': 1}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 5, 'C': 1}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 7, 'C': 1}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 10, 'C': 1}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 3, 'coef0': 0.5, 'C': 1}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 3, 'coef0': 1, 'C': 1}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 3, 'coef0': 3, 'C': 1}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 3, 'coef0': 5, 'C': 1}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 3, 'coef0': 7, 'C': 1}
+{'n_component': 12, 'kernel': 'rbf', 'gamma': 3, 'coef0': 10, 'C': 1}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[230  17]
+ [ 29 218]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]]
+precision of testing set:0.765625
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 0.001}
+[[11 15]
+ [13 49]]
+
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[231  16]
+ [ 31 216]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [15 47]]
+precision of testing set:0.746031746031746
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[233  14]
+ [ 27 220]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [17 45]]
+precision of testing set:0.7377049180327869
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 5, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 7, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 10, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 1, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 3, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[200  47]
+ [ 38 209]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [16 46]]
+precision of testing set:0.7419354838709677
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 7, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 10, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 1, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 3, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 5, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 7, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 10, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 1, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 1, 'coef0': 1, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 1, 'coef0': 3, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 1, 'coef0': 5, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 1, 'coef0': 7, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 1, 'coef0': 10, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 1, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 3, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 5, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 7, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 10, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 3, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 3, 'coef0': 1, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 3, 'coef0': 3, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 3, 'coef0': 5, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 3, 'coef0': 7, 'C': 0.001}
+{'n_component': 12, 'kernel': 'poly', 'gamma': 3, 'coef0': 10, 'C': 0.001}
+For PCA n_compo=12,from confusion matrix of PPMI testing set, best params are: 
+{'n_component': 12, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 0.001}
+[[11 15]
+ [13 49]]
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 0.5, 'C': 100}
+[[ 0 26]
+ [ 1 61]]
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 1, 'C': 100}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 3, 'C': 100}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 5, 'C': 100}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 7, 'C': 100}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 10, 'C': 100}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 0.5, 'C': 100}
+[[ 0 26]
+ [ 0 62]]
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 1, 'C': 100}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 3, 'C': 100}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 5, 'C': 100}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 7, 'C': 100}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 10, 'C': 100}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 0.5, 'C': 100}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 1, 'C': 100}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 3, 'C': 100}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 5, 'C': 100}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 7, 'C': 100}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 10, 'C': 100}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 1, 'coef0': 0.5, 'C': 1}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 1, 'coef0': 1, 'C': 1}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 1, 'coef0': 3, 'C': 1}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 1, 'coef0': 5, 'C': 1}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 1, 'coef0': 7, 'C': 1}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 1, 'coef0': 10, 'C': 1}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 0.5, 'C': 1}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 1, 'C': 1}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 3, 'C': 1}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 5, 'C': 1}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 7, 'C': 1}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 10, 'C': 1}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 3, 'coef0': 0.5, 'C': 1}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 3, 'coef0': 1, 'C': 1}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 3, 'coef0': 3, 'C': 1}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 3, 'coef0': 5, 'C': 1}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 3, 'coef0': 7, 'C': 1}
+{'n_component': 14, 'kernel': 'rbf', 'gamma': 3, 'coef0': 10, 'C': 1}
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 0.01}
+Confusion matrix of PPMI training set:
+[[243   4]
+ [ 15 232]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [14 48]]
+precision of testing set:0.7868852459016393
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 0.01}
+[[13 13]
+ [14 48]]
+
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 1, 'C': 0.01}
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 3, 'C': 0.1}
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 5, 'C': 0.1}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [ 10 237]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [14 48]]
+precision of testing set:0.75
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 7, 'C': 0.01}
+Confusion matrix of PPMI training set:
+[[245   2]
+ [ 11 236]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [13 49]]
+precision of testing set:0.7538461538461538
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 10, 'C': 0.01}
+Confusion matrix of PPMI training set:
+[[245   2]
+ [ 16 231]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [11 51]]
+precision of testing set:0.7846153846153846
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[222  25]
+ [ 23 224]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [15 47]]
+precision of testing set:0.7580645161290323
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[217  30]
+ [ 18 229]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [16 46]]
+precision of testing set:0.7540983606557377
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[205  42]
+ [ 19 228]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [15 47]]
+precision of testing set:0.7580645161290323
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [ 12 235]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [16 46]]
+precision of testing set:0.7666666666666667
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [ 16 231]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [16 46]]
+precision of testing set:0.7796610169491526
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[240   7]
+ [ 29 218]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [15 47]]
+precision of testing set:0.7833333333333333
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 1, 'C': 0.001}
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[190  57]
+ [ 22 225]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [15 47]]
+precision of testing set:0.746031746031746
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[233  14]
+ [ 22 225]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [16 46]]
+precision of testing set:0.7666666666666667
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 7, 'C': 0.001}
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 10, 'C': 0.001}
+{'n_component': 14, 'kernel': 'poly', 'gamma': 1, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[224  23]
+ [ 25 222]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [16 46]]
+precision of testing set:0.7666666666666667
+{'n_component': 14, 'kernel': 'poly', 'gamma': 1, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[185  62]
+ [ 23 224]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [16 46]]
+precision of testing set:0.7419354838709677
+{'n_component': 14, 'kernel': 'poly', 'gamma': 1, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[227  20]
+ [ 25 222]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [17 45]]
+precision of testing set:0.7627118644067796
+{'n_component': 14, 'kernel': 'poly', 'gamma': 1, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[177  70]
+ [ 25 222]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [16 46]]
+precision of testing set:0.7419354838709677
+{'n_component': 14, 'kernel': 'poly', 'gamma': 1, 'coef0': 7, 'C': 0.001}
+{'n_component': 14, 'kernel': 'poly', 'gamma': 1, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[215  32]
+ [ 30 217]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [16 46]]
+precision of testing set:0.7666666666666667
+{'n_component': 14, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 14, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 1, 'C': 0.001}
+{'n_component': 14, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 3, 'C': 0.001}
+{'n_component': 14, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 5, 'C': 0.001}
+{'n_component': 14, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 7, 'C': 0.001}
+{'n_component': 14, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[243   4]
+ [ 33 214]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [16 46]]
+precision of testing set:0.7666666666666667
+{'n_component': 14, 'kernel': 'poly', 'gamma': 3, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[200  47]
+ [ 22 225]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [14 48]]
+precision of testing set:0.75
+{'n_component': 14, 'kernel': 'poly', 'gamma': 3, 'coef0': 1, 'C': 0.001}
+{'n_component': 14, 'kernel': 'poly', 'gamma': 3, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[219  28]
+ [ 24 223]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [16 46]]
+precision of testing set:0.7666666666666667
+{'n_component': 14, 'kernel': 'poly', 'gamma': 3, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[158  89]
+ [ 20 227]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [14 48]]
+precision of testing set:0.75
+{'n_component': 14, 'kernel': 'poly', 'gamma': 3, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[182  65]
+ [ 21 226]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [15 47]]
+precision of testing set:0.7704918032786885
+{'n_component': 14, 'kernel': 'poly', 'gamma': 3, 'coef0': 10, 'C': 0.001}
+For PCA n_compo=14,from confusion matrix of PPMI testing set, best params are: 
+{'n_component': 14, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 0.01}
+[[13 13]
+ [14 48]]
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 0.5, 'C': 100}
+[[ 0 26]
+ [ 0 62]]
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 1, 'C': 100}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 3, 'C': 100}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 5, 'C': 100}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 7, 'C': 100}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 10, 'C': 100}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 0.5, 'C': 100}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 1, 'C': 100}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 3, 'C': 100}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 5, 'C': 100}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 7, 'C': 100}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 10, 'C': 100}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 0.5, 'C': 100}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 1, 'C': 100}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 3, 'C': 100}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 5, 'C': 100}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 7, 'C': 100}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 10, 'C': 100}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 1, 'coef0': 0.5, 'C': 1}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 1, 'coef0': 1, 'C': 1}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 1, 'coef0': 3, 'C': 1}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 1, 'coef0': 5, 'C': 1}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 1, 'coef0': 7, 'C': 1}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 1, 'coef0': 10, 'C': 1}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 0.5, 'C': 1}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 1, 'C': 1}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 3, 'C': 1}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 5, 'C': 1}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 7, 'C': 1}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 10, 'C': 1}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 3, 'coef0': 0.5, 'C': 1}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 3, 'coef0': 1, 'C': 1}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 3, 'coef0': 3, 'C': 1}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 3, 'coef0': 5, 'C': 1}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 3, 'coef0': 7, 'C': 1}
+{'n_component': 16, 'kernel': 'rbf', 'gamma': 3, 'coef0': 10, 'C': 1}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 0.001}
+[[ 9 17]
+ [14 48]]
+
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 1, 'C': 0.01}
+[[ 9 17]
+ [ 7 55]]
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 3, 'C': 0.01}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 5, 'C': 0.01}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[238   9]
+ [ 14 233]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [ 9 53]]
+precision of testing set:0.7681159420289855
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 7, 'C': 0.001}
+[[10 16]
+ [ 9 53]]
+
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 10, 'C': 0.01}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[244   3]
+ [ 12 235]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [ 5 57]]
+precision of testing set:0.7808219178082192
+[[10 16]
+ [ 5 57]]
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [ 10 237]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [ 9 53]]
+precision of testing set:0.7681159420289855
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  9 238]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [ 9 53]]
+precision of testing set:0.7794117647058824
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 3, 'C': 0.001}
+[[11 15]
+ [ 9 53]]
+
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[246   1]
+ [  3 244]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [11 51]]
+precision of testing set:0.7727272727272727
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  7 240]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [10 52]]
+precision of testing set:0.7647058823529411
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 10, 'C': 0.001}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 1, 'C': 0.001}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 3, 'C': 0.001}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 5, 'C': 0.001}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  7 240]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [14 48]]
+precision of testing set:0.75
+{'n_component': 16, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 10, 'C': 0.001}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 1, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 1, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [ 15 232]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [11 51]]
+precision of testing set:0.7611940298507462
+{'n_component': 16, 'kernel': 'poly', 'gamma': 1, 'coef0': 3, 'C': 0.001}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 1, 'coef0': 5, 'C': 0.001}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 1, 'coef0': 7, 'C': 0.001}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 1, 'coef0': 10, 'C': 0.001}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[245   2]
+ [ 14 233]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [16 46]]
+precision of testing set:0.7796610169491526
+{'n_component': 16, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 0.5, 'C': 0.001}
+[[13 13]
+ [16 46]]
+
+{'n_component': 16, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[246   1]
+ [ 14 233]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [12 50]]
+precision of testing set:0.7575757575757576
+{'n_component': 16, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 3, 'C': 0.001}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [ 16 231]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [12 50]]
+precision of testing set:0.7575757575757576
+{'n_component': 16, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 7, 'C': 0.001}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[244   3]
+ [ 12 235]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [13 49]]
+precision of testing set:0.7538461538461538
+{'n_component': 16, 'kernel': 'poly', 'gamma': 3, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[245   2]
+ [ 10 237]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [15 47]]
+precision of testing set:0.7580645161290323
+{'n_component': 16, 'kernel': 'poly', 'gamma': 3, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[245   2]
+ [ 14 233]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [16 46]]
+precision of testing set:0.7796610169491526
+{'n_component': 16, 'kernel': 'poly', 'gamma': 3, 'coef0': 3, 'C': 0.001}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 3, 'coef0': 5, 'C': 0.001}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 3, 'coef0': 7, 'C': 0.001}
+{'n_component': 16, 'kernel': 'poly', 'gamma': 3, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [ 16 231]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [12 50]]
+precision of testing set:0.7575757575757576
+For PCA n_compo=16,from confusion matrix of PPMI testing set, best params are: 
+{'n_component': 16, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 0.5, 'C': 0.001}
+[[13 13]
+ [16 46]]
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 0.5, 'C': 100}
+[[ 0 26]
+ [ 0 62]]
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 1, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 3, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 5, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 7, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 10, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 0.5, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 1, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 3, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 5, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 7, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 10, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 0.5, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 1, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 3, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 5, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 7, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 10, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 1, 'coef0': 0.5, 'C': 1}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 1, 'coef0': 1, 'C': 1}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 1, 'coef0': 3, 'C': 1}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 1, 'coef0': 5, 'C': 1}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 1, 'coef0': 7, 'C': 1}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 1, 'coef0': 10, 'C': 1}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 0.5, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 1, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 3, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 5, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 7, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 10, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 3, 'coef0': 0.5, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 3, 'coef0': 1, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 3, 'coef0': 3, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 3, 'coef0': 5, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 3, 'coef0': 7, 'C': 100}
+{'n_component': 18, 'kernel': 'rbf', 'gamma': 3, 'coef0': 10, 'C': 100}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 0.1}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 0.1}
+[[ 8 18]
+ [13 49]]
+
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 1, 'C': 0.1}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 1, 'C': 0.1}
+[[ 9 17]
+ [13 49]]
+
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 3, 'C': 0.1}
+[[ 9 17]
+ [11 51]]
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 5, 'C': 0.01}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 7, 'C': 0.01}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 10, 'C': 0.01}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 1, 'C': 0.001}
+[[ 9 17]
+ [ 9 53]]
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  2 245]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [13 49]]
+precision of testing set:0.7538461538461538
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 3, 'C': 0.001}
+[[10 16]
+ [13 49]]
+
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 5, 'C': 0.001}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 7, 'C': 0.001}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 10, 'C': 0.001}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[246   1]
+ [  6 241]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [14 48]]
+precision of testing set:0.75
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  2 245]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [14 48]]
+precision of testing set:0.75
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  5 242]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [14 48]]
+precision of testing set:0.75
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 5, 'C': 0.001}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  5 242]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]]
+precision of testing set:0.765625
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 7, 'C': 0.001}
+[[11 15]
+ [13 49]]
+
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  7 240]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [13 49]]
+precision of testing set:0.7538461538461538
+{'n_component': 18, 'kernel': 'poly', 'gamma': 1, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  6 241]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [12 50]]
+precision of testing set:0.7575757575757576
+{'n_component': 18, 'kernel': 'poly', 'gamma': 1, 'coef0': 1, 'C': 0.001}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 1, 'coef0': 3, 'C': 0.001}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 1, 'coef0': 5, 'C': 0.001}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 1, 'coef0': 7, 'C': 0.001}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 1, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  6 241]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [13 49]]
+precision of testing set:0.7538461538461538
+{'n_component': 18, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  5 242]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [12 50]]
+precision of testing set:0.7575757575757576
+{'n_component': 18, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 1, 'C': 0.001}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 3, 'C': 0.001}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  4 243]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [12 50]]
+precision of testing set:0.7575757575757576
+{'n_component': 18, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 7, 'C': 0.001}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 10, 'C': 0.001}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 3, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 3, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  5 242]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [12 50]]
+precision of testing set:0.7575757575757576
+{'n_component': 18, 'kernel': 'poly', 'gamma': 3, 'coef0': 3, 'C': 0.001}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 3, 'coef0': 5, 'C': 0.001}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 3, 'coef0': 7, 'C': 0.001}
+{'n_component': 18, 'kernel': 'poly', 'gamma': 3, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  4 243]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [12 50]]
+precision of testing set:0.7575757575757576
+For PCA n_compo=18,from confusion matrix of PPMI testing set, best params are: 
+{'n_component': 18, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 7, 'C': 0.001}
+[[11 15]
+ [13 49]]
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 0.5, 'C': 100}
+[[ 0 26]
+ [ 0 62]]
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 1, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 3, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 5, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 7, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 10, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 0.5, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 1, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 3, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 5, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 7, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 10, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 0.5, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 1, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 3, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 5, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 7, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 10, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 1, 'coef0': 0.5, 'C': 1}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 1, 'coef0': 1, 'C': 1}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 1, 'coef0': 3, 'C': 1}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 1, 'coef0': 5, 'C': 1}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 1, 'coef0': 7, 'C': 1}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 1, 'coef0': 10, 'C': 1}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 0.5, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 1, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 3, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 5, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 7, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 10, 'C': 100}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 3, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 3, 'coef0': 1, 'C': 0.001}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 3, 'coef0': 3, 'C': 0.001}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 3, 'coef0': 5, 'C': 0.001}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 3, 'coef0': 7, 'C': 0.001}
+{'n_component': 20, 'kernel': 'rbf', 'gamma': 3, 'coef0': 10, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 0.001}
+[[ 6 20]
+ [ 9 53]]
+
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 1, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 1, 'C': 0.001}
+[[ 7 19]
+ [ 8 54]]
+
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 3, 'C': 0.1}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 3, 'C': 0.1}
+[[ 9 17]
+ [ 8 54]]
+
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 5, 'C': 0.01}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 7, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 10, 'C': 0.01}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 1, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 3, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 5, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 7, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 10, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 1, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 3, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 5, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 7, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 10, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 1, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 1, 'coef0': 1, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 1, 'coef0': 3, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 1, 'coef0': 5, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 1, 'coef0': 7, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 1, 'coef0': 10, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 0.5, 'C': 0.001}
+[[ 9 17]
+ [ 7 55]]
+{'n_component': 20, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 1, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 3, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 5, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 7, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 10, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 3, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 3, 'coef0': 1, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 3, 'coef0': 3, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 3, 'coef0': 5, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 3, 'coef0': 7, 'C': 0.001}
+{'n_component': 20, 'kernel': 'poly', 'gamma': 3, 'coef0': 10, 'C': 0.001}
+For PCA n_compo=20,from confusion matrix of PPMI testing set, best params are: 
+{'n_component': 20, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 0.5, 'C': 0.001}
+[[ 9 17]
+ [ 7 55]]
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 0.5, 'C': 100}
+[[ 0 26]
+ [ 0 62]]
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 1, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 3, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 5, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 7, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 10, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 0.5, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 1, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 3, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 5, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 7, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 10, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 0.5, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 1, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 3, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 5, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 7, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 10, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 1, 'coef0': 0.5, 'C': 1}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 1, 'coef0': 1, 'C': 1}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 1, 'coef0': 3, 'C': 1}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 1, 'coef0': 5, 'C': 1}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 1, 'coef0': 7, 'C': 1}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 1, 'coef0': 10, 'C': 1}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 0.5, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 1, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 3, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 5, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 7, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 10, 'C': 100}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 3, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 3, 'coef0': 1, 'C': 0.001}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 3, 'coef0': 3, 'C': 0.001}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 3, 'coef0': 5, 'C': 0.001}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 3, 'coef0': 7, 'C': 0.001}
+{'n_component': 22, 'kernel': 'rbf', 'gamma': 3, 'coef0': 10, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 0.1}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 0.1}
+[[ 9 17]
+ [ 9 53]]
+
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 1, 'C': 0.1}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 3, 'C': 0.01}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 5, 'C': 0.01}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 7, 'C': 0.01}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 10, 'C': 0.001}
+[[ 9 17]
+ [ 7 55]]
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 1, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 3, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 5, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 7, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 10, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 1, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 3, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 5, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 7, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 10, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 1, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 1, 'coef0': 1, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 1, 'coef0': 3, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 1, 'coef0': 5, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 1, 'coef0': 7, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 1, 'coef0': 10, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 1, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 3, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 5, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 7, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 10, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 3, 'coef0': 0.5, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 3, 'coef0': 1, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 3, 'coef0': 3, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 3, 'coef0': 5, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 3, 'coef0': 7, 'C': 0.001}
+{'n_component': 22, 'kernel': 'poly', 'gamma': 3, 'coef0': 10, 'C': 0.001}
+For PCA n_compo=22,from confusion matrix of PPMI testing set, best params are: 
+{'n_component': 22, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 10, 'C': 0.001}
+[[ 9 17]
+ [ 7 55]]

@@ -25,67 +25,24 @@ from sklearn.decomposition import FastICA
 import xgboost as xgb
 
 from sklearn.feature_selection import SelectFromModel
-
 from multiprocessing import Process, Manager
 
-def set_Data(data):
-    ppmi = pd.read_csv('../../datasets/preprocessed/trans_processed_PPMI_data.csv')
-    ppmi.rename(columns={'Unnamed: 0':'Sentrix_position'}, inplace=True)
-    ppmi.set_index('Sentrix_position', inplace=True)
-    ppmi = ppmi.transpose()
+y_train_sampled = np.load('../../datasets/preprocessed/y_train_sampled.npy')
+y_test = np.load('../../datasets/preprocessed/y_test.npy')
+X_train_scaled = np.load('../../datasets/preprocessed/X_train_scaled.npy')
+X_test_scaled = np.load('../../datasets/preprocessed/X_test_scaled.npy')
+print("Complete loading data")
+#------------------------------------------
+# f = open("pca_xgb_experiments_log","w")  
+f = open("ica_xgb_experiments_log","w")  
+# f = open("umap_xgb_experiments_log","w")  
+# f = open("fs_xgb_experiments_log","w")  
+#--------------------------------------------
 
-    encoder = LabelEncoder()
-    label = encoder.fit_transform(ppmi['Category'])
-
-    tr = ppmi.drop(['Category'], axis=1)
-    X = tr.values
-    y = label
-    print(X.shape)
-    print(y.shape)
-
-    print("StratifiedSampling check")
-    split = StratifiedShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
-    split.get_n_splits(X, y)
-
-    for train_index, test_index in split.split(X, y):
-        X_train, X_test = X[train_index], X[test_index]
-        y_train, data['y_test'] = y[train_index], y[test_index]
-
-    print("Oversampling check")
-    oversampler = SMOTE(random_state=42)
-    X_train_sampled, data['y_train_sampled'] = oversampler.fit_resample(X_train, y_train)
-    print("Scaling check")
-    scaler = StandardScaler()
-#     scaler = MinMaxScaler()
-    X_train_scaled = scaler.fit_transform(X_train_sampled)
-    data['X_train_scaled_1'] = X_train_scaled[:247].reshape((1, -1))
-    data['X_train_scaled_2'] = X_train_scaled[247:].reshape((1, -1))
-    data['X_test_scaled'] = scaler.transform(X_test)
-    
-    print("Returning check")
-
-manager = Manager()
-data = manager.dict()
-
-print("CHECKPOINT1")
-#     p = Process(target=set_Data, args=(X_train_scaled, X_test_scaled, y_train_sampled, y_test,))
-p = Process(target=set_Data, args=(data,))
-print("CHECKPOINT2")
-p.start()
-print("CHECKPOINT3")
-p.join()
-
-y_train_sampled = data['y_train_sampled']
-y_test = data['y_test']
-X_train_scaled = np.append(data['X_train_scaled_1'], data['X_train_scaled_2']).reshape(494, 747668)
-X_test_scaled = data['X_test_scaled']
-
-# print(y_train_sampled)
-# print(X_train_scaled)
 print ("Shape of final train and test sets:", X_train_scaled.shape, X_test_scaled.shape)
 
 # C_options = [0.001, 0.01, 0.1, 1, 100, 1000]
-# n_components = [3,5,7,9,11,13]
+n_components = [5,7,10,12,13,14,15]
     
 # # Train XGBoost classifier
 # # DMatrix: a data structure that makes everything more efficient
@@ -99,13 +56,11 @@ print ("Shape of final train and test sets:", X_train_scaled.shape, X_test_scale
 # # # y_pred = bst.predict(dtest)
 # # bst
 
-# # ## PCA
-# # for n in n_components:
-# #     pca = PCA(n_components=n)
-# #     X_train = pca.fit_transform(X_train_scaled)
-# #     X_test = pca.transform(X_test_scaled)
-
-
+# ## PCA
+# for n in n_components:
+#     pca = PCA(n_components=n)
+#     X_train = pca.fit_transform(X_train_scaled)
+#     X_test = pca.transform(X_test_scaled)
 
 # # ## UMAP
 # # for n in n_components:
@@ -113,11 +68,11 @@ print ("Shape of final train and test sets:", X_train_scaled.shape, X_test_scale
 # #     X_train = umap.fit_transform(X_train_scaled)
 # #     X_test = umap.transform(X_test_scaled)
 
-# # # iCA
-# # for n in n_components:
-# #     ica = FastICA(n_components=n)
-# #     X_train = ica.fit_transform(X_train_scaled)
-# #     X_test = ica.transform(X_test_scaled)
+# iCA
+for n in n_components:
+    ica = FastICA(n_components=n)
+    X_train = ica.fit_transform(X_train_scaled)
+    X_test = ica.transform(X_test_scaled)
 
 # alpha=[0.007, 0.009, 0.015, 0.02, 0.04]
 # for a in alpha:
@@ -128,9 +83,9 @@ print ("Shape of final train and test sets:", X_train_scaled.shape, X_test_scale
 #     print("Shape of training set with alpha=", a, ":", X_train.shape)
 
  
-    colsample_bytree = [0.1, 0.3, 0.5 , 0.7 ]
-    ne = [10, 30, 50, 70, 100, 150, 200, 300] 
-    subsample = [0.3, 0.5, 0.7]
+    colsample_bytree = [0.3, 0.4, 0.5 , 0.6, 0.7, 0.8, 0.9]
+    ne = [10,20,30,35, 40, 45, 50, 60, 70, 100, 200 ] 
+    subsample = [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
 
     best_perf=0
     cm_tp=[[0,0],[0,0]]
@@ -143,7 +98,7 @@ print ("Shape of final train and test sets:", X_train_scaled.shape, X_test_scale
                     tree_method='gpu_hist',
                     learning_rate=0.3,
                     subsample=ss,
-                    gpu_id=1,
+                    gpu_id=0,
                     colsample_bytree=colsample,
                     n_estimators=n_estimator
                 )
@@ -156,13 +111,18 @@ print ("Shape of final train and test sets:", X_train_scaled.shape, X_test_scale
                 grid.fit(X_train, y_train_sampled)
     #             print("Mean score of precision of the best max_depth:", grid.best_score_)
     #             print()
-                print("Current score:", grid.best_score_)
+#                 print("Current score:", grid.best_score_)
                 cur_params = {
+                    "n_components": n,
                     "num_estmtr": n_estimator,
                     "col_ratio": colsample,
                     "subsample_ratio": ss,
                     "max_depth": grid.best_params_["max_depth"]
                 }
+                # log
+                f.write(str(cur_params))
+                f.write("\n")
+                
                 clf_sub = grid.best_estimator_
 #                 y_pred_tr = clf_sub.predict(X_train)
                 y_pred_te = clf_sub.predict(X_test)
@@ -185,17 +145,24 @@ print ("Shape of final train and test sets:", X_train_scaled.shape, X_test_scale
                 if cm_te[0][0] > cm_tp[0][0]:
                     cm_tp = cm_te
                     params_flag = cur_params
+#                     print(params_flag)
+                    f.write(str(cm_tp))
+                    f.write("\n")
                 elif cm_te[0][0] == cm_tp[0][0] and cm_te[1][1] > cm_tp[1][1]:
                     cm_tp = cm_te
                     params_flag = cur_params
-
+#                     print(params_flag)
+                    f.write(str(cm_tp))
+                    f.write("\n")
+                    
 
 #     print("XGBoost with n_compo=", n, ', num_estmtr=', tree_num_flag,',col_ratio=',col_ratio_flag,'subsample=',ss_flag,'has best performance of',best_perf, "with", best_param)
-#     print("For ICA n_compo=",n,",from confusion matrix of PPMI testing set, best params are:")
-    print("For FS alpha=",a,",from confusion matrix of PPMI testing set, best params are:")
-    print(params_flag)
-    print(cm_tp)
-    print()
+    f.write("For ICA n_compo="+str(n)+",from confusion matrix of PPMI testing set, best params are: \n")
+#     print("For FS alpha=",a,",from confusion matrix of PPMI testing set, best params are:")
+    f.write(str(params_flag))
+    f.write("\n")
+    f.write(str(cm_tp))
+    f.write("\n")
     
     #Use Testing set to check for overfitting
     clf = xgb.XGBClassifier(
@@ -204,21 +171,26 @@ print ("Shape of final train and test sets:", X_train_scaled.shape, X_test_scale
                 tree_method='gpu_hist',
                 learning_rate=0.3,
                 subsample=params_flag["subsample_ratio"],
-                gpu_id=1,
+                gpu_id=0,
                 colsample_bytree=params_flag["col_ratio"],
                 n_estimators=params_flag["num_estmtr"],
                 max_depth=params_flag["max_depth"]
             )
-    print(clf)
     clf.fit(X_train, y_train_sampled)
 
     y_pred_tr = clf.predict(X_train)
     y_pred_te = clf.predict(X_test)
     cm_tr = confusion_matrix(y_train_sampled, y_pred_tr)
     cm_te = confusion_matrix(y_test, y_pred_te)
-    print("Confusion matrix of PPMI training set:")
-    print(cm_tr)
-    print("Confusion matrix of PPMI testing set:")
-    print(cm_te)
-    print("precision of testing set:", precision_score(y_test, y_pred_te))
+    f.write("Confusion matrix of PPMI training set:\n")
+    f.write(str(cm_tr))
+    f.write("\n")
+    f.write("Confusion matrix of PPMI testing set:\n")
+    f.write(str(cm_te))
+    f.write("\n")
+    f.write("precision of testing set:"+str(precision_score(y_test, y_pred_te)))
+    print("Complete experiments for ", n, "components")
+
+    
+f.close()
    

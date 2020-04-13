@@ -119,6 +119,7 @@ for n in n_components:
                     "subsample_ratio": ss,
                     "max_depth": grid.best_params_["max_depth"]
                 }
+
                 # log
                 f.write(str(cur_params))
                 f.write("\n")

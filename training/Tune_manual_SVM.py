@@ -41,7 +41,7 @@ def set_Data(data):
 
     encoder = LabelEncoder()
     label = encoder.fit_transform(ppmi['Category'])
-
+    
     tr = ppmi.drop(['Category'], axis=1)
     X = tr.values
     y = label

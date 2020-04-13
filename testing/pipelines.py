@@ -14,6 +14,7 @@ Assert: dr can only be one of the following:
 - pca, ica, umap, fs
 Assert: clf can only be one of the following:
 - lr, svm, xgb
+Assert: the pipeline returned is already trained
 
 NO MLP OR VAE HERE
 
@@ -27,7 +28,7 @@ params = {
     "xgb":{"n":n, "h":h, "lr":lr, "s":s, "c":c}
 }
 '''
-def get_pipeline(dr_name, clf_name, params):
+def get_pipeline(dr_name, clf_name, params, X_train, y_train, gpu_id):
     if dr_name == "pca":
         dr = PCA(n_components=params["pca"]["n"])
     elif dr_name == "ica":
@@ -53,7 +54,7 @@ def get_pipeline(dr_name, clf_name, params):
                     tree_method='gpu_hist',
                     learning_rate=params["xgb"]["lr"],
                     subsample=params["xgb"]["s"],
-                    gpu_id=1,
+                    gpu_id=gpu_id,
                     colsample_bytree=params["xgb"]["c"],
                     n_estimators=params["xgb"]["n"],
                     max_depth=params["xgb"]["h"]
@@ -64,6 +65,7 @@ def get_pipeline(dr_name, clf_name, params):
     ("dr", dr),
     ("clf", clf)
 ])
+    pl.fit(X_train, y_train)
     return pl
         
         

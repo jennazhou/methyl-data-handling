@@ -33,10 +33,10 @@ X_train_scaled = np.load('../../datasets/preprocessed/npy_files/X_train_scaled.n
 X_test_scaled = np.load('../../datasets/preprocessed/npy_files/X_test_scaled.npy')
 print("Complete loading data")
 #------------------------------------------
-# f = open("pca_xgb_experiments_log","w")  
-# f = open("ica_xgb_experiments_log","a")  
-# f = open("umap_xgb_experiments_log","w")  
-f = open("fs_xgb_experiments_log","w")  
+# f = open("logs/xgb_logs/pca_xgb_experiments_log","w")  
+# f = open("logs/xgb_logs/ica_xgb_experiments_log","a")  
+f = open("logs/xgb_logs/umap_xgb_experiments_log","w")  
+# f = open("logs/xgb_logs/fs_xgb_experiments_log","w")  
 #--------------------------------------------
 
 print ("Shape of final train and test sets:", X_train_scaled.shape, X_test_scaled.shape)
@@ -62,15 +62,15 @@ n_components = [10,11,12,13,14,16,20]
 #     X_train = pca.fit_transform(X_train_scaled)
 #     X_test = pca.transform(X_test_scaled)
 
-# ## UMAP
-# n_neighbours = [3, 5, 10, 15, 20]
-# min_dist = [0.1, 0.25, 0.4, 0.5]
-# for n in n_components:
-#     for n_nei in n_neighbours:
-#         for d in min_dist:
-#             umap = UMAP(n_neighbors=n_nei, min_dist=d, n_components=n)
-#             X_train = umap.fit_transform(X_train_scaled)
-#             X_test = umap.transform(X_test_scaled)
+## UMAP
+n_neighbours = [10, 15, 20]
+min_dist = [0.1, 0.25, 0.4, 0.5]
+for n in n_components:
+    for n_nei in n_neighbours:
+        for d in min_dist:
+            umap = UMAP(n_neighbors=n_nei, min_dist=d, n_components=n)
+            X_train = umap.fit_transform(X_train_scaled)
+            X_test = umap.transform(X_test_scaled)
 
 # # iCA
 # for n in n_components:
@@ -78,94 +78,94 @@ n_components = [10,11,12,13,14,16,20]
 #     X_train = ica.fit_transform(X_train_scaled)
 #     X_test = ica.transform(X_test_scaled)
 
-alpha=[0.001, 0.01, 0.05, 0.08, 0.1, 0.15, 0.18]
-for a in alpha:
-    sel_ = SelectFromModel(Lasso(alpha=a, tol=0.01, random_state=42))
-    X_train = sel_.fit_transform(X_train_scaled, y_train_sampled)
-    X_test = sel_.transform(X_test_scaled)
-    print("Shape of training set with alpha=", a, ":", X_train.shape)
-
- 
-    colsample_bytree = [0.3, 0.4, 0.5, 0.7, 0.8]
-    ne = [10, 20, 30, 40, 70, 100 ] 
-    subsample = [0.3, 0.4, 0.5, 0.7, 0.8]
-
-    best_perf=0
-    cm_tp=[[0,0],[0,0]]
-    for n_estimator in ne:
-        for colsample in colsample_bytree:
-            for ss in subsample:
-                xgb_clf = xgb.XGBClassifier(
-                    objective='binary:logistic', 
-                    seed=42, 
-                    tree_method='gpu_hist',
-                    learning_rate=0.3,
-                    subsample=ss,
-                    gpu_id=1,
-                    colsample_bytree=colsample,
-                    n_estimators=n_estimator
-                )
-
-                param_grid = {
-                    "max_depth": [2,3,4]
-                   }
-
-                grid = GridSearchCV(xgb_clf, param_grid=param_grid, scoring="precision", cv=StratifiedKFold(n_splits=3, shuffle=True, random_state=42), verbose=0)
-                grid.fit(X_train, y_train_sampled)
-    #             print("Mean score of precision of the best max_depth:", grid.best_score_)
-    #             print()
-#                 print("Current score:", grid.best_score_)
-                cur_params = {
-#                     "n_neighbours":n_nei,
-#                     "min_dist":d,
-#                     "n_components": n,
-                    "lasso_a":a,
-                    "num_estmtr": n_estimator,
-                    "col_ratio": colsample,
-                    "subsample_ratio": ss,
-                    "max_depth": grid.best_params_["max_depth"]
-                }
-
-                # log
-                f.write(str(cur_params))
-                f.write("\n")
-
-                clf_sub = grid.best_estimator_
-#                 y_pred_tr = clf_sub.predict(X_train)
-                y_pred_te = clf_sub.predict(X_test)
-#                 cm_tr = confusion_matrix(y_train_sampled, y_pred_tr)
-                cm_te = confusion_matrix(y_test, y_pred_te)
-#                 print("Confusion matrix of PPMI training set:")
-#                 print(cm_tr)
-#                 if cm_te[0][0] >= 10:
-#                     print("Confusion matrix of PPMI testing set:")
-#                     print(cm_te)
-#                     print("precision of testing set:", precision_score(y_test, y_pred_te))
-#                     print(cur_params)
-#                     print()
-#                 if grid.best_score_ > best_perf:
-#                     best_perf = grid.best_score_
-#                     best_param = grid.best_params_
-#                     tree_num_flag = n_estimator
-#                     col_ratio_flag = colsample
-#                     ss_flag = ss
-                if cm_te[0][0] > cm_tp[0][0]:
-                    cm_tp = cm_te
-                    params_flag = cur_params
-#                     print(params_flag)
-                    f.write(str(cm_tp))
-                    f.write("\n")
-                elif cm_te[0][0] == cm_tp[0][0] and cm_te[1][1] > cm_tp[1][1]:
-                    cm_tp = cm_te
-                    params_flag = cur_params
-#                     print(params_flag)
-                    f.write(str(cm_tp))
-                    f.write("\n")
-                    
+# alpha=[0.001, 0.01, 0.05, 0.08, 0.1, 0.15, 0.18]
+# for a in alpha:
+#     sel_ = SelectFromModel(Lasso(alpha=a, tol=0.01, random_state=42))
+#     X_train = sel_.fit_transform(X_train_scaled, y_train_sampled)
+#     X_test = sel_.transform(X_test_scaled)
+#     print("Shape of training set with alpha=", a, ":", X_train.shape)
 
 
-#     f.write("For UMAP n_compo="+str(n)+",from confusion matrix of PPMI testing set, best params are: \n")
-    f.write("For FS alpha="+str(a)+",from confusion matrix of PPMI testing set, best params are:")
+            colsample_bytree = [0.3, 0.4, 0.5, 0.7, 0.8]
+            ne = [10, 20, 30, 40, 70, 100 ] 
+            subsample = [0.3, 0.4, 0.5, 0.7, 0.8]
+
+            best_perf=0
+            cm_tp=[[0,0],[0,0]]
+            for n_estimator in ne:
+                for colsample in colsample_bytree:
+                    for ss in subsample:
+                        xgb_clf = xgb.XGBClassifier(
+                            objective='binary:logistic', 
+                            seed=42, 
+                            tree_method='gpu_hist',
+                            learning_rate=0.3,
+                            subsample=ss,
+                            gpu_id=2,
+                            colsample_bytree=colsample,
+                            n_estimators=n_estimator
+                        )
+
+                        param_grid = {
+                            "max_depth": [2,3,4]
+                           }
+
+                        grid = GridSearchCV(xgb_clf, param_grid=param_grid, scoring="precision", cv=StratifiedKFold(n_splits=3, shuffle=True, random_state=42), verbose=0)
+                        grid.fit(X_train, y_train_sampled)
+            #             print("Mean score of precision of the best max_depth:", grid.best_score_)
+            #             print()
+        #                 print("Current score:", grid.best_score_)
+                        cur_params = {
+                            "n_neighbours":n_nei,
+                            "min_dist":d,
+                            "n_components": n,
+#                             "lasso_a":a,
+                            "num_estmtr": n_estimator,
+                            "col_ratio": colsample,
+                            "subsample_ratio": ss,
+                            "max_depth": grid.best_params_["max_depth"]
+                        }
+
+                        # log
+                        f.write(str(cur_params))
+                        f.write("\n")
+
+                        clf_sub = grid.best_estimator_
+        #                 y_pred_tr = clf_sub.predict(X_train)
+                        y_pred_te = clf_sub.predict(X_test)
+        #                 cm_tr = confusion_matrix(y_train_sampled, y_pred_tr)
+                        cm_te = confusion_matrix(y_test, y_pred_te)
+        #                 print("Confusion matrix of PPMI training set:")
+        #                 print(cm_tr)
+        #                 if cm_te[0][0] >= 10:
+        #                     print("Confusion matrix of PPMI testing set:")
+        #                     print(cm_te)
+        #                     print("precision of testing set:", precision_score(y_test, y_pred_te))
+        #                     print(cur_params)
+        #                     print()
+        #                 if grid.best_score_ > best_perf:
+        #                     best_perf = grid.best_score_
+        #                     best_param = grid.best_params_
+        #                     tree_num_flag = n_estimator
+        #                     col_ratio_flag = colsample
+        #                     ss_flag = ss
+                        if cm_te[0][0] > cm_tp[0][0]:
+                            cm_tp = cm_te
+                            params_flag = cur_params
+        #                     print(params_flag)
+                            f.write(str(cm_tp))
+                            f.write("\n")
+                        elif cm_te[0][0] == cm_tp[0][0] and cm_te[1][1] > cm_tp[1][1]:
+                            cm_tp = cm_te
+                            params_flag = cur_params
+        #                     print(params_flag)
+                            f.write(str(cm_tp))
+                            f.write("\n")
+
+
+
+    f.write("For UMAP n_compo="+str(n)+",from confusion matrix of PPMI testing set, best params are: \n")
+#     f.write("For FS alpha="+str(a)+",from confusion matrix of PPMI testing set, best params are:")
     f.write(str(params_flag))
     f.write("\n")
     f.write(str(cm_tp))
@@ -196,8 +196,8 @@ for a in alpha:
     f.write(str(cm_te))
     f.write("\n")
     f.write("precision of testing set:"+str(precision_score(y_test, y_pred_te)))
-#     print("Complete experiments for ", n, "components")
-    print("Complete experiments for lasso_alpha=", a)
+    print("Complete experiments for ", n, "components")
+#     print("Complete experiments for lasso_alpha=", a)
 
     
 f.close()

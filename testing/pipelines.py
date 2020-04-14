@@ -18,16 +18,43 @@ Assert: the pipeline returned is already trained
 
 NO MLP OR VAE HERE
 
-params = {
-    "pca": {"n":n},
-    "ica": {"n":n},
-    "umap":{"n_neighbours":k, "min_dist":md, "n":n},
-    "fs":{"a":a},
-    "lr":{"C":C, "reg":reg},
-    "svm:"{"kernel", kernel, "C":C, "gamma":gamma, "coef0":c, "degree":d},
-    "xgb":{"n":n, "h":h, "lr":lr, "s":s, "c":c}
+input_params = {
+    "dr_clf_dr1": {"n":n},
+    "dr_clf_dr2": {"n":n},
+    ...
+    "dr_clf_clf1": #one of the following#,
+        "umap":{"n_neighbours":k, "min_dist":md, "n":n},
+        "fs":{"a":a},
+        "lr":{"C":C, "reg":reg},
+        "svm:"{"kernel", kernel, "C":C, "gamma":gamma, "coef0":c, "degree":d},
+        "xgb":{"n":n, "h":h, "lr":lr, "s":s, "c":c}
+        
+    "dr_clf_clf2":{...}
+    ...
+}
+
+local_params = {
+    "pca":{},
+    "ica":{},
+    "umap":{},
+    "fs":{},
+    "lr":{},
+    "svm":{},
+    "xgb":{}
 }
 '''
+def get_5pipelines(dr_name, clf_name, params, X_train, y_train, gpu_id):
+    re_clf_dict = {}
+    for i in range(0):
+        cur_params = {
+            dr_name:params[dr_name+"_"+clf_name+"_dr"+str(i+1)],
+            clf_name:params[dr_name+"_"+clf_name+"_clf"+str(i+1)],
+        }
+        re_clf_dict[i] = get_pipeline(dr_name, clf_name, cur_params, X_train, y_train, gpu_id)
+    
+    return re_clf_dict
+        
+        
 def get_pipeline(dr_name, clf_name, params, X_train, y_train, gpu_id):
     if dr_name == "pca":
         dr = PCA(n_components=params["pca"]["n"])

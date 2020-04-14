@@ -1,0 +1,2321 @@
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 0.5, 'C': 100}
+The temp confmatx of testing set has been updated to:
+[[ 1 25]
+ [ 3 59]]
+
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 1, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 1, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 1, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 1, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 1, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 1, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 0.5, 'C': 1}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 1, 'C': 1}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 3, 'C': 1}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 5, 'C': 1}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 7, 'C': 1}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 10, 'C': 1}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 3, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 3, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 3, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 3, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 3, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'rbf', 'gamma': 3, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 100}
+The temp confmatx of testing set has been updated to:
+[[ 6 20]
+ [ 5 57]]
+
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 3, 'C': 1}
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 5, 'C': 0.1}
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 7, 'C': 0.1}
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 10, 'C': 0.1}
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 0.5, 'C': 0.01}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [20 42]]
+precision of testing set:0.7368421052631579
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [20 42]]
+
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 1, 'C': 0.1}
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 3, 'C': 0.01}
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 5, 'C': 0.01}
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 7, 'C': 0.01}
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 10, 'C': 0.01}
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[19  7]
+ [46 16]]
+precision of testing set:0.6956521739130435
+The temp confmatx of testing set has been updated to:
+[[19  7]
+ [46 16]]
+
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [43 19]]
+precision of testing set:0.7037037037037037
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[16 10]
+ [37 25]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [33 29]]
+precision of testing set:0.6904761904761905
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [29 33]]
+precision of testing set:0.7021276595744681
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 10, 'C': 0.001}
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 1, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [48 14]]
+precision of testing set:0.7
+The temp confmatx of testing set has been updated to:
+[[20  6]
+ [48 14]]
+
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 1, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [48 14]]
+precision of testing set:0.7
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 1, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [48 14]]
+precision of testing set:0.7
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 1, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [48 14]]
+precision of testing set:0.7
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 1, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [48 14]]
+precision of testing set:0.7
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 1, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [47 15]]
+precision of testing set:0.7142857142857143
+The temp confmatx of testing set has been updated to:
+[[20  6]
+ [47 15]]
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [48 14]]
+precision of testing set:0.7
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [48 14]]
+precision of testing set:0.7
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [48 14]]
+precision of testing set:0.7
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [48 14]]
+precision of testing set:0.7
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [48 14]]
+precision of testing set:0.7
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [48 14]]
+precision of testing set:0.7
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 3, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [48 14]]
+precision of testing set:0.7
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 3, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [48 14]]
+precision of testing set:0.7
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 3, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [48 14]]
+precision of testing set:0.7
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 3, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [48 14]]
+precision of testing set:0.7
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 3, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [48 14]]
+precision of testing set:0.7
+{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 3, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [48 14]]
+precision of testing set:0.7
+For FS alpha=0.0001,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.0001, 'kernel': 'poly', 'gamma': 1, 'coef0': 10, 'C': 0.001}
+[[20  6]
+ [47 15]]
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 0.5, 'C': 1}
+The temp confmatx of testing set has been updated to:
+[[ 5 21]
+ [ 4 58]]
+
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 1, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 3, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 5, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 7, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 10, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 0.5, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 1, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 3, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 5, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 7, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 10, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 1, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 1, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 1, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 1, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 1, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 1, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 3, 'coef0': 0.5, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 3, 'coef0': 1, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 3, 'coef0': 3, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 3, 'coef0': 5, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 3, 'coef0': 7, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'rbf', 'gamma': 3, 'coef0': 10, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 1, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 3, 'C': 0.1}
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 5, 'C': 0.1}
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 7, 'C': 0.01}
+The temp confmatx of testing set has been updated to:
+[[ 5 21]
+ [ 2 60]]
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 10, 'C': 0.01}
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 0.5, 'C': 1}
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 1, 'C': 0.1}
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 3, 'C': 0.01}
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 5, 'C': 0.01}
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 7, 'C': 0.001}
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 10, 'C': 0.001}
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 0.5, 'C': 0.01}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [16 46]]
+
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 1, 'C': 0.01}
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 3, 'C': 0.001}
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 5, 'C': 0.001}
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 7, 'C': 0.001}
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 10, 'C': 0.001}
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 1, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [45 17]]
+precision of testing set:0.68
+The temp confmatx of testing set has been updated to:
+[[18  8]
+ [45 17]]
+
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 1, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [45 17]]
+precision of testing set:0.68
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 1, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [45 17]]
+precision of testing set:0.68
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 1, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [43 19]]
+precision of testing set:0.7037037037037037
+The temp confmatx of testing set has been updated to:
+[[18  8]
+ [43 19]]
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 1, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [43 19]]
+precision of testing set:0.7037037037037037
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 1, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [42 20]]
+precision of testing set:0.7142857142857143
+The temp confmatx of testing set has been updated to:
+[[18  8]
+ [42 20]]
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [45 17]]
+precision of testing set:0.68
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [45 17]]
+precision of testing set:0.68
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [45 17]]
+precision of testing set:0.68
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [45 17]]
+precision of testing set:0.68
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [43 19]]
+precision of testing set:0.7037037037037037
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [43 19]]
+precision of testing set:0.7037037037037037
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 3, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [45 17]]
+precision of testing set:0.68
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 3, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [45 17]]
+precision of testing set:0.68
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 3, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [45 17]]
+precision of testing set:0.68
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 3, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [45 17]]
+precision of testing set:0.68
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 3, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [45 17]]
+precision of testing set:0.68
+{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 3, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [45 17]]
+precision of testing set:0.68
+For FS alpha=0.001,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.001, 'kernel': 'poly', 'gamma': 1, 'coef0': 10, 'C': 0.001}
+[[18  8]
+ [42 20]]
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 0.5, 'C': 1}
+The temp confmatx of testing set has been updated to:
+[[ 7 19]
+ [ 8 54]]
+
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 1, 'C': 1}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 3, 'C': 1}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 5, 'C': 1}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 7, 'C': 1}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 10, 'C': 1}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 0.5, 'C': 1}
+The temp confmatx of testing set has been updated to:
+[[ 7 19]
+ [ 6 56]]
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 1, 'C': 1}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 3, 'C': 1}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 5, 'C': 1}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 7, 'C': 1}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 10, 'C': 1}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 1, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 1, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 1, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 1, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 1, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 1, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 3, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 3, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 3, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 3, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 3, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'rbf', 'gamma': 3, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 100}
+The temp confmatx of testing set has been updated to:
+[[ 8 18]
+ [ 6 56]]
+
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 1, 'C': 1}
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 3, 'C': 0.1}
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 5, 'C': 0.1}
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 7, 'C': 0.1}
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 10, 'C': 0.01}
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 0.5, 'C': 0.1}
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 1, 'C': 0.1}
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 3, 'C': 0.01}
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 5, 'C': 0.01}
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 7, 'C': 0.001}
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 10, 'C': 0.001}
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 0.5, 'C': 0.01}
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 1, 'C': 0.01}
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 3, 'C': 0.001}
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 5, 'C': 0.001}
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 7, 'C': 0.001}
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 10, 'C': 0.001}
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 1, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [37 25]]
+precision of testing set:0.6756756756756757
+The temp confmatx of testing set has been updated to:
+[[14 12]
+ [37 25]]
+
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 1, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [37 25]]
+precision of testing set:0.6578947368421053
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 1, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [36 26]]
+precision of testing set:0.6666666666666666
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 1, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [36 26]]
+precision of testing set:0.6666666666666666
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 1, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [32 30]]
+precision of testing set:0.6666666666666666
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 1, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [31 31]]
+precision of testing set:0.6739130434782609
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [37 25]]
+precision of testing set:0.6756756756756757
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [37 25]]
+precision of testing set:0.6756756756756757
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [36 26]]
+precision of testing set:0.6666666666666666
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [36 26]]
+precision of testing set:0.6666666666666666
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [36 26]]
+precision of testing set:0.6666666666666666
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [33 29]]
+precision of testing set:0.6744186046511628
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 3, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [37 25]]
+precision of testing set:0.6756756756756757
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 3, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [37 25]]
+precision of testing set:0.6756756756756757
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 3, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [37 25]]
+precision of testing set:0.6578947368421053
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 3, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [36 26]]
+precision of testing set:0.6666666666666666
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 3, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [36 26]]
+precision of testing set:0.6666666666666666
+{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 3, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [36 26]]
+precision of testing set:0.6666666666666666
+For FS alpha=0.01,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.01, 'kernel': 'poly', 'gamma': 1, 'coef0': 0.5, 'C': 0.001}
+[[14 12]
+ [37 25]]
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 0.5, 'C': 100}
+The temp confmatx of testing set has been updated to:
+[[ 8 18]
+ [ 9 53]]
+
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 0.5, 'C': 1}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 1, 'C': 1}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 3, 'C': 1}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 5, 'C': 1}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 7, 'C': 1}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 10, 'C': 1}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 0.5, 'C': 1}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 1, 'C': 1}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 3, 'C': 1}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 5, 'C': 1}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 7, 'C': 1}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 10, 'C': 1}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 1, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 1, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 1, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 1, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 1, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 1, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 3, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 3, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 3, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 3, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 3, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'rbf', 'gamma': 3, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 1, 'C': 100}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [ 9 53]]
+
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 3, 'C': 1}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 5, 'C': 1}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 7, 'C': 0.1}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 10, 'C': 0.1}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 1, 'C': 1}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 3, 'C': 0.1}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 5, 'C': 0.1}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 7, 'C': 0.01}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 10, 'C': 0.01}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 0.5, 'C': 1}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 1, 'C': 1}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 3, 'C': 0.01}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 5, 'C': 0.01}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 7, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 10, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 1, 'coef0': 0.5, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 1, 'coef0': 1, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 1, 'coef0': 3, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 1, 'coef0': 5, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 1, 'coef0': 7, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 1, 'coef0': 10, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 0.5, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 1, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 3, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 5, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 7, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 10, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 3, 'coef0': 0.5, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 3, 'coef0': 1, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 3, 'coef0': 3, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 3, 'coef0': 5, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 3, 'coef0': 7, 'C': 0.001}
+{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 3, 'coef0': 10, 'C': 0.001}
+For FS alpha=0.05,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.05, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 1, 'C': 100}
+[[ 9 17]
+ [ 9 53]]
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 0.5, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[237  10]
+ [  1 246]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]]
+precision of testing set:0.765625
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [13 49]]
+
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 1, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[237  10]
+ [  1 246]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]]
+precision of testing set:0.765625
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 3, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[237  10]
+ [  1 246]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]]
+precision of testing set:0.765625
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 5, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[237  10]
+ [  1 246]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]]
+precision of testing set:0.765625
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 7, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[237  10]
+ [  1 246]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]]
+precision of testing set:0.765625
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 10, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[237  10]
+ [  1 246]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]]
+precision of testing set:0.765625
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 1, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 1, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 1, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 1, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 1, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 1, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 0.5, 'C': 1}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 1, 'C': 1}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 3, 'C': 1}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 5, 'C': 1}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 7, 'C': 1}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 10, 'C': 1}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 3, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 3, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 3, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 3, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 3, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'rbf', 'gamma': 3, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[237  10]
+ [  3 244]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]]
+precision of testing set:0.765625
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 1, 'C': 100}
+Confusion matrix of PPMI training set:
+[[235  12]
+ [  4 243]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]]
+precision of testing set:0.765625
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 3, 'C': 100}
+Confusion matrix of PPMI training set:
+[[238   9]
+ [  2 245]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]]
+precision of testing set:0.765625
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 5, 'C': 1000}
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 7, 'C': 0.1}
+Confusion matrix of PPMI training set:
+[[231  16]
+ [ 11 236]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [11 51]]
+precision of testing set:0.7611940298507462
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 10, 'C': 1}
+Confusion matrix of PPMI training set:
+[[235  12]
+ [  4 243]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]]
+precision of testing set:0.765625
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 1, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]]
+precision of testing set:0.765625
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 3, 'C': 100}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [12 50]]
+precision of testing set:0.7575757575757576
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 5, 'C': 1}
+Confusion matrix of PPMI training set:
+[[238   9]
+ [  3 244]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]]
+precision of testing set:0.765625
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 7, 'C': 1}
+Confusion matrix of PPMI training set:
+[[239   8]
+ [  5 242]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [14 48]]
+precision of testing set:0.7619047619047619
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 10, 'C': 0.1}
+Confusion matrix of PPMI training set:
+[[235  12]
+ [  4 243]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]]
+precision of testing set:0.765625
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 3, 'C': 0.1}
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 5, 'C': 0.1}
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 7, 'C': 1}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]]
+precision of testing set:0.765625
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 10, 'C': 0.01}
+Confusion matrix of PPMI training set:
+[[237  10]
+ [  3 244]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [12 50]]
+precision of testing set:0.7692307692307693
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [12 50]]
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 1, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [20 42]]
+precision of testing set:0.7368421052631579
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 1, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [18 44]]
+precision of testing set:0.7457627118644068
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 1, 'coef0': 3, 'C': 0.001}
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 1, 'coef0': 5, 'C': 0.001}
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 1, 'coef0': 7, 'C': 0.001}
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 1, 'coef0': 10, 'C': 0.001}
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [20 42]]
+precision of testing set:0.7368421052631579
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [19 43]]
+precision of testing set:0.7413793103448276
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [16 46]]
+precision of testing set:0.7419354838709677
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 5, 'C': 0.001}
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 7, 'C': 0.001}
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 10, 'C': 0.001}
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 3, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [20 42]]
+precision of testing set:0.7368421052631579
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 3, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [20 42]]
+precision of testing set:0.7368421052631579
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 3, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [18 44]]
+precision of testing set:0.7457627118644068
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 3, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [16 46]]
+precision of testing set:0.7540983606557377
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 3, 'coef0': 7, 'C': 0.001}
+{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 3, 'coef0': 10, 'C': 0.001}
+For FS alpha=0.08,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.08, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 10, 'C': 0.01}
+[[11 15]
+ [12 50]]
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 0.5, 'C': 100}
+Confusion matrix of PPMI training set:
+[[220  27]
+ [ 40 207]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [16 46]]
+precision of testing set:0.7419354838709677
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [16 46]]
+
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 1, 'C': 100}
+Confusion matrix of PPMI training set:
+[[220  27]
+ [ 40 207]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [16 46]]
+precision of testing set:0.7419354838709677
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 3, 'C': 100}
+Confusion matrix of PPMI training set:
+[[220  27]
+ [ 40 207]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [16 46]]
+precision of testing set:0.7419354838709677
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 5, 'C': 100}
+Confusion matrix of PPMI training set:
+[[220  27]
+ [ 40 207]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [16 46]]
+precision of testing set:0.7419354838709677
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 7, 'C': 100}
+Confusion matrix of PPMI training set:
+[[220  27]
+ [ 40 207]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [16 46]]
+precision of testing set:0.7419354838709677
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 10, 'C': 100}
+Confusion matrix of PPMI training set:
+[[220  27]
+ [ 40 207]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [16 46]]
+precision of testing set:0.7419354838709677
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 0.5, 'C': 100}
+Confusion matrix of PPMI training set:
+[[224  23]
+ [ 28 219]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [16 46]]
+precision of testing set:0.7419354838709677
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 1, 'C': 100}
+Confusion matrix of PPMI training set:
+[[224  23]
+ [ 28 219]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [16 46]]
+precision of testing set:0.7419354838709677
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 3, 'C': 100}
+Confusion matrix of PPMI training set:
+[[224  23]
+ [ 28 219]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [16 46]]
+precision of testing set:0.7419354838709677
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 5, 'C': 100}
+Confusion matrix of PPMI training set:
+[[224  23]
+ [ 28 219]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [16 46]]
+precision of testing set:0.7419354838709677
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 7, 'C': 100}
+Confusion matrix of PPMI training set:
+[[224  23]
+ [ 28 219]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [16 46]]
+precision of testing set:0.7419354838709677
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 10, 'C': 100}
+Confusion matrix of PPMI training set:
+[[224  23]
+ [ 28 219]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [16 46]]
+precision of testing set:0.7419354838709677
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 0.5, 'C': 1000}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 1, 'C': 1000}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 3, 'C': 1000}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 5, 'C': 1000}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 7, 'C': 1000}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 10, 'C': 1000}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 1, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 1, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 1, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 1, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 1, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 1, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 3, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 3, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 3, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 3, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 3, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.1, 'kernel': 'rbf', 'gamma': 3, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[220  27]
+ [ 36 211]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [17 45]]
+precision of testing set:0.75
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [17 45]]
+
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 1, 'C': 100}
+Confusion matrix of PPMI training set:
+[[218  29]
+ [ 37 210]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [16 46]]
+precision of testing set:0.7540983606557377
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [16 46]]
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 3, 'C': 1}
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 5, 'C': 1}
+Confusion matrix of PPMI training set:
+[[218  29]
+ [ 37 210]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [17 45]]
+precision of testing set:0.7377049180327869
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 7, 'C': 1}
+Confusion matrix of PPMI training set:
+[[220  27]
+ [ 40 207]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [16 46]]
+precision of testing set:0.7419354838709677
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 10, 'C': 1}
+Confusion matrix of PPMI training set:
+[[218  29]
+ [ 36 211]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [16 46]]
+precision of testing set:0.7540983606557377
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 0.5, 'C': 100}
+Confusion matrix of PPMI training set:
+[[224  23]
+ [ 31 216]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [17 45]]
+precision of testing set:0.75
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 1, 'C': 1000}
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 3, 'C': 1}
+Confusion matrix of PPMI training set:
+[[220  27]
+ [ 38 209]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [16 46]]
+precision of testing set:0.7540983606557377
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 5, 'C': 1}
+Confusion matrix of PPMI training set:
+[[220  27]
+ [ 36 211]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [17 45]]
+precision of testing set:0.75
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 7, 'C': 0.1}
+Confusion matrix of PPMI training set:
+[[220  27]
+ [ 39 208]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [17 45]]
+precision of testing set:0.7377049180327869
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 10, 'C': 0.1}
+Confusion matrix of PPMI training set:
+[[218  29]
+ [ 36 211]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [16 46]]
+precision of testing set:0.7540983606557377
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 0.5, 'C': 100}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [14 48]]
+precision of testing set:0.75
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 1, 'C': 100}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [15 47]]
+precision of testing set:0.746031746031746
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 3, 'C': 100}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [15 47]]
+precision of testing set:0.746031746031746
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 5, 'C': 100}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [15 47]]
+precision of testing set:0.746031746031746
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 7, 'C': 100}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [14 48]]
+precision of testing set:0.75
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 10, 'C': 100}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [14 48]]
+precision of testing set:0.75
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 1, 'coef0': 0.5, 'C': 0.01}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [23 39]]
+precision of testing set:0.75
+The temp confmatx of testing set has been updated to:
+[[13 13]
+ [23 39]]
+
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 1, 'coef0': 1, 'C': 0.01}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [20 42]]
+precision of testing set:0.7368421052631579
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 1, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [17 45]]
+precision of testing set:0.7377049180327869
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 1, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [17 45]]
+precision of testing set:0.7377049180327869
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 1, 'coef0': 7, 'C': 0.001}
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 1, 'coef0': 10, 'C': 0.001}
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [24 38]]
+precision of testing set:0.7450980392156863
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [22 40]]
+precision of testing set:0.7407407407407407
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [20 42]]
+precision of testing set:0.7241379310344828
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [18 44]]
+precision of testing set:0.7333333333333333
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [17 45]]
+precision of testing set:0.7377049180327869
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [15 47]]
+precision of testing set:0.746031746031746
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 3, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [25 37]]
+precision of testing set:0.74
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 3, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [24 38]]
+precision of testing set:0.7450980392156863
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 3, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [20 42]]
+precision of testing set:0.7368421052631579
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 3, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [20 42]]
+precision of testing set:0.7241379310344828
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 3, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [20 42]]
+precision of testing set:0.7241379310344828
+{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 3, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [18 44]]
+precision of testing set:0.7333333333333333
+For FS alpha=0.1,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.1, 'kernel': 'poly', 'gamma': 1, 'coef0': 0.5, 'C': 0.01}
+[[13 13]
+ [23 39]]
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 0.5, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[199  48]
+ [ 51 196]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [27 35]]
+precision of testing set:0.7142857142857143
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [27 35]]
+
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 1, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[199  48]
+ [ 51 196]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [27 35]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 3, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[199  48]
+ [ 51 196]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [27 35]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 5, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[199  48]
+ [ 51 196]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [27 35]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 7, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[199  48]
+ [ 51 196]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [27 35]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 10, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[199  48]
+ [ 51 196]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [27 35]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 0.5, 'C': 100}
+Confusion matrix of PPMI training set:
+[[200  47]
+ [ 48 199]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [27 35]]
+precision of testing set:0.7446808510638298
+The temp confmatx of testing set has been updated to:
+[[14 12]
+ [27 35]]
+
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 1, 'C': 100}
+Confusion matrix of PPMI training set:
+[[200  47]
+ [ 48 199]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [27 35]]
+precision of testing set:0.7446808510638298
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 3, 'C': 100}
+Confusion matrix of PPMI training set:
+[[200  47]
+ [ 48 199]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [27 35]]
+precision of testing set:0.7446808510638298
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 5, 'C': 100}
+Confusion matrix of PPMI training set:
+[[200  47]
+ [ 48 199]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [27 35]]
+precision of testing set:0.7446808510638298
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 7, 'C': 100}
+Confusion matrix of PPMI training set:
+[[200  47]
+ [ 48 199]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [27 35]]
+precision of testing set:0.7446808510638298
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 10, 'C': 100}
+Confusion matrix of PPMI training set:
+[[200  47]
+ [ 48 199]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [27 35]]
+precision of testing set:0.7446808510638298
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 1, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 1, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 1, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 1, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 1, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 1, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 3, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 3, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 3, 'coef0': 3, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 3, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 3, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 3, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[198  49]
+ [ 51 196]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [27 35]]
+precision of testing set:0.7
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 1, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[201  46]
+ [ 50 197]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [27 35]]
+precision of testing set:0.7291666666666666
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 3, 'C': 100}
+Confusion matrix of PPMI training set:
+[[202  45]
+ [ 51 196]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [27 35]]
+precision of testing set:0.7291666666666666
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 5, 'C': 100}
+Confusion matrix of PPMI training set:
+[[200  47]
+ [ 52 195]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [27 35]]
+precision of testing set:0.7291666666666666
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 7, 'C': 100}
+Confusion matrix of PPMI training set:
+[[202  45]
+ [ 51 196]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [27 35]]
+precision of testing set:0.7291666666666666
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 10, 'C': 1}
+Confusion matrix of PPMI training set:
+[[197  50]
+ [ 48 199]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [26 36]]
+precision of testing set:0.72
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 0.5, 'C': 100}
+Confusion matrix of PPMI training set:
+[[199  48]
+ [ 46 201]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [27 35]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 1, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[206  41]
+ [ 29 218]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [25 37]]
+precision of testing set:0.7254901960784313
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 3, 'C': 100}
+Confusion matrix of PPMI training set:
+[[198  49]
+ [ 39 208]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [26 36]]
+precision of testing set:0.72
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 5, 'C': 1}
+Confusion matrix of PPMI training set:
+[[198  49]
+ [ 51 196]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [27 35]]
+precision of testing set:0.7
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 7, 'C': 1}
+Confusion matrix of PPMI training set:
+[[201  46]
+ [ 51 196]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [27 35]]
+precision of testing set:0.7291666666666666
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 10, 'C': 1}
+Confusion matrix of PPMI training set:
+[[201  46]
+ [ 50 197]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [27 35]]
+precision of testing set:0.7291666666666666
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 0.5, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 1, 'C': 100}
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 3, 'C': 1}
+Confusion matrix of PPMI training set:
+[[200  47]
+ [ 41 206]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [26 36]]
+precision of testing set:0.7346938775510204
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 5, 'C': 0.1}
+Confusion matrix of PPMI training set:
+[[199  48]
+ [ 47 200]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [27 35]]
+precision of testing set:0.7
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 7, 'C': 1}
+Confusion matrix of PPMI training set:
+[[203  44]
+ [ 36 211]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [26 36]]
+precision of testing set:0.7346938775510204
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 10, 'C': 1}
+Confusion matrix of PPMI training set:
+[[210  37]
+ [ 32 215]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [24 38]]
+precision of testing set:0.7307692307692307
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 1, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[241   6]
+ [ 17 230]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [28 34]]
+precision of testing set:0.68
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 1, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[241   6]
+ [ 15 232]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [25 37]]
+precision of testing set:0.7254901960784313
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 1, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[240   7]
+ [ 14 233]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [23 39]]
+precision of testing set:0.7222222222222222
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 1, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[239   8]
+ [ 11 236]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 1, 'coef0': 7, 'C': 0.001}
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 1, 'coef0': 10, 'C': 0.001}
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[244   3]
+ [  9 238]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [31 31]]
+precision of testing set:0.6739130434782609
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[245   2]
+ [  9 238]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [27 35]]
+precision of testing set:0.7
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[245   2]
+ [  7 240]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [23 39]]
+precision of testing set:0.7222222222222222
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[245   2]
+ [  6 241]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 7, 'C': 0.001}
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 10, 'C': 0.001}
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 3, 'coef0': 0.5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [32 30]]
+precision of testing set:0.6666666666666666
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 3, 'coef0': 1, 'C': 0.01}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [28 34]]
+precision of testing set:0.7083333333333334
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 3, 'coef0': 3, 'C': 0.01}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [25 37]]
+precision of testing set:0.6981132075471698
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 3, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [23 39]]
+precision of testing set:0.7090909090909091
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 3, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [23 39]]
+precision of testing set:0.7090909090909091
+{'lasso_a': 0.12, 'kernel': 'poly', 'gamma': 3, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [21 41]]
+precision of testing set:0.7192982456140351
+For FS alpha=0.12,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.12, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 0.5, 'C': 100}
+[[14 12]
+ [27 35]]
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 0.5, 'C': 1000}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [22 40]]
+
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 1, 'C': 1000}
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 3, 'C': 1000}
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 5, 'C': 1000}
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 7, 'C': 1000}
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 0.0001, 'coef0': 10, 'C': 1000}
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 0.5, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[171  76]
+ [ 96 151]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [27 35]]
+precision of testing set:0.7142857142857143
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [27 35]]
+
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 1, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[171  76]
+ [ 96 151]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [27 35]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 3, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[171  76]
+ [ 96 151]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [27 35]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 5, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[171  76]
+ [ 96 151]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [27 35]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 7, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[171  76]
+ [ 96 151]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [27 35]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 0.001, 'coef0': 10, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[171  76]
+ [ 96 151]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [27 35]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 0.5, 'C': 100}
+Confusion matrix of PPMI training set:
+[[176  71]
+ [102 145]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [28 34]]
+precision of testing set:0.6938775510204082
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 1, 'C': 100}
+Confusion matrix of PPMI training set:
+[[176  71]
+ [102 145]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [28 34]]
+precision of testing set:0.6938775510204082
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 3, 'C': 100}
+Confusion matrix of PPMI training set:
+[[176  71]
+ [102 145]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [28 34]]
+precision of testing set:0.6938775510204082
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 5, 'C': 100}
+Confusion matrix of PPMI training set:
+[[176  71]
+ [102 145]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [28 34]]
+precision of testing set:0.6938775510204082
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 7, 'C': 100}
+Confusion matrix of PPMI training set:
+[[176  71]
+ [102 145]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [28 34]]
+precision of testing set:0.6938775510204082
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 10, 'C': 100}
+Confusion matrix of PPMI training set:
+[[176  71]
+ [102 145]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [28 34]]
+precision of testing set:0.6938775510204082
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 1, 'coef0': 0.5, 'C': 100}
+Confusion matrix of PPMI training set:
+[[155  92]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 1, 'coef0': 1, 'C': 100}
+Confusion matrix of PPMI training set:
+[[155  92]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 1, 'coef0': 3, 'C': 100}
+Confusion matrix of PPMI training set:
+[[155  92]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 1, 'coef0': 5, 'C': 100}
+Confusion matrix of PPMI training set:
+[[155  92]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 1, 'coef0': 7, 'C': 100}
+Confusion matrix of PPMI training set:
+[[155  92]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 1, 'coef0': 10, 'C': 100}
+Confusion matrix of PPMI training set:
+[[155  92]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 0.5, 'C': 1}
+Confusion matrix of PPMI training set:
+[[155  92]
+ [ 82 165]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 1, 'C': 1}
+Confusion matrix of PPMI training set:
+[[155  92]
+ [ 82 165]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 3, 'C': 1}
+Confusion matrix of PPMI training set:
+[[155  92]
+ [ 82 165]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 5, 'C': 1}
+Confusion matrix of PPMI training set:
+[[155  92]
+ [ 82 165]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 7, 'C': 1}
+Confusion matrix of PPMI training set:
+[[155  92]
+ [ 82 165]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 1.5, 'coef0': 10, 'C': 1}
+Confusion matrix of PPMI training set:
+[[155  92]
+ [ 82 165]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 3, 'coef0': 0.5, 'C': 0.1}
+Confusion matrix of PPMI training set:
+[[157  90]
+ [ 86 161]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [22 40]]
+precision of testing set:0.7272727272727273
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 3, 'coef0': 1, 'C': 0.1}
+Confusion matrix of PPMI training set:
+[[157  90]
+ [ 86 161]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [22 40]]
+precision of testing set:0.7272727272727273
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 3, 'coef0': 3, 'C': 0.1}
+Confusion matrix of PPMI training set:
+[[157  90]
+ [ 86 161]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [22 40]]
+precision of testing set:0.7272727272727273
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 3, 'coef0': 5, 'C': 0.1}
+Confusion matrix of PPMI training set:
+[[157  90]
+ [ 86 161]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [22 40]]
+precision of testing set:0.7272727272727273
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 3, 'coef0': 7, 'C': 0.1}
+Confusion matrix of PPMI training set:
+[[157  90]
+ [ 86 161]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [22 40]]
+precision of testing set:0.7272727272727273
+{'lasso_a': 0.15, 'kernel': 'rbf', 'gamma': 3, 'coef0': 10, 'C': 0.1}
+Confusion matrix of PPMI training set:
+[[157  90]
+ [ 86 161]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [22 40]]
+precision of testing set:0.7272727272727273
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 0.5, 'C': 1000}
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 1, 'C': 1000}
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 3, 'C': 1000}
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 5, 'C': 100}
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 7, 'C': 100}
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 0.0001, 'coef0': 10, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[153  94]
+ [ 78 169]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 0.5, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[157  90]
+ [ 86 161]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [22 40]]
+precision of testing set:0.7272727272727273
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 1, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[171  76]
+ [ 97 150]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [27 35]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 3, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[167  80]
+ [ 92 155]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [25 37]]
+precision of testing set:0.7254901960784313
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [25 37]]
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 5, 'C': 100}
+Confusion matrix of PPMI training set:
+[[157  90]
+ [ 86 161]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [22 40]]
+precision of testing set:0.7272727272727273
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 7, 'C': 1000}
+Confusion matrix of PPMI training set:
+[[159  88]
+ [ 86 161]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [22 40]]
+precision of testing set:0.7272727272727273
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 0.001, 'coef0': 10, 'C': 100}
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 0.5, 'C': 100}
+Confusion matrix of PPMI training set:
+[[178  69]
+ [108 139]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [28 34]]
+precision of testing set:0.6938775510204082
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 1, 'C': 100}
+Confusion matrix of PPMI training set:
+[[177  70]
+ [104 143]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [28 34]]
+precision of testing set:0.6938775510204082
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 3, 'C': 100}
+Confusion matrix of PPMI training set:
+[[179  68]
+ [112 135]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [29 33]]
+precision of testing set:0.7021276595744681
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 5, 'C': 1}
+Confusion matrix of PPMI training set:
+[[157  90]
+ [ 86 161]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [22 40]]
+precision of testing set:0.7272727272727273
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 7, 'C': 1}
+Confusion matrix of PPMI training set:
+[[161  86]
+ [ 90 157]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [23 39]]
+precision of testing set:0.7222222222222222
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 10, 'C': 1}
+Confusion matrix of PPMI training set:
+[[171  76]
+ [ 96 151]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [27 35]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 1, 'coef0': 0.5, 'C': 0.01}
+Confusion matrix of PPMI training set:
+[[219  28]
+ [163  84]]
+Confusion matrix of PPMI testing set:
+[[19  7]
+ [48 14]]
+precision of testing set:0.6666666666666666
+The temp confmatx of testing set has been updated to:
+[[19  7]
+ [48 14]]
+
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 1, 'coef0': 1, 'C': 0.01}
+Confusion matrix of PPMI training set:
+[[184  63]
+ [119 128]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [32 30]]
+precision of testing set:0.6976744186046512
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 1, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[176  71]
+ [103 144]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [28 34]]
+precision of testing set:0.6938775510204082
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 1, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[174  73]
+ [ 98 149]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [27 35]]
+precision of testing set:0.7
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 1, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[174  73]
+ [ 98 149]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [27 35]]
+precision of testing set:0.7
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 1, 'coef0': 10, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[174  73]
+ [ 99 148]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [27 35]]
+precision of testing set:0.7
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 0.5, 'C': 0.01}
+Confusion matrix of PPMI training set:
+[[214  33]
+ [157  90]]
+Confusion matrix of PPMI testing set:
+[[19  7]
+ [44 18]]
+precision of testing set:0.72
+The temp confmatx of testing set has been updated to:
+[[19  7]
+ [44 18]]
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 1, 'C': 0.01}
+Confusion matrix of PPMI training set:
+[[180  67]
+ [111 136]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [29 33]]
+precision of testing set:0.6875
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 3, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[175  72]
+ [101 146]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [28 34]]
+precision of testing set:0.6938775510204082
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[168  79]
+ [ 91 156]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [25 37]]
+precision of testing set:0.7115384615384616
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 7, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[163  84]
+ [ 90 157]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [24 38]]
+precision of testing set:0.7037037037037037
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 1.5, 'coef0': 10, 'C': 0.01}
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 3, 'coef0': 0.5, 'C': 0.01}
+Confusion matrix of PPMI training set:
+[[205  42]
+ [142 105]]
+Confusion matrix of PPMI testing set:
+[[19  7]
+ [41 21]]
+precision of testing set:0.75
+The temp confmatx of testing set has been updated to:
+[[19  7]
+ [41 21]]
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 3, 'coef0': 1, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[219  28]
+ [163  84]]
+Confusion matrix of PPMI testing set:
+[[19  7]
+ [48 14]]
+precision of testing set:0.6666666666666666
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 3, 'coef0': 3, 'C': 0.01}
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 3, 'coef0': 5, 'C': 0.001}
+Confusion matrix of PPMI training set:
+[[157  90]
+ [ 85 162]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 3, 'coef0': 7, 'C': 0.001}
+{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 3, 'coef0': 10, 'C': 0.001}
+For FS alpha=0.15,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.15, 'kernel': 'poly', 'gamma': 3, 'coef0': 0.5, 'C': 0.01}
+[[19  7]
+ [41 21]]

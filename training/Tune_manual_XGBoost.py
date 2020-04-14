@@ -27,22 +27,22 @@ import xgboost as xgb
 from sklearn.feature_selection import SelectFromModel
 from multiprocessing import Process, Manager
 
-y_train_sampled = np.load('../../datasets/preprocessed/y_train_sampled.npy')
-y_test = np.load('../../datasets/preprocessed/y_test.npy')
-X_train_scaled = np.load('../../datasets/preprocessed/X_train_scaled.npy')
-X_test_scaled = np.load('../../datasets/preprocessed/X_test_scaled.npy')
+y_train_sampled = np.load('../../datasets/preprocessed/npy_files/y_train_sampled.npy')
+y_test = np.load('../../datasets/preprocessed/npy_files/y_test.npy')
+X_train_scaled = np.load('../../datasets/preprocessed/npy_files/X_train_scaled.npy')
+X_test_scaled = np.load('../../datasets/preprocessed/npy_files/X_test_scaled.npy')
 print("Complete loading data")
 #------------------------------------------
 # f = open("pca_xgb_experiments_log","w")  
-f = open("ica_xgb_experiments_log","a")  
+# f = open("ica_xgb_experiments_log","a")  
 # f = open("umap_xgb_experiments_log","w")  
-# f = open("fs_xgb_experiments_log","w")  
+f = open("fs_xgb_experiments_log","w")  
 #--------------------------------------------
 
 print ("Shape of final train and test sets:", X_train_scaled.shape, X_test_scaled.shape)
 
 # C_options = [0.001, 0.01, 0.1, 1, 100, 1000]
-n_components = [7,10,12,14,16]
+n_components = [10,11,12,13,14,16,20]
     
 # # Train XGBoost classifier
 # # DMatrix: a data structure that makes everything more efficient
@@ -62,30 +62,33 @@ n_components = [7,10,12,14,16]
 #     X_train = pca.fit_transform(X_train_scaled)
 #     X_test = pca.transform(X_test_scaled)
 
-# # ## UMAP
-# # for n in n_components:
-# #     umap = UMAP(n_components=n)
-# #     X_train = umap.fit_transform(X_train_scaled)
-# #     X_test = umap.transform(X_test_scaled)
+# ## UMAP
+# n_neighbours = [3, 5, 10, 15, 20]
+# min_dist = [0.1, 0.25, 0.4, 0.5]
+# for n in n_components:
+#     for n_nei in n_neighbours:
+#         for d in min_dist:
+#             umap = UMAP(n_neighbors=n_nei, min_dist=d, n_components=n)
+#             X_train = umap.fit_transform(X_train_scaled)
+#             X_test = umap.transform(X_test_scaled)
 
-# iCA
-for n in n_components:
-    ica = FastICA(n_components=n)
-    X_train = ica.fit_transform(X_train_scaled)
-    X_test = ica.transform(X_test_scaled)
+# # iCA
+# for n in n_components:
+#     ica = FastICA(n_components=n)
+#     X_train = ica.fit_transform(X_train_scaled)
+#     X_test = ica.transform(X_test_scaled)
 
-# alpha=[0.007, 0.009, 0.015, 0.02, 0.04]
-# for a in alpha:
-#     sel_ = SelectFromModel(Lasso(alpha=a, tol=0.01, random_state=42))
-#     sel_.fit(X_train_scaled, y_train_sampled)
-#     X_train = sel_.transform(X_train_scaled)
-#     X_test = sel_.transform(X_test_scaled)
-#     print("Shape of training set with alpha=", a, ":", X_train.shape)
+alpha=[0.001, 0.01, 0.05, 0.08, 0.1, 0.15, 0.18]
+for a in alpha:
+    sel_ = SelectFromModel(Lasso(alpha=a, tol=0.01, random_state=42))
+    X_train = sel_.fit_transform(X_train_scaled, y_train_sampled)
+    X_test = sel_.transform(X_test_scaled)
+    print("Shape of training set with alpha=", a, ":", X_train.shape)
 
  
-    colsample_bytree = [0.3, 0.4, 0.5 , 0.6, 0.7, 0.8, 0.9]
-    ne = [10, 20, 30, 35, 40, 100, 200 ] 
-    subsample = [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+    colsample_bytree = [0.3, 0.4, 0.5, 0.7, 0.8]
+    ne = [10, 20, 30, 40, 70, 100 ] 
+    subsample = [0.3, 0.4, 0.5, 0.7, 0.8]
 
     best_perf=0
     cm_tp=[[0,0],[0,0]]
@@ -113,7 +116,10 @@ for n in n_components:
     #             print()
 #                 print("Current score:", grid.best_score_)
                 cur_params = {
-                    "n_components": n,
+#                     "n_neighbours":n_nei,
+#                     "min_dist":d,
+#                     "n_components": n,
+                    "lasso_a":a,
                     "num_estmtr": n_estimator,
                     "col_ratio": colsample,
                     "subsample_ratio": ss,
@@ -123,7 +129,7 @@ for n in n_components:
                 # log
                 f.write(str(cur_params))
                 f.write("\n")
-                
+
                 clf_sub = grid.best_estimator_
 #                 y_pred_tr = clf_sub.predict(X_train)
                 y_pred_te = clf_sub.predict(X_test)
@@ -157,9 +163,9 @@ for n in n_components:
                     f.write("\n")
                     
 
-#     print("XGBoost with n_compo=", n, ', num_estmtr=', tree_num_flag,',col_ratio=',col_ratio_flag,'subsample=',ss_flag,'has best performance of',best_perf, "with", best_param)
-    f.write("For ICA n_compo="+str(n)+",from confusion matrix of PPMI testing set, best params are: \n")
-#     print("For FS alpha=",a,",from confusion matrix of PPMI testing set, best params are:")
+
+#     f.write("For UMAP n_compo="+str(n)+",from confusion matrix of PPMI testing set, best params are: \n")
+    f.write("For FS alpha="+str(a)+",from confusion matrix of PPMI testing set, best params are:")
     f.write(str(params_flag))
     f.write("\n")
     f.write(str(cm_tp))
@@ -190,7 +196,8 @@ for n in n_components:
     f.write(str(cm_te))
     f.write("\n")
     f.write("precision of testing set:"+str(precision_score(y_test, y_pred_te)))
-    print("Complete experiments for ", n, "components")
+#     print("Complete experiments for ", n, "components")
+    print("Complete experiments for lasso_alpha=", a)
 
     
 f.close()

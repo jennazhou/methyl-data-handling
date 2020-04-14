@@ -1,0 +1,1366 @@
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+[[12 14]
+ [30 32]]
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+[[13 13]
+ [22 40]]
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 2}
+[[15 11]
+ [38 24]]
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+[[15 11]
+ [31 31]]
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[16 10]
+ [30 32]]
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+[[18  8]
+ [30 32]]
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 5, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+For PCA n_compo=5,from confusion matrix of PPMI testing set, best params are: 
+{'n_components': 5, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+[[18  8]
+ [30 32]]
+Confusion matrix of PPMI training set:
+[[207  40]
+ [ 55 192]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [30 32]]
+precision of testing set:0.8{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[10 16]
+ [27 35]]
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+[[14 12]
+ [25 37]]
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+[[14 12]
+ [19 43]]
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[15 11]
+ [26 36]]
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+For PCA n_compo=7,from confusion matrix of PPMI testing set, best params are: 
+{'n_components': 7, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[15 11]
+ [26 36]]
+Confusion matrix of PPMI training set:
+[[246   1]
+ [  2 245]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [26 36]]
+precision of testing set:0.7659574468085106{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+[[13 13]
+ [26 36]]
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+[[13 13]
+ [19 43]]
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+[[14 12]
+ [26 36]]
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[16 10]
+ [20 42]]
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 10, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+For PCA n_compo=10,from confusion matrix of PPMI testing set, best params are: 
+{'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[16 10]
+ [20 42]]
+Confusion matrix of PPMI training set:
+[[219  28]
+ [ 43 204]]
+Confusion matrix of PPMI testing set:
+[[16 10]
+ [20 42]]
+precision of testing set:0.8076923076923077{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[ 9 17]
+ [25 37]]
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+[[ 9 17]
+ [20 42]]
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[10 16]
+ [31 31]]
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+[[10 16]
+ [27 35]]
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+[[11 15]
+ [23 39]]
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+[[12 14]
+ [21 41]]
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[13 13]
+ [28 34]]
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+[[14 12]
+ [30 32]]
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+[[14 12]
+ [25 37]]
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+[[15 11]
+ [22 40]]
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+[[16 10]
+ [16 46]]
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+For PCA n_compo=12,from confusion matrix of PPMI testing set, best params are: 
+{'n_components': 12, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+[[16 10]
+ [16 46]]
+Confusion matrix of PPMI training set:
+[[245   2]
+ [  1 246]]
+Confusion matrix of PPMI testing set:
+[[16 10]
+ [16 46]]
+precision of testing set:0.8214285714285714{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+[[ 8 18]
+ [14 48]]
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 2}
+[[11 15]
+ [22 40]]
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[12 14]
+ [20 42]]
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+[[13 13]
+ [19 43]]
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 14, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+For PCA n_compo=14,from confusion matrix of PPMI testing set, best params are: 
+{'n_components': 14, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+[[13 13]
+ [19 43]]
+Confusion matrix of PPMI training set:
+[[208  39]
+ [ 65 182]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [19 43]]
+precision of testing set:0.7678571428571429{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+[[12 14]
+ [24 38]]
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+[[12 14]
+ [14 48]]
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+[[13 13]
+ [11 51]]
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 16, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+For PCA n_compo=16,from confusion matrix of PPMI testing set, best params are: 
+{'n_components': 16, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+[[13 13]
+ [11 51]]
+Confusion matrix of PPMI training set:
+[[201  46]
+ [ 40 207]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [11 51]]
+precision of testing set:0.796875{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[ 5 21]
+ [18 44]]
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+[[ 6 20]
+ [10 52]]
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+[[10 16]
+ [15 47]]
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'n_components': 20, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 35, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'n_components': 20, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_components': 20, 'num_estmtr': 200, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+For PCA n_compo=20,from confusion matrix of PPMI testing set, best params are: 
+{'n_components': 20, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+[[10 16]
+ [15 47]]
+Confusion matrix of PPMI training set:
+[[208  39]
+ [ 22 225]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [15 47]]
+precision of testing set:0.746031746031746

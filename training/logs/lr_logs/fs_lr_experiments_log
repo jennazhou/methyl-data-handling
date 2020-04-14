@@ -1,0 +1,136 @@
+{'lasso_a': 0.05, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [10 52]]
+
+{'lasso_a': 0.05, 'C': 0.1, 'penalty': 'l2'}
+For FS alpha=0.05,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.05, 'C': 100, 'penalty': 'l1'}
+[[ 9 17]
+ [10 52]]
+
+{'lasso_a': 0.06, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [10 52]]
+precision of testing set:0.7647058823529411
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [10 52]]
+
+{'lasso_a': 0.06, 'C': 0.01, 'penalty': 'l2'}
+For FS alpha=0.06,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.06, 'C': 1000, 'penalty': 'l1'}
+[[10 16]
+ [10 52]]
+
+{'lasso_a': 0.07, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [11 51]]
+precision of testing set:0.7611940298507462
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [11 51]]
+
+{'lasso_a': 0.07, 'C': 1, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[247   0]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [12 50]]
+precision of testing set:0.7575757575757576
+For FS alpha=0.07,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.07, 'C': 100, 'penalty': 'l1'}
+[[10 16]
+ [11 51]]
+
+{'lasso_a': 0.08, 'C': 1, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[240   7]
+ [  5 242]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [14 48]]
+precision of testing set:0.7619047619047619
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [14 48]]
+
+{'lasso_a': 0.08, 'C': 1, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[240   7]
+ [  3 244]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [13 49]]
+precision of testing set:0.765625
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [13 49]]
+For FS alpha=0.08,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.08, 'C': 1, 'penalty': 'l2'}
+[[11 15]
+ [13 49]]
+
+{'lasso_a': 0.09, 'C': 1, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[224  23]
+ [ 16 231]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [13 49]]
+precision of testing set:0.7903225806451613
+The temp confmatx of testing set has been updated to:
+[[13 13]
+ [13 49]]
+
+{'lasso_a': 0.09, 'C': 0.01, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[226  21]
+ [ 20 227]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [14 48]]
+precision of testing set:0.75
+For FS alpha=0.09,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.09, 'C': 1, 'penalty': 'l1'}
+[[13 13]
+ [13 49]]
+
+{'lasso_a': 0.1, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[220  27]
+ [ 33 214]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [15 47]]
+precision of testing set:0.7580645161290323
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [15 47]]
+
+{'lasso_a': 0.1, 'C': 1, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[219  28]
+ [ 33 214]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [15 47]]
+precision of testing set:0.746031746031746
+For FS alpha=0.1,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.1, 'C': 100, 'penalty': 'l1'}
+[[11 15]
+ [15 47]]
+
+{'lasso_a': 0.15, 'C': 0.1, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [22 40]]
+
+{'lasso_a': 0.15, 'C': 0.1, 'penalty': 'l2'}
+For FS alpha=0.15,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.15, 'C': 0.1, 'penalty': 'l1'}
+[[ 9 17]
+ [22 40]]
+

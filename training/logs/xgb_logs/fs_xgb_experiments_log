@@ -1,0 +1,1001 @@
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[ 8 18]
+ [15 47]]
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+[[ 9 17]
+ [11 51]]
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 2}
+[[12 14]
+ [18 44]]
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+[[13 13]
+ [17 45]]
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+[[13 13]
+ [11 51]]
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.001, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+For FS alpha=0.001,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.001, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+[[13 13]
+ [11 51]]
+Confusion matrix of PPMI training set:
+[[241   6]
+ [  1 246]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [11 51]]
+precision of testing set:0.796875{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[12 14]
+ [17 45]]
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+[[12 14]
+ [ 6 56]]
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[13 13]
+ [ 9 53]]
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.01, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+For FS alpha=0.01,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.01, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[13 13]
+ [ 9 53]]
+Confusion matrix of PPMI training set:
+[[245   2]
+ [  0 247]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [ 9 53]]
+precision of testing set:0.803030303030303{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+[[ 9 17]
+ [17 45]]
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+[[10 16]
+ [10 52]]
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+[[11 15]
+ [12 50]]
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+[[13 13]
+ [16 46]]
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.05, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+For FS alpha=0.05,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.05, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+[[13 13]
+ [16 46]]
+Confusion matrix of PPMI training set:
+[[233  14]
+ [ 11 236]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [16 46]]
+precision of testing set:0.7796610169491526{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+[[ 9 17]
+ [11 51]]
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+[[ 9 17]
+ [ 9 53]]
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+[[11 15]
+ [10 52]]
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+[[12 14]
+ [ 9 53]]
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+[[14 12]
+ [12 50]]
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.08, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+For FS alpha=0.08,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.08, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+[[14 12]
+ [12 50]]
+Confusion matrix of PPMI training set:
+[[226  21]
+ [ 21 226]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [12 50]]
+precision of testing set:0.8064516129032258{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+[[ 8 18]
+ [19 43]]
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+[[10 16]
+ [16 46]]
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+[[11 15]
+ [12 50]]
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 2}
+[[14 12]
+ [21 41]]
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.1, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+For FS alpha=0.1,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.1, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 2}
+[[14 12]
+ [21 41]]
+Confusion matrix of PPMI training set:
+[[222  25]
+ [ 30 217]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [21 41]]
+precision of testing set:0.7735849056603774{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 2}
+[[15 11]
+ [29 33]]
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 30, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 40, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 70, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+[[16 10]
+ [38 24]]
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 2}
+{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 2}
+For FS alpha=0.15,from confusion matrix of PPMI testing set, best params are:{'lasso_a': 0.15, 'num_estmtr': 100, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 4}
+[[16 10]
+ [38 24]]
+Confusion matrix of PPMI training set:
+[[187  60]
+ [ 57 190]]
+Confusion matrix of PPMI testing set:
+[[16 10]
+ [38 24]]
+precision of testing set:0.7058823529411765

@@ -1,0 +1,70 @@
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+[[ 9 17]
+ [25 37]]
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 3}
+[[13 13]
+ [22 40]]
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 2}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 3}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 10, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+[[16 10]
+ [26 36]]
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 2}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.5, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.4, 'max_depth': 2}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.7, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.3, 'max_depth': 2}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.4, 'max_depth': 3}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 20, 'col_ratio': 0.8, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.3, 'max_depth': 3}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.5, 'max_depth': 3}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.7, 'max_depth': 2}
+[[17  9]
+ [28 34]]
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.3, 'subsample_ratio': 0.8, 'max_depth': 3}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.4, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.5, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.7, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.4, 'subsample_ratio': 0.8, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.3, 'max_depth': 4}
+{'n_neighbours': 3, 'min_dist': 0.1, 'n_components': 10, 'num_estmtr': 30, 'col_ratio': 0.5, 'subsample_ratio': 0.4, 'max_depth': 4}

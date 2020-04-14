@@ -1,0 +1,147 @@
+{'n_component': 30, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[164  83]
+ [ 64 183]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [22 40]]
+precision of testing set:0.7547169811320755
+The temp confmatx of testing set has been updated to:
+[[13 13]
+ [22 40]]
+
+{'n_component': 30, 'C': 0.1, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[159  88]
+ [ 70 177]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [22 40]]
+precision of testing set:0.7272727272727273
+For ICA n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_component': 30, 'C': 100, 'penalty': 'l1'}
+[[13 13]
+ [22 40]]
+
+{'n_component': 40, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[187  60]
+ [ 65 182]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [19 43]]
+precision of testing set:0.7818181818181819
+The temp confmatx of testing set has been updated to:
+[[14 12]
+ [19 43]]
+
+{'n_component': 40, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[185  62]
+ [ 66 181]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [20 42]]
+precision of testing set:0.7777777777777778
+For ICA n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_component': 40, 'C': 100, 'penalty': 'l1'}
+[[14 12]
+ [19 43]]
+
+{'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[181  66]
+ [ 52 195]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [17 45]]
+precision of testing set:0.75
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [17 45]]
+
+{'n_component': 50, 'C': 0.01, 'penalty': 'l2'}
+For ICA n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+[[11 15]
+ [17 45]]
+
+{'n_component': 60, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[201  46]
+ [ 36 211]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [15 47]]
+precision of testing set:0.746031746031746
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [15 47]]
+
+{'n_component': 60, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[196  51]
+ [ 33 214]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [17 45]]
+precision of testing set:0.7377049180327869
+For ICA n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_component': 60, 'C': 1000, 'penalty': 'l1'}
+[[10 16]
+ [15 47]]
+
+{'n_component': 70, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[207  40]
+ [ 27 220]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [12 50]]
+precision of testing set:0.7575757575757576
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [12 50]]
+
+{'n_component': 70, 'C': 0.01, 'penalty': 'l2'}
+For ICA n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_component': 70, 'C': 100, 'penalty': 'l1'}
+[[10 16]
+ [12 50]]
+
+{'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [11 51]]
+
+{'n_component': 80, 'C': 1, 'penalty': 'l2'}
+For ICA n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+[[ 9 17]
+ [11 51]]
+
+{'n_component': 90, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 4 22]
+ [12 50]]
+
+{'n_component': 90, 'C': 0.1, 'penalty': 'l2'}
+The temp confmatx of testing set has been updated to:
+[[ 4 22]
+ [ 8 54]]
+For ICA n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_component': 90, 'C': 0.1, 'penalty': 'l2'}
+[[ 4 22]
+ [ 8 54]]
+
+{'n_component': 100, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 5 21]
+ [10 52]]
+
+{'n_component': 100, 'C': 0.1, 'penalty': 'l2'}
+For ICA n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_component': 100, 'C': 100, 'penalty': 'l1'}
+[[ 5 21]
+ [10 52]]
+

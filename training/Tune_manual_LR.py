@@ -81,18 +81,10 @@ for n in n_components:
 # alpha=[0.05, 0.06, 0.07, 0.08, 0.09, 0.1, 0.15, 0.2]
 # for a in alpha:
 #     sel_ = SelectFromModel(Lasso(alpha=a))
-#     sel_.fit(X_train_scaled, y_train_sampled)
-#     X_train = sel_.transform(X_train_scaled)
+# #     sel_.fit(X_train_scaled, y_train_sampled)
+#     X_train = sel_.fit_transform(X_train_scaled, y_train_sampled)
 #     X_test = sel_.transform(X_test_scaled)
-    
-#     ####Use L1 LR for clf
-#     grid = GridSearchCV(LogisticRegression(max_iter=500, penalty='l2', solver='saga'), param_grid=param_grid, scoring="accuracy", cv=StratifiedKFold(n_splits=3, shuffle=True, random_state=42), n_jobs=3)
-#     grid.fit(X_train_selected, y_train)
-#     mean_scores = np.array(grid.cv_results_['mean_test_score'])
-#     print("FS using Regularisation with alpha=", a, "and l2:")
-#     print(grid.cv_results_['params'])
-#     print(mean_scores)
-#     print(grid.best_params_)
+
             cm_tp=[[0,0],[0,0]]
             for penalty in ["l1","l2"]:
                 param_grid = [
@@ -112,6 +104,7 @@ for n in n_components:
                     "n_neighbour": n_nei,
                     "min_dist": d,
                     "n_component":n,
+#                     "lasso_a":a,
                     "C":grid.best_params_["C"],
                     "penalty":penalty
 
@@ -157,13 +150,14 @@ for n in n_components:
                     f.write("\n")
 
 
-    f.write("For UMAP n_compo="+str(n)+",from confusion matrix of PPMI testing set, best params are: \n")
-#     print("For FS alpha=",a,",from confusion matrix of PPMI testing set, best params are:")
-    f.write(str(params_flag))
-    f.write("\n")
-    f.write(str(cm_tp))
-    f.write("\n\n")
-    print("Complete experiments for ", n, "components")
+            f.write("For UMAP n_compo="+str(n)+",from confusion matrix of PPMI testing set, best params are: \n")
+#             f.write("For FS alpha="+str(a)+",from confusion matrix of PPMI testing set, best params are:")
+            f.write(str(params_flag))
+            f.write("\n")
+            f.write(str(cm_tp))
+            f.write("\n\n")
+            print("Complete experiments for ", n, "components")
+#             print("Complete experiments for alpha=", a)
 
     
 f.close()

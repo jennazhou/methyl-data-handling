@@ -1,0 +1,3320 @@
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 30, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[150  97]
+ [ 87 160]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [25 37]]
+precision of testing set:0.7115384615384616
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [25 37]]
+
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 30, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[150  97]
+ [ 87 160]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [25 37]]
+precision of testing set:0.7115384615384616
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 30, 'C': 1000, 'penalty': 'l1'}
+[[11 15]
+ [25 37]]
+
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[147 100]
+ [ 76 171]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [26 36]]
+precision of testing set:0.6923076923076923
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [26 36]]
+
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 30, 'C': 0.1, 'penalty': 'l2'}
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+[[10 16]
+ [26 36]]
+
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [31 31]]
+
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 30, 'C': 100, 'penalty': 'l2'}
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+[[ 9 17]
+ [31 31]]
+
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 8 18]
+ [19 43]]
+
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 30, 'C': 1, 'penalty': 'l2'}
+The temp confmatx of testing set has been updated to:
+[[ 8 18]
+ [13 49]]
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 30, 'C': 1, 'penalty': 'l2'}
+[[ 8 18]
+ [13 49]]
+
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[153  94]
+ [ 79 168]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [24 38]]
+precision of testing set:0.76
+The temp confmatx of testing set has been updated to:
+[[14 12]
+ [24 38]]
+
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 30, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[153  94]
+ [ 80 167]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [24 38]]
+precision of testing set:0.76
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+[[14 12]
+ [24 38]]
+
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[149  98]
+ [ 74 173]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [28 34]]
+precision of testing set:0.6938775510204082
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [28 34]]
+
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 30, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[149  98]
+ [ 74 173]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [28 34]]
+precision of testing set:0.6938775510204082
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+[[11 15]
+ [28 34]]
+
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 30, 'C': 1000, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 5 21]
+ [23 39]]
+
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 30, 'C': 1000, 'penalty': 'l2'}
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 30, 'C': 1000, 'penalty': 'l1'}
+[[ 5 21]
+ [23 39]]
+
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 30, 'C': 0.1, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[126 121]
+ [ 89 158]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [22 40]]
+
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 30, 'C': 1, 'penalty': 'l2'}
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 30, 'C': 0.1, 'penalty': 'l1'}
+[[10 16]
+ [22 40]]
+
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[146 101]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [30 32]]
+precision of testing set:0.6808510638297872
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [30 32]]
+
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 30, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[144 103]
+ [ 78 169]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [31 31]]
+precision of testing set:0.6595744680851063
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+[[11 15]
+ [30 32]]
+
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[121 126]
+ [ 66 181]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [30 32]]
+precision of testing set:0.6666666666666666
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [30 32]]
+
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 30, 'C': 0.01, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[131 116]
+ [ 95 152]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [23 39]]
+precision of testing set:0.7222222222222222
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [23 39]]
+
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 30, 'C': 0.01, 'penalty': 'l2'}
+[[11 15]
+ [23 39]]
+
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 30, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[144 103]
+ [ 72 175]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [41 21]]
+precision of testing set:0.5833333333333334
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [41 21]]
+
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 30, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[143 104]
+ [ 72 175]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [40 22]]
+precision of testing set:0.5945945945945946
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [40 22]]
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 30, 'C': 100, 'penalty': 'l2'}
+[[11 15]
+ [40 22]]
+
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 30, 'C': 0.1, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[139 108]
+ [107 140]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [27 35]]
+precision of testing set:0.6862745098039216
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [27 35]]
+
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 30, 'C': 0.01, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[139 108]
+ [ 94 153]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [23 39]]
+precision of testing set:0.7222222222222222
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [23 39]]
+
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 30, 'C': 0.01, 'penalty': 'l2'}
+[[11 15]
+ [23 39]]
+
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[133 114]
+ [ 87 160]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [40 22]]
+precision of testing set:0.6666666666666666
+The temp confmatx of testing set has been updated to:
+[[15 11]
+ [40 22]]
+
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 30, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[133 114]
+ [ 87 160]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [40 22]]
+precision of testing set:0.6470588235294118
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+[[15 11]
+ [40 22]]
+
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 30, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[145 102]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [30 32]]
+precision of testing set:0.6956521739130435
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [30 32]]
+
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 30, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[141 106]
+ [ 80 167]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [30 32]]
+precision of testing set:0.6956521739130435
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 30, 'C': 1000, 'penalty': 'l1'}
+[[12 14]
+ [30 32]]
+
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 30, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[134 113]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [30 32]]
+precision of testing set:0.7272727272727273
+The temp confmatx of testing set has been updated to:
+[[14 12]
+ [30 32]]
+
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 30, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[134 113]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [30 32]]
+precision of testing set:0.7272727272727273
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 30, 'C': 1000, 'penalty': 'l1'}
+[[14 12]
+ [30 32]]
+
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[153  94]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[17  9]
+ [28 34]]
+precision of testing set:0.7906976744186046
+The temp confmatx of testing set has been updated to:
+[[17  9]
+ [28 34]]
+
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 30, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[154  93]
+ [ 80 167]]
+Confusion matrix of PPMI testing set:
+[[17  9]
+ [28 34]]
+precision of testing set:0.7906976744186046
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+[[17  9]
+ [28 34]]
+
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 30, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[146 101]
+ [ 76 171]]
+Confusion matrix of PPMI testing set:
+[[17  9]
+ [35 27]]
+precision of testing set:0.75
+The temp confmatx of testing set has been updated to:
+[[17  9]
+ [35 27]]
+
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 30, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[145 102]
+ [ 76 171]]
+Confusion matrix of PPMI testing set:
+[[17  9]
+ [35 27]]
+precision of testing set:0.75
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 30, 'C': 1000, 'penalty': 'l1'}
+[[17  9]
+ [35 27]]
+
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 30, 'C': 1, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[133 114]
+ [ 89 158]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [29 33]]
+precision of testing set:0.673469387755102
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [29 33]]
+
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 30, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[142 105]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[17  9]
+ [36 26]]
+precision of testing set:0.7428571428571429
+The temp confmatx of testing set has been updated to:
+[[17  9]
+ [36 26]]
+
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 30, 'C': 100, 'penalty': 'l2'}
+[[17  9]
+ [36 26]]
+
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[170  77]
+ [ 83 164]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [41 21]]
+precision of testing set:0.7241379310344828
+The temp confmatx of testing set has been updated to:
+[[18  8]
+ [41 21]]
+
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 30, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[170  77]
+ [ 84 163]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [42 20]]
+precision of testing set:0.7142857142857143
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+[[18  8]
+ [41 21]]
+
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[169  78]
+ [ 93 154]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [37 25]]
+precision of testing set:0.7575757575757576
+The temp confmatx of testing set has been updated to:
+[[18  8]
+ [37 25]]
+
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 30, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[166  81]
+ [ 94 153]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [38 24]]
+precision of testing set:0.75
+For UMAP n_compo=30,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
+[[18  8]
+ [37 25]]
+
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 40, 'C': 1000, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [14 48]]
+
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 40, 'C': 0.1, 'penalty': 'l2'}
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 40, 'C': 1000, 'penalty': 'l1'}
+[[ 9 17]
+ [14 48]]
+
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[166  81]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [20 42]]
+precision of testing set:0.7368421052631579
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [20 42]]
+
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 40, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[166  81]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [20 42]]
+precision of testing set:0.7368421052631579
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+[[11 15]
+ [20 42]]
+
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 40, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[157  90]
+ [ 71 176]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [15 47]]
+precision of testing set:0.7704918032786885
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [15 47]]
+
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 40, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[157  90]
+ [ 71 176]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [15 47]]
+precision of testing set:0.7704918032786885
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 40, 'C': 1000, 'penalty': 'l1'}
+[[12 14]
+ [15 47]]
+
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 40, 'C': 1, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 5 21]
+ [19 43]]
+
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 40, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[148  99]
+ [ 70 177]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [19 43]]
+precision of testing set:0.7543859649122807
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [19 43]]
+
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 40, 'C': 1000, 'penalty': 'l2'}
+[[12 14]
+ [19 43]]
+
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 40, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[157  90]
+ [ 74 173]]
+Confusion matrix of PPMI testing set:
+[[16 10]
+ [26 36]]
+precision of testing set:0.782608695652174
+The temp confmatx of testing set has been updated to:
+[[16 10]
+ [26 36]]
+
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 40, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[157  90]
+ [ 74 173]]
+Confusion matrix of PPMI testing set:
+[[16 10]
+ [26 36]]
+precision of testing set:0.782608695652174
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 40, 'C': 1000, 'penalty': 'l1'}
+[[16 10]
+ [26 36]]
+
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[148  99]
+ [ 86 161]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [23 39]]
+precision of testing set:0.7090909090909091
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [23 39]]
+
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 40, 'C': 0.01, 'penalty': 'l2'}
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+[[10 16]
+ [23 39]]
+
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[142 105]
+ [ 80 167]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [25 37]]
+precision of testing set:0.74
+The temp confmatx of testing set has been updated to:
+[[13 13]
+ [25 37]]
+
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 40, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[143 104]
+ [ 80 167]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [25 37]]
+precision of testing set:0.74
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+[[13 13]
+ [25 37]]
+
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 7 19]
+ [22 40]]
+
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 40, 'C': 100, 'penalty': 'l2'}
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+[[ 7 19]
+ [22 40]]
+
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[146 101]
+ [ 80 167]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [30 32]]
+precision of testing set:0.6956521739130435
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [30 32]]
+
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 40, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[146 101]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [31 31]]
+precision of testing set:0.6595744680851063
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+[[12 14]
+ [30 32]]
+
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[155  92]
+ [ 83 164]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [34 28]]
+precision of testing set:0.717948717948718
+The temp confmatx of testing set has been updated to:
+[[15 11]
+ [34 28]]
+
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 40, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[154  93]
+ [ 82 165]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [36 26]]
+precision of testing set:0.7027027027027027
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+[[15 11]
+ [34 28]]
+
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[144 103]
+ [ 88 159]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [28 34]]
+precision of testing set:0.7083333333333334
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [28 34]]
+
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 40, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[142 105]
+ [ 88 159]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [28 34]]
+precision of testing set:0.7083333333333334
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+[[12 14]
+ [28 34]]
+
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[135 112]
+ [ 79 168]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [31 31]]
+precision of testing set:0.6888888888888889
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [31 31]]
+
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 40, 'C': 1, 'penalty': 'l2'}
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+[[12 14]
+ [31 31]]
+
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 40, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[142 105]
+ [ 91 156]]
+Confusion matrix of PPMI testing set:
+[[16 10]
+ [40 22]]
+precision of testing set:0.6875
+The temp confmatx of testing set has been updated to:
+[[16 10]
+ [40 22]]
+
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 40, 'C': 0.01, 'penalty': 'l2'}
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 40, 'C': 1000, 'penalty': 'l1'}
+[[16 10]
+ [40 22]]
+
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 40, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[148  99]
+ [ 93 154]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [35 27]]
+precision of testing set:0.7105263157894737
+The temp confmatx of testing set has been updated to:
+[[15 11]
+ [35 27]]
+
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 40, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[147 100]
+ [ 92 155]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [35 27]]
+precision of testing set:0.7105263157894737
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 40, 'C': 1000, 'penalty': 'l1'}
+[[15 11]
+ [35 27]]
+
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[129 118]
+ [ 82 165]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [33 29]]
+precision of testing set:0.6590909090909091
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [33 29]]
+
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 40, 'C': 0.01, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[137 110]
+ [ 94 153]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [23 39]]
+precision of testing set:0.7222222222222222
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [23 39]]
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 40, 'C': 0.01, 'penalty': 'l2'}
+[[11 15]
+ [23 39]]
+
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 40, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[146 101]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [33 29]]
+precision of testing set:0.6744186046511628
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [33 29]]
+
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 40, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[145 102]
+ [ 83 164]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [33 29]]
+precision of testing set:0.6744186046511628
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 40, 'C': 1000, 'penalty': 'l1'}
+[[12 14]
+ [33 29]]
+
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[149  98]
+ [ 84 163]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [20 42]]
+precision of testing set:0.7241379310344828
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [20 42]]
+
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 40, 'C': 100, 'penalty': 'l2'}
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+[[10 16]
+ [20 42]]
+
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[153  94]
+ [ 84 163]]
+Confusion matrix of PPMI testing set:
+[[17  9]
+ [31 31]]
+precision of testing set:0.775
+The temp confmatx of testing set has been updated to:
+[[17  9]
+ [31 31]]
+
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 40, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[152  95]
+ [ 84 163]]
+Confusion matrix of PPMI testing set:
+[[17  9]
+ [31 31]]
+precision of testing set:0.775
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+[[17  9]
+ [31 31]]
+
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 40, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[148  99]
+ [ 82 165]]
+Confusion matrix of PPMI testing set:
+[[19  7]
+ [32 30]]
+precision of testing set:0.8108108108108109
+The temp confmatx of testing set has been updated to:
+[[19  7]
+ [32 30]]
+
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 40, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[148  99]
+ [ 82 165]]
+Confusion matrix of PPMI testing set:
+[[19  7]
+ [32 30]]
+precision of testing set:0.8108108108108109
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 40, 'C': 1000, 'penalty': 'l1'}
+[[19  7]
+ [32 30]]
+
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[156  91]
+ [ 85 162]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [28 34]]
+precision of testing set:0.6938775510204082
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [28 34]]
+
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 40, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[156  91]
+ [ 86 161]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [28 34]]
+precision of testing set:0.6938775510204082
+For UMAP n_compo=40,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+[[11 15]
+ [28 34]]
+
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 50, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 7 19]
+ [26 36]]
+
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 50, 'C': 100, 'penalty': 'l2'}
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 50, 'C': 100, 'penalty': 'l1'}
+[[ 7 19]
+ [26 36]]
+
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[148  99]
+ [ 68 179]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [11 51]]
+precision of testing set:0.7727272727272727
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [11 51]]
+
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 50, 'C': 0.01, 'penalty': 'l2'}
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+[[11 15]
+ [11 51]]
+
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 50, 'C': 1, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [18 44]]
+
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 50, 'C': 1, 'penalty': 'l2'}
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 50, 'C': 1, 'penalty': 'l1'}
+[[ 9 17]
+ [18 44]]
+
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 7 19]
+ [18 44]]
+
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 50, 'C': 100, 'penalty': 'l2'}
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+[[ 7 19]
+ [18 44]]
+
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 50, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [25 37]]
+
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 50, 'C': 100, 'penalty': 'l2'}
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 50, 'C': 100, 'penalty': 'l1'}
+[[ 9 17]
+ [25 37]]
+
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 50, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 7 19]
+ [23 39]]
+
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 50, 'C': 1, 'penalty': 'l2'}
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 50, 'C': 100, 'penalty': 'l1'}
+[[ 7 19]
+ [23 39]]
+
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 50, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[137 110]
+ [ 77 170]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [22 40]]
+precision of testing set:0.7272727272727273
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [22 40]]
+
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 50, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[138 109]
+ [ 77 170]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [22 40]]
+precision of testing set:0.7272727272727273
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 50, 'C': 100, 'penalty': 'l1'}
+[[11 15]
+ [22 40]]
+
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [24 38]]
+
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 50, 'C': 1000, 'penalty': 'l2'}
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+[[ 9 17]
+ [24 38]]
+
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[138 109]
+ [ 80 167]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [29 33]]
+precision of testing set:0.6875
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [29 33]]
+
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 50, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[138 109]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [28 34]]
+precision of testing set:0.68
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+[[11 15]
+ [29 33]]
+
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[128 119]
+ [ 67 180]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [29 33]]
+precision of testing set:0.673469387755102
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [29 33]]
+
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 50, 'C': 0.1, 'penalty': 'l2'}
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+[[10 16]
+ [29 33]]
+
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 50, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[119 128]
+ [ 74 173]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [24 38]]
+precision of testing set:0.7037037037037037
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [24 38]]
+
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 50, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[120 127]
+ [ 74 173]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [24 38]]
+precision of testing set:0.7037037037037037
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 50, 'C': 100, 'penalty': 'l1'}
+[[10 16]
+ [24 38]]
+
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[142 105]
+ [ 83 164]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [29 33]]
+precision of testing set:0.717391304347826
+The temp confmatx of testing set has been updated to:
+[[13 13]
+ [29 33]]
+
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 50, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[141 106]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [28 34]]
+precision of testing set:0.7083333333333334
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+[[13 13]
+ [29 33]]
+
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[140 107]
+ [ 74 173]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [38 24]]
+precision of testing set:0.6486486486486487
+The temp confmatx of testing set has been updated to:
+[[13 13]
+ [38 24]]
+
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 50, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[140 107]
+ [ 74 173]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [38 24]]
+precision of testing set:0.6486486486486487
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+[[13 13]
+ [38 24]]
+
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 50, 'C': 0.1, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[130 117]
+ [ 97 150]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [20 42]]
+precision of testing set:0.75
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [20 42]]
+
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 50, 'C': 0.01, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[127 120]
+ [ 92 155]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [23 39]]
+precision of testing set:0.7222222222222222
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 50, 'C': 0.1, 'penalty': 'l1'}
+[[12 14]
+ [20 42]]
+
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[166  81]
+ [ 88 159]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [35 27]]
+precision of testing set:0.675
+The temp confmatx of testing set has been updated to:
+[[13 13]
+ [35 27]]
+
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 50, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[165  82]
+ [ 90 157]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [34 28]]
+precision of testing set:0.6829268292682927
+The temp confmatx of testing set has been updated to:
+[[13 13]
+ [34 28]]
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 50, 'C': 100, 'penalty': 'l2'}
+[[13 13]
+ [34 28]]
+
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 8 18]
+ [28 34]]
+
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 50, 'C': 1000, 'penalty': 'l2'}
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+[[ 8 18]
+ [28 34]]
+
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 50, 'C': 0.1, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[122 125]
+ [ 95 152]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [19 43]]
+precision of testing set:0.7413793103448276
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [19 43]]
+
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 50, 'C': 0.001, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[117 130]
+ [ 89 158]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [19 43]]
+precision of testing set:0.7288135593220338
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 50, 'C': 0.1, 'penalty': 'l1'}
+[[11 15]
+ [19 43]]
+
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[151  96]
+ [ 84 163]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [31 31]]
+precision of testing set:0.6595744680851063
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [31 31]]
+
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 50, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[151  96]
+ [ 84 163]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [31 31]]
+precision of testing set:0.6595744680851063
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+[[10 16]
+ [31 31]]
+
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 8 18]
+ [24 38]]
+
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 50, 'C': 1000, 'penalty': 'l2'}
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 50, 'C': 1000, 'penalty': 'l1'}
+[[ 8 18]
+ [24 38]]
+
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 50, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[147 100]
+ [ 84 163]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [31 31]]
+precision of testing set:0.7209302325581395
+The temp confmatx of testing set has been updated to:
+[[14 12]
+ [31 31]]
+
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 50, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[148  99]
+ [ 82 165]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [30 32]]
+precision of testing set:0.7272727272727273
+The temp confmatx of testing set has been updated to:
+[[14 12]
+ [30 32]]
+For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 50, 'C': 1000, 'penalty': 'l2'}
+[[14 12]
+ [30 32]]
+
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[164  83]
+ [ 74 173]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [27 35]]
+precision of testing set:0.7142857142857143
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [27 35]]
+
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 60, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[164  83]
+ [ 75 172]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [27 35]]
+precision of testing set:0.7142857142857143
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+[[12 14]
+ [27 35]]
+
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 8 18]
+ [20 42]]
+
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 60, 'C': 100, 'penalty': 'l2'}
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+[[ 8 18]
+ [20 42]]
+
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[147 100]
+ [ 63 184]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [23 39]]
+precision of testing set:0.7090909090909091
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [23 39]]
+
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 60, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[147 100]
+ [ 63 184]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [22 40]]
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 60, 'C': 100, 'penalty': 'l2'}
+[[10 16]
+ [22 40]]
+
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 60, 'C': 1000, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 8 18]
+ [19 43]]
+
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 60, 'C': 1, 'penalty': 'l2'}
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 60, 'C': 1000, 'penalty': 'l1'}
+[[ 8 18]
+ [19 43]]
+
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 60, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[144 103]
+ [ 76 171]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [27 35]]
+precision of testing set:0.7
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [27 35]]
+
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 60, 'C': 100, 'penalty': 'l2'}
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 60, 'C': 1000, 'penalty': 'l1'}
+[[11 15]
+ [27 35]]
+
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[145 102]
+ [ 72 175]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [27 35]]
+precision of testing set:0.6862745098039216
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [27 35]]
+
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 60, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[145 102]
+ [ 72 175]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [26 36]]
+precision of testing set:0.6923076923076923
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [26 36]]
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 60, 'C': 1000, 'penalty': 'l2'}
+[[10 16]
+ [26 36]]
+
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 60, 'C': 1, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 5 21]
+ [22 40]]
+
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 60, 'C': 0.1, 'penalty': 'l2'}
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 60, 'C': 1, 'penalty': 'l1'}
+[[ 5 21]
+ [22 40]]
+
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 60, 'C': 1, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 8 18]
+ [24 38]]
+
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 60, 'C': 1, 'penalty': 'l2'}
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 60, 'C': 1, 'penalty': 'l1'}
+[[ 8 18]
+ [24 38]]
+
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 60, 'C': 0.1, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[129 118]
+ [100 147]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [22 40]]
+precision of testing set:0.7407407407407407
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [22 40]]
+
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 60, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[138 109]
+ [ 79 168]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [27 35]]
+precision of testing set:0.7
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 60, 'C': 0.1, 'penalty': 'l1'}
+[[12 14]
+ [22 40]]
+
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[142 105]
+ [ 78 169]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [33 29]]
+precision of testing set:0.7073170731707317
+The temp confmatx of testing set has been updated to:
+[[14 12]
+ [33 29]]
+
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 60, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[142 105]
+ [ 78 169]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [33 29]]
+precision of testing set:0.7073170731707317
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+[[14 12]
+ [33 29]]
+
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[128 119]
+ [ 82 165]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [32 30]]
+precision of testing set:0.6976744186046512
+The temp confmatx of testing set has been updated to:
+[[13 13]
+ [32 30]]
+
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 60, 'C': 0.01, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[143 104]
+ [102 145]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [25 37]]
+precision of testing set:0.7115384615384616
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+[[13 13]
+ [32 30]]
+
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 60, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[123 124]
+ [ 75 172]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [28 34]]
+precision of testing set:0.68
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [28 34]]
+
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 60, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[123 124]
+ [ 75 172]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [28 34]]
+precision of testing set:0.68
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 60, 'C': 1000, 'penalty': 'l1'}
+[[10 16]
+ [28 34]]
+
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[141 106]
+ [ 84 163]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [37 25]]
+precision of testing set:0.6756756756756757
+The temp confmatx of testing set has been updated to:
+[[14 12]
+ [37 25]]
+
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 60, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[139 108]
+ [ 83 164]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [38 24]]
+precision of testing set:0.6486486486486487
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+[[14 12]
+ [37 25]]
+
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 60, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[135 112]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [33 29]]
+precision of testing set:0.725
+The temp confmatx of testing set has been updated to:
+[[15 11]
+ [33 29]]
+
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 60, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[136 111]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [33 29]]
+precision of testing set:0.725
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 60, 'C': 1000, 'penalty': 'l1'}
+[[15 11]
+ [33 29]]
+
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[156  91]
+ [ 84 163]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [25 37]]
+precision of testing set:0.7254901960784313
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [25 37]]
+
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 60, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[159  88]
+ [ 85 162]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [25 37]]
+precision of testing set:0.7254901960784313
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+[[12 14]
+ [25 37]]
+
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 60, 'C': 1000, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 7 19]
+ [28 34]]
+
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 60, 'C': 100, 'penalty': 'l2'}
+The temp confmatx of testing set has been updated to:
+[[ 7 19]
+ [27 35]]
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 60, 'C': 100, 'penalty': 'l2'}
+[[ 7 19]
+ [27 35]]
+
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 60, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[152  95]
+ [ 84 163]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [25 37]]
+precision of testing set:0.6981132075471698
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [25 37]]
+
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 60, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[151  96]
+ [ 84 163]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [25 37]]
+precision of testing set:0.6981132075471698
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 60, 'C': 1000, 'penalty': 'l1'}
+[[10 16]
+ [25 37]]
+
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[136 111]
+ [ 84 163]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [40 22]]
+precision of testing set:0.6666666666666666
+The temp confmatx of testing set has been updated to:
+[[15 11]
+ [40 22]]
+
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 60, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[135 112]
+ [ 84 163]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [40 22]]
+precision of testing set:0.6666666666666666
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+[[15 11]
+ [40 22]]
+
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [22 40]]
+
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 60, 'C': 1000, 'penalty': 'l2'}
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+[[ 9 17]
+ [22 40]]
+
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 60, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[149  98]
+ [ 87 160]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [26 36]]
+precision of testing set:0.75
+The temp confmatx of testing set has been updated to:
+[[14 12]
+ [26 36]]
+
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 60, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[149  98]
+ [ 87 160]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [26 36]]
+precision of testing set:0.75
+For UMAP n_compo=60,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 60, 'C': 1000, 'penalty': 'l1'}
+[[14 12]
+ [26 36]]
+
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 70, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 7 19]
+ [25 37]]
+
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 70, 'C': 100, 'penalty': 'l2'}
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 70, 'C': 100, 'penalty': 'l1'}
+[[ 7 19]
+ [25 37]]
+
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 70, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[161  86]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [23 39]]
+precision of testing set:0.7090909090909091
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [23 39]]
+
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 70, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[161  86]
+ [ 80 167]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [23 39]]
+precision of testing set:0.7090909090909091
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 70, 'C': 100, 'penalty': 'l1'}
+[[10 16]
+ [23 39]]
+
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 70, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[166  81]
+ [ 74 173]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [16 46]]
+precision of testing set:0.7540983606557377
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [16 46]]
+
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 70, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[166  81]
+ [ 74 173]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [16 46]]
+precision of testing set:0.7540983606557377
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 70, 'C': 100, 'penalty': 'l1'}
+[[11 15]
+ [16 46]]
+
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 70, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[147 100]
+ [ 72 175]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [17 45]]
+precision of testing set:0.75
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [17 45]]
+
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 70, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[147 100]
+ [ 72 175]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [17 45]]
+precision of testing set:0.75
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 70, 'C': 100, 'penalty': 'l1'}
+[[11 15]
+ [17 45]]
+
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 70, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[159  88]
+ [ 71 176]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [28 34]]
+precision of testing set:0.7555555555555555
+The temp confmatx of testing set has been updated to:
+[[15 11]
+ [28 34]]
+
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 70, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[159  88]
+ [ 70 177]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [28 34]]
+precision of testing set:0.7555555555555555
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 70, 'C': 1000, 'penalty': 'l1'}
+[[15 11]
+ [28 34]]
+
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 70, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [17 45]]
+
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 70, 'C': 1000, 'penalty': 'l2'}
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 70, 'C': 100, 'penalty': 'l1'}
+[[ 9 17]
+ [17 45]]
+
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 70, 'C': 1000, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 6 20]
+ [25 37]]
+
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 70, 'C': 1000, 'penalty': 'l2'}
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 70, 'C': 1000, 'penalty': 'l1'}
+[[ 6 20]
+ [25 37]]
+
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 70, 'C': 1, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 6 20]
+ [25 37]]
+
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 70, 'C': 1, 'penalty': 'l2'}
+The temp confmatx of testing set has been updated to:
+[[ 6 20]
+ [22 40]]
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 70, 'C': 1, 'penalty': 'l2'}
+[[ 6 20]
+ [22 40]]
+
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 70, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[148  99]
+ [ 91 156]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [42 20]]
+precision of testing set:0.6060606060606061
+The temp confmatx of testing set has been updated to:
+[[13 13]
+ [42 20]]
+
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 70, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[148  99]
+ [ 91 156]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [42 20]]
+precision of testing set:0.6060606060606061
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 70, 'C': 1000, 'penalty': 'l1'}
+[[13 13]
+ [42 20]]
+
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 70, 'C': 1000, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [26 36]]
+
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 70, 'C': 1000, 'penalty': 'l2'}
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 70, 'C': 1000, 'penalty': 'l1'}
+[[ 9 17]
+ [26 36]]
+
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 70, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[135 112]
+ [ 85 162]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [33 29]]
+precision of testing set:0.7073170731707317
+The temp confmatx of testing set has been updated to:
+[[14 12]
+ [33 29]]
+
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 70, 'C': 1, 'penalty': 'l2'}
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 70, 'C': 1000, 'penalty': 'l1'}
+[[14 12]
+ [33 29]]
+
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 70, 'C': 0.1, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 8 18]
+ [29 33]]
+
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 70, 'C': 0.01, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[138 109]
+ [ 97 150]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [22 40]]
+
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 70, 'C': 0.01, 'penalty': 'l2'}
+[[10 16]
+ [22 40]]
+
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 70, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[136 111]
+ [ 80 167]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [30 32]]
+precision of testing set:0.7111111111111111
+The temp confmatx of testing set has been updated to:
+[[13 13]
+ [30 32]]
+
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 70, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[136 111]
+ [ 80 167]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [30 32]]
+precision of testing set:0.7111111111111111
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 70, 'C': 1000, 'penalty': 'l1'}
+[[13 13]
+ [30 32]]
+
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 70, 'C': 0.1, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[126 121]
+ [ 99 148]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [17 45]]
+precision of testing set:0.75
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [17 45]]
+
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 70, 'C': 0.01, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[122 125]
+ [ 89 158]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [21 41]]
+precision of testing set:0.7192982456140351
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 70, 'C': 0.1, 'penalty': 'l1'}
+[[11 15]
+ [17 45]]
+
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 70, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[152  95]
+ [ 78 169]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [41 21]]
+precision of testing set:0.65625
+The temp confmatx of testing set has been updated to:
+[[15 11]
+ [41 21]]
+
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 70, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[153  94]
+ [ 80 167]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [41 21]]
+precision of testing set:0.65625
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 70, 'C': 100, 'penalty': 'l1'}
+[[15 11]
+ [41 21]]
+
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 70, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[145 102]
+ [ 87 160]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [44 18]]
+precision of testing set:0.6923076923076923
+The temp confmatx of testing set has been updated to:
+[[18  8]
+ [44 18]]
+
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 70, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[145 102]
+ [ 88 159]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [45 17]]
+precision of testing set:0.68
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 70, 'C': 1000, 'penalty': 'l1'}
+[[18  8]
+ [44 18]]
+
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 70, 'C': 0.1, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[122 125]
+ [ 92 155]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [22 40]]
+
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 70, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[145 102]
+ [ 93 154]]
+Confusion matrix of PPMI testing set:
+[[16 10]
+ [35 27]]
+precision of testing set:0.7297297297297297
+The temp confmatx of testing set has been updated to:
+[[16 10]
+ [35 27]]
+
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 70, 'C': 100, 'penalty': 'l2'}
+[[16 10]
+ [35 27]]
+
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 70, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[144 103]
+ [ 88 159]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [30 32]]
+precision of testing set:0.6956521739130435
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [30 32]]
+
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 70, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[143 104]
+ [ 88 159]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [30 32]]
+precision of testing set:0.6956521739130435
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 70, 'C': 1000, 'penalty': 'l1'}
+[[12 14]
+ [30 32]]
+
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 70, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[133 114]
+ [ 85 162]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [42 20]]
+precision of testing set:0.625
+The temp confmatx of testing set has been updated to:
+[[14 12]
+ [42 20]]
+
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 70, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[132 115]
+ [ 84 163]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [41 21]]
+precision of testing set:0.6363636363636364
+The temp confmatx of testing set has been updated to:
+[[14 12]
+ [41 21]]
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 70, 'C': 100, 'penalty': 'l2'}
+[[14 12]
+ [41 21]]
+
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 70, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[152  95]
+ [ 94 153]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [25 37]]
+precision of testing set:0.74
+The temp confmatx of testing set has been updated to:
+[[13 13]
+ [25 37]]
+
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 70, 'C': 1, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[141 106]
+ [ 84 163]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [24 38]]
+precision of testing set:0.7037037037037037
+For UMAP n_compo=70,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 70, 'C': 1000, 'penalty': 'l1'}
+[[13 13]
+ [25 37]]
+
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 80, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 6 20]
+ [25 37]]
+
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 80, 'C': 100, 'penalty': 'l2'}
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 80, 'C': 100, 'penalty': 'l1'}
+[[ 6 20]
+ [25 37]]
+
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 80, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 8 18]
+ [20 42]]
+
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 80, 'C': 1, 'penalty': 'l2'}
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 80, 'C': 100, 'penalty': 'l1'}
+[[ 8 18]
+ [20 42]]
+
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 80, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 3 23]
+ [25 37]]
+
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 80, 'C': 100, 'penalty': 'l2'}
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 80, 'C': 100, 'penalty': 'l1'}
+[[ 3 23]
+ [25 37]]
+
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 80, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 7 19]
+ [24 38]]
+
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 80, 'C': 100, 'penalty': 'l2'}
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 80, 'C': 100, 'penalty': 'l1'}
+[[ 7 19]
+ [24 38]]
+
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 80, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [28 34]]
+
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 80, 'C': 100, 'penalty': 'l2'}
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 80, 'C': 100, 'penalty': 'l1'}
+[[ 9 17]
+ [28 34]]
+
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 7 19]
+ [20 42]]
+
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 80, 'C': 1000, 'penalty': 'l2'}
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+[[ 7 19]
+ [20 42]]
+
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 6 20]
+ [19 43]]
+
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 80, 'C': 1000, 'penalty': 'l2'}
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+[[ 6 20]
+ [19 43]]
+
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 8 18]
+ [21 41]]
+
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 80, 'C': 1000, 'penalty': 'l2'}
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+[[ 8 18]
+ [21 41]]
+
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[141 106]
+ [ 75 172]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [34 28]]
+precision of testing set:0.6363636363636364
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [34 28]]
+
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 80, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[141 106]
+ [ 75 172]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [35 27]]
+precision of testing set:0.627906976744186
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+[[10 16]
+ [34 28]]
+
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[139 108]
+ [ 82 165]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [31 31]]
+precision of testing set:0.6595744680851063
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [31 31]]
+
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 80, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[137 110]
+ [ 82 165]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [31 31]]
+precision of testing set:0.6595744680851063
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+[[10 16]
+ [31 31]]
+
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 80, 'C': 1, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[130 117]
+ [ 79 168]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [32 30]]
+precision of testing set:0.6521739130434783
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [32 30]]
+
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 80, 'C': 1, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[126 121]
+ [ 85 162]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [33 29]]
+precision of testing set:0.6590909090909091
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [33 29]]
+
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 80, 'C': 1, 'penalty': 'l2'}
+[[11 15]
+ [33 29]]
+
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 80, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[134 113]
+ [ 77 170]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [30 32]]
+precision of testing set:0.6956521739130435
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [30 32]]
+
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 80, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[133 114]
+ [ 78 169]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [31 31]]
+precision of testing set:0.6888888888888889
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 80, 'C': 100, 'penalty': 'l1'}
+[[12 14]
+ [30 32]]
+
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 80, 'C': 1, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[124 123]
+ [ 95 152]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [24 38]]
+precision of testing set:0.7169811320754716
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [24 38]]
+
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 80, 'C': 0.001, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[120 127]
+ [ 93 154]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [20 42]]
+precision of testing set:0.7368421052631579
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [20 42]]
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 80, 'C': 0.001, 'penalty': 'l2'}
+[[11 15]
+ [20 42]]
+
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[136 111]
+ [ 83 164]]
+Confusion matrix of PPMI testing set:
+[[17  9]
+ [38 24]]
+precision of testing set:0.7272727272727273
+The temp confmatx of testing set has been updated to:
+[[17  9]
+ [38 24]]
+
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 80, 'C': 1, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[137 110]
+ [ 87 160]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [35 27]]
+precision of testing set:0.6585365853658537
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+[[17  9]
+ [38 24]]
+
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 80, 'C': 1, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 8 18]
+ [28 34]]
+
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 80, 'C': 0.001, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[122 125]
+ [ 90 157]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [19 43]]
+precision of testing set:0.7288135593220338
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [19 43]]
+
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 80, 'C': 0.001, 'penalty': 'l2'}
+[[10 16]
+ [19 43]]
+
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 80, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 6 20]
+ [17 45]]
+
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 80, 'C': 1000, 'penalty': 'l2'}
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 80, 'C': 100, 'penalty': 'l1'}
+[[ 6 20]
+ [17 45]]
+
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[144 103]
+ [ 82 165]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [44 18]]
+precision of testing set:0.6923076923076923
+The temp confmatx of testing set has been updated to:
+[[18  8]
+ [44 18]]
+
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 80, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[141 106]
+ [ 82 165]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [43 19]]
+precision of testing set:0.7037037037037037
+The temp confmatx of testing set has been updated to:
+[[18  8]
+ [43 19]]
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 80, 'C': 100, 'penalty': 'l2'}
+[[18  8]
+ [43 19]]
+
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[153  94]
+ [ 99 148]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [35 27]]
+precision of testing set:0.675
+The temp confmatx of testing set has been updated to:
+[[13 13]
+ [35 27]]
+
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 80, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[153  94]
+ [ 99 148]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [35 27]]
+precision of testing set:0.675
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+[[13 13]
+ [35 27]]
+
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 80, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[153  94]
+ [ 96 151]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [31 31]]
+precision of testing set:0.7380952380952381
+The temp confmatx of testing set has been updated to:
+[[15 11]
+ [31 31]]
+
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 80, 'C': 1, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[151  96]
+ [107 140]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [32 30]]
+precision of testing set:0.7142857142857143
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 80, 'C': 100, 'penalty': 'l1'}
+[[15 11]
+ [31 31]]
+
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [23 39]]
+
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 80, 'C': 1, 'penalty': 'l2'}
+For UMAP n_compo=80,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 80, 'C': 1000, 'penalty': 'l1'}
+[[ 9 17]
+ [23 39]]
+
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 90, 'C': 1, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 6 20]
+ [18 44]]
+
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 90, 'C': 100, 'penalty': 'l2'}
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 90, 'C': 1, 'penalty': 'l1'}
+[[ 6 20]
+ [18 44]]
+
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 90, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[164  83]
+ [ 80 167]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [26 36]]
+precision of testing set:0.72
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [26 36]]
+
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 90, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[164  83]
+ [ 80 167]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [26 36]]
+precision of testing set:0.72
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 90, 'C': 1000, 'penalty': 'l1'}
+[[12 14]
+ [26 36]]
+
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 90, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 5 21]
+ [20 42]]
+
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 90, 'C': 1, 'penalty': 'l2'}
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 90, 'C': 100, 'penalty': 'l1'}
+[[ 5 21]
+ [20 42]]
+
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 90, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 7 19]
+ [16 46]]
+
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 90, 'C': 100, 'penalty': 'l2'}
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 90, 'C': 100, 'penalty': 'l1'}
+[[ 7 19]
+ [16 46]]
+
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 90, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[146 101]
+ [ 75 172]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [25 37]]
+precision of testing set:0.7254901960784313
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [25 37]]
+
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 90, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[147 100]
+ [ 75 172]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [24 38]]
+precision of testing set:0.7307692307692307
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [24 38]]
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 90, 'C': 1000, 'penalty': 'l2'}
+[[12 14]
+ [24 38]]
+
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 90, 'C': 1000, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 6 20]
+ [25 37]]
+
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 90, 'C': 1000, 'penalty': 'l2'}
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 90, 'C': 1000, 'penalty': 'l1'}
+[[ 6 20]
+ [25 37]]
+
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 90, 'C': 1, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 5 21]
+ [22 40]]
+
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 90, 'C': 1, 'penalty': 'l2'}
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 90, 'C': 1, 'penalty': 'l1'}
+[[ 5 21]
+ [22 40]]
+
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 90, 'C': 0.1, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[135 112]
+ [ 92 155]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [26 36]]
+precision of testing set:0.6923076923076923
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [26 36]]
+
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 90, 'C': 0.01, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[138 109]
+ [ 92 155]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [27 35]]
+precision of testing set:0.6862745098039216
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 90, 'C': 0.1, 'penalty': 'l1'}
+[[10 16]
+ [26 36]]
+
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 90, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [29 33]]
+
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 90, 'C': 1, 'penalty': 'l2'}
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 90, 'C': 100, 'penalty': 'l1'}
+[[ 9 17]
+ [29 33]]
+
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 90, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[152  95]
+ [ 83 164]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [36 26]]
+precision of testing set:0.6666666666666666
+The temp confmatx of testing set has been updated to:
+[[13 13]
+ [36 26]]
+
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 90, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[152  95]
+ [ 83 164]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [36 26]]
+precision of testing set:0.6666666666666666
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 90, 'C': 1000, 'penalty': 'l1'}
+[[13 13]
+ [36 26]]
+
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 90, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 8 18]
+ [30 32]]
+
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 90, 'C': 100, 'penalty': 'l2'}
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 90, 'C': 100, 'penalty': 'l1'}
+[[ 8 18]
+ [30 32]]
+
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 90, 'C': 1, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [33 29]]
+
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 90, 'C': 1, 'penalty': 'l2'}
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 90, 'C': 1, 'penalty': 'l1'}
+[[ 9 17]
+ [33 29]]
+
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 90, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[122 125]
+ [ 70 177]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [32 30]]
+precision of testing set:0.6666666666666666
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [32 30]]
+
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 90, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[122 125]
+ [ 70 177]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [32 30]]
+precision of testing set:0.6666666666666666
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 90, 'C': 1000, 'penalty': 'l1'}
+[[11 15]
+ [32 30]]
+
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 90, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[129 118]
+ [ 72 175]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [33 29]]
+precision of testing set:0.725
+The temp confmatx of testing set has been updated to:
+[[15 11]
+ [33 29]]
+
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 90, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[128 119]
+ [ 72 175]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [33 29]]
+precision of testing set:0.725
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 90, 'C': 100, 'penalty': 'l1'}
+[[15 11]
+ [33 29]]
+
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 90, 'C': 0.1, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[130 117]
+ [ 92 155]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [18 44]]
+precision of testing set:0.7586206896551724
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [18 44]]
+
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 90, 'C': 0.1, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[136 111]
+ [ 93 154]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [33 29]]
+precision of testing set:0.6590909090909091
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 90, 'C': 0.1, 'penalty': 'l1'}
+[[12 14]
+ [18 44]]
+
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 90, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[146 101]
+ [ 81 166]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [29 33]]
+precision of testing set:0.6875
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [29 33]]
+
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 90, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[147 100]
+ [ 80 167]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [29 33]]
+precision of testing set:0.6875
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 90, 'C': 100, 'penalty': 'l1'}
+[[11 15]
+ [29 33]]
+
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 90, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[133 114]
+ [ 70 177]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [33 29]]
+precision of testing set:0.7073170731707317
+The temp confmatx of testing set has been updated to:
+[[14 12]
+ [33 29]]
+
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 90, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[132 115]
+ [ 69 178]]
+Confusion matrix of PPMI testing set:
+[[14 12]
+ [33 29]]
+precision of testing set:0.7073170731707317
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 90, 'C': 100, 'penalty': 'l1'}
+[[14 12]
+ [33 29]]
+
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 90, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[139 108]
+ [ 75 172]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [29 33]]
+precision of testing set:0.6875
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [29 33]]
+
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 90, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[139 108]
+ [ 75 172]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [29 33]]
+precision of testing set:0.6875
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 90, 'C': 1000, 'penalty': 'l1'}
+[[11 15]
+ [29 33]]
+
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 90, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [21 41]]
+
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 90, 'C': 100, 'penalty': 'l2'}
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 90, 'C': 100, 'penalty': 'l1'}
+[[ 9 17]
+ [21 41]]
+
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 90, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[157  90]
+ [ 85 162]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [28 34]]
+precision of testing set:0.6938775510204082
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [28 34]]
+
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 90, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[158  89]
+ [ 85 162]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [27 35]]
+precision of testing set:0.6862745098039216
+For UMAP n_compo=90,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 90, 'C': 100, 'penalty': 'l1'}
+[[11 15]
+ [28 34]]
+
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 100, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[147 100]
+ [ 72 175]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [24 38]]
+precision of testing set:0.7037037037037037
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [24 38]]
+
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 100, 'C': 1, 'penalty': 'l2'}
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.1, 'n_component': 100, 'C': 100, 'penalty': 'l1'}
+[[10 16]
+ [24 38]]
+
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 100, 'C': 1000, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [16 46]]
+
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 100, 'C': 1000, 'penalty': 'l2'}
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.25, 'n_component': 100, 'C': 1000, 'penalty': 'l1'}
+[[ 9 17]
+ [16 46]]
+
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 100, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[157  90]
+ [ 76 171]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [23 39]]
+precision of testing set:0.7358490566037735
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [23 39]]
+
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 100, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[157  90]
+ [ 76 171]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [23 39]]
+precision of testing set:0.7358490566037735
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.4, 'n_component': 100, 'C': 100, 'penalty': 'l1'}
+[[12 14]
+ [23 39]]
+
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 100, 'C': 1, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 6 20]
+ [19 43]]
+
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 100, 'C': 0.001, 'penalty': 'l2'}
+The temp confmatx of testing set has been updated to:
+[[ 7 19]
+ [18 44]]
+
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 3, 'min_dist': 0.5, 'n_component': 100, 'C': 0.001, 'penalty': 'l2'}
+[[ 7 19]
+ [18 44]]
+
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 100, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[148  99]
+ [ 78 169]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [28 34]]
+precision of testing set:0.7083333333333334
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [28 34]]
+
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 100, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[147 100]
+ [ 80 167]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [27 35]]
+precision of testing set:0.7142857142857143
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [27 35]]
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 100, 'C': 100, 'penalty': 'l2'}
+[[12 14]
+ [27 35]]
+
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 100, 'C': 100, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [24 38]]
+
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 100, 'C': 0.01, 'penalty': 'l2'}
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.25, 'n_component': 100, 'C': 100, 'penalty': 'l1'}
+[[ 9 17]
+ [24 38]]
+
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 100, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[141 106]
+ [ 85 162]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [25 37]]
+precision of testing set:0.6981132075471698
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [25 37]]
+
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 100, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[141 106]
+ [ 84 163]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [25 37]]
+precision of testing set:0.6981132075471698
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 100, 'C': 1000, 'penalty': 'l1'}
+[[10 16]
+ [25 37]]
+
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 100, 'C': 1000, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 7 19]
+ [25 37]]
+
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 100, 'C': 0.01, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[138 109]
+ [ 93 154]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [25 37]]
+precision of testing set:0.7115384615384616
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [25 37]]
+
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 5, 'min_dist': 0.5, 'n_component': 100, 'C': 0.01, 'penalty': 'l2'}
+[[11 15]
+ [25 37]]
+
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 100, 'C': 0.1, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[119 128]
+ [ 92 155]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [18 44]]
+precision of testing set:0.7457627118644068
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [18 44]]
+
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 100, 'C': 0.01, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[131 116]
+ [ 95 152]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [25 37]]
+precision of testing set:0.7254901960784313
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [25 37]]
+
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.1, 'n_component': 100, 'C': 0.01, 'penalty': 'l2'}
+[[12 14]
+ [25 37]]
+
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 100, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[143 104]
+ [ 85 162]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [23 39]]
+precision of testing set:0.78
+The temp confmatx of testing set has been updated to:
+[[15 11]
+ [23 39]]
+
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 100, 'C': 1, 'penalty': 'l2'}
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 100, 'C': 1000, 'penalty': 'l1'}
+[[15 11]
+ [23 39]]
+
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 100, 'C': 0.1, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[115 132]
+ [ 82 165]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [15 47]]
+precision of testing set:0.746031746031746
+The temp confmatx of testing set has been updated to:
+[[10 16]
+ [15 47]]
+
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 100, 'C': 0.01, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[140 107]
+ [ 93 154]]
+Confusion matrix of PPMI testing set:
+[[10 16]
+ [22 40]]
+precision of testing set:0.7142857142857143
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.4, 'n_component': 100, 'C': 0.1, 'penalty': 'l1'}
+[[10 16]
+ [15 47]]
+
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 100, 'C': 1, 'penalty': 'l1'}
+The temp confmatx of testing set has been updated to:
+[[ 8 18]
+ [29 33]]
+
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 100, 'C': 0.01, 'penalty': 'l2'}
+The temp confmatx of testing set has been updated to:
+[[ 9 17]
+ [23 39]]
+
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 100, 'C': 0.01, 'penalty': 'l2'}
+[[ 9 17]
+ [23 39]]
+
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 100, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[148  99]
+ [ 96 151]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [26 36]]
+precision of testing set:0.7058823529411765
+The temp confmatx of testing set has been updated to:
+[[11 15]
+ [26 36]]
+
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 100, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[147 100]
+ [ 95 152]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [27 35]]
+precision of testing set:0.7
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.1, 'n_component': 100, 'C': 100, 'penalty': 'l1'}
+[[11 15]
+ [26 36]]
+
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 100, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[157  90]
+ [ 89 158]]
+Confusion matrix of PPMI testing set:
+[[13 13]
+ [28 34]]
+precision of testing set:0.723404255319149
+The temp confmatx of testing set has been updated to:
+[[13 13]
+ [28 34]]
+
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 100, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[155  92]
+ [ 89 158]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [28 34]]
+precision of testing set:0.7083333333333334
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.25, 'n_component': 100, 'C': 100, 'penalty': 'l1'}
+[[13 13]
+ [28 34]]
+
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 100, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[158  89]
+ [ 92 155]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [38 24]]
+precision of testing set:0.6857142857142857
+The temp confmatx of testing set has been updated to:
+[[15 11]
+ [38 24]]
+
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 100, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[161  86]
+ [ 93 154]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [38 24]]
+precision of testing set:0.6857142857142857
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 100, 'C': 1000, 'penalty': 'l1'}
+[[15 11]
+ [38 24]]
+
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 100, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[141 106]
+ [ 89 158]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [31 31]]
+precision of testing set:0.7380952380952381
+The temp confmatx of testing set has been updated to:
+[[15 11]
+ [31 31]]
+
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 100, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[141 106]
+ [ 89 158]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [31 31]]
+precision of testing set:0.7380952380952381
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 15, 'min_dist': 0.5, 'n_component': 100, 'C': 1000, 'penalty': 'l1'}
+[[15 11]
+ [31 31]]
+
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 100, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[141 106]
+ [ 72 175]]
+Confusion matrix of PPMI testing set:
+[[20  6]
+ [43 19]]
+precision of testing set:0.76
+The temp confmatx of testing set has been updated to:
+[[20  6]
+ [43 19]]
+
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 100, 'C': 0.001, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[122 125]
+ [ 88 159]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [20 42]]
+precision of testing set:0.7368421052631579
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.1, 'n_component': 100, 'C': 100, 'penalty': 'l1'}
+[[20  6]
+ [43 19]]
+
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 100, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[141 106]
+ [ 83 164]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [30 32]]
+precision of testing set:0.6956521739130435
+The temp confmatx of testing set has been updated to:
+[[12 14]
+ [30 32]]
+
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 100, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[143 104]
+ [ 83 164]]
+Confusion matrix of PPMI testing set:
+[[12 14]
+ [30 32]]
+precision of testing set:0.6956521739130435
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 100, 'C': 100, 'penalty': 'l1'}
+[[12 14]
+ [30 32]]
+
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 100, 'C': 100, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[154  93]
+ [ 77 170]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [40 22]]
+precision of testing set:0.6666666666666666
+The temp confmatx of testing set has been updated to:
+[[15 11]
+ [40 22]]
+
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 100, 'C': 100, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[156  91]
+ [ 79 168]]
+Confusion matrix of PPMI testing set:
+[[15 11]
+ [40 22]]
+precision of testing set:0.6666666666666666
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 100, 'C': 100, 'penalty': 'l1'}
+[[15 11]
+ [40 22]]
+
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 100, 'C': 1000, 'penalty': 'l1'}
+Confusion matrix of PPMI training set:
+[[146 101]
+ [ 97 150]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [37 25]]
+precision of testing set:0.7575757575757576
+The temp confmatx of testing set has been updated to:
+[[18  8]
+ [37 25]]
+
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 100, 'C': 1000, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[146 101]
+ [ 97 150]]
+Confusion matrix of PPMI testing set:
+[[18  8]
+ [37 25]]
+precision of testing set:0.7575757575757576
+For UMAP n_compo=100,from confusion matrix of PPMI testing set, best params are: 
+{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 100, 'C': 1000, 'penalty': 'l1'}
+[[18  8]
+ [37 25]]
+

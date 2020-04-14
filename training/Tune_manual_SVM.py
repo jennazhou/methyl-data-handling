@@ -41,16 +41,16 @@ print("Complete loading data")
 #------------------------------------------
 # f = open("logs/svm_logs/pca_svm_experiments_log","w")  
 # f = open("logs/svm_logs/ica_svm_experiments_log","w")  
-f = open("logs/svm_logs/umap_svm_experiments_log","w")  
+f = open("logs/svm_logs/umap_svm_experiments_log","a")  
 # f = open("logs/svm_logs/fs_svm_experiments_log","w")  
 #--------------------------------------------
 
 print ("Shape of final train and test sets:", X_train_scaled.shape, X_test_scaled.shape)
     
-C_options = [0.001, 0.01, 0.1, 1, 100, 1000]
+C_options = [0.001, 0.01, 100, 1000]
 n_components = [12,14,16,18,20,22]
 kernels = ['rbf', 'poly']
-gamma=[1e-4, 0.001, 0.01, 1, 1.5, 3]
+gamma=[ 0.01, 1, 1.5, 3]
 coef0 = [0.5,1,3,5,7,10]
 
 # # PCA
@@ -61,7 +61,7 @@ coef0 = [0.5,1,3,5,7,10]
 #     print('Shape of PCs:', X_train.shape[1])
     
 # UMAP
-n_neighbours = [3, 5, 10, 15, 20, 50]
+n_neighbours = [3, 5, 7, 20]
 min_dist = [0.1, 0.25, 0.4, 0.7]
 for n in n_components:
     for n_nei in n_neighbours:

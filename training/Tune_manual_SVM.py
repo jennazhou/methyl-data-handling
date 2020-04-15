@@ -78,13 +78,13 @@ for n in n_components:
 
 
 
-#Lasso Reg for FS
-alpha=[0.0001, 0.001,0.01, 0.05, 0.08, 0.1, 0.12, 0.15, 0.18, 0.2]
-for a in alpha:
-    sel_ = SelectFromModel(Lasso(alpha=a, tol=0.01, random_state=42))
-    X_train = sel_.fit_transform(X_train_scaled, y_train_sampled)
-    X_test = sel_.transform(X_test_scaled)
-    print("Shape of training set with alpha=", a, ":", X_train.shape)
+# #Lasso Reg for FS
+# alpha=[0.0001, 0.001,0.01, 0.05, 0.08, 0.1, 0.12, 0.15, 0.18, 0.2]
+# for a in alpha:
+#     sel_ = SelectFromModel(Lasso(alpha=a, tol=0.01, random_state=42))
+#     X_train = sel_.fit_transform(X_train_scaled, y_train_sampled)
+#     X_test = sel_.transform(X_test_scaled)
+#     print("Shape of training set with alpha=", a, ":", X_train.shape)
     
     cm_tp=[[0,0],[0,0]]
     for k in kernels:

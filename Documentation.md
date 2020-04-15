@@ -142,38 +142,29 @@ Confusion matrix of PPMI testing set:
  
 
 #### UMAP + LR
-{'n_neighbour': 20, 'min_dist': 0.4, 'n_component': 40, 'C': 1000, 'penalty': 'l1'}
-Confusion matrix of PPMI training set:
-[[148  99]
- [ 82 165]]
-Confusion matrix of PPMI testing set:
-[[19  7]
- [32 30]]
- 
- {'n_neighbour': 20, 'min_dist': 0.25, 'n_component': 40, 'C': 100, 'penalty': 'l1'}
+{'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 30, 'C': 100, 'penalty': 'l1'}
 Confusion matrix of PPMI training set:
 [[153  94]
- [ 84 163]]
+ [ 79 168]]
 Confusion matrix of PPMI testing set:
-[[17  9]
- [31 31]]
- 
- For UMAP n_compo=50,from confusion matrix of PPMI testing set, best params are: 
-{'n_neighbour': 20, 'min_dist': 0.5, 'n_component': 50, 'C': 1000, 'penalty': 'l2'}
 [[14 12]
- [30 32]]
+ [24 38]]
  
-{'n_neighbour': 15, 'min_dist': 0.4, 'n_component': 60, 'C': 100, 'penalty': 'l1'}
+ {'n_neighbour': 5, 'min_dist': 0.1, 'n_component': 30, 'C': 1000, 'penalty': 'l2'}
 Confusion matrix of PPMI training set:
-[[156  91]
- [ 84 163]]
+[[153  94]
+ [ 80 167]]
 Confusion matrix of PPMI testing set:
-[[12 14]
- [25 37]]
-precision of testing set:0.7254901960784313
-The temp confmatx of testing set has been updated to:
-[[12 14]
- [25 37]]
+[[14 12]
+ [24 38]]
+ 
+ {'n_neighbour': 10, 'min_dist': 0.5, 'n_component': 30, 'C': 0.01, 'penalty': 'l2'}
+Confusion matrix of PPMI training set:
+[[139 108]
+ [ 94 153]]
+Confusion matrix of PPMI testing set:
+[[11 15]
+ [23 39]]
 
 #### Lasso FS + LR
 {'lasso_a': 0.09, 'C': 1, 'penalty': 'l1'}
@@ -320,13 +311,13 @@ Confusion matrix of PPMI testing set:
 [[14 12]
  [16 46]]
  
- {'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 10, 'kernel': 'rbf', 'gamma': 0.01, 'coef0': 7, 'C': 1000}
+{'n_neighbour': 5, 'min_dist': 0.4, 'n_component': 18, 'kernel': 'poly', 'gamma': 1, 'coef0': 1, 'C': 0.01}
 Confusion matrix of PPMI training set:
-[[151  96]
- [ 71 176]]
+[[169  78]
+ [ 49 198]]
 Confusion matrix of PPMI testing set:
-[[17  9]
- [29 33]]
+[[15 11]
+ [23 39]]
  
 {'n_neighbour': 10, 'min_dist': 0.25, 'n_component': 10, 'kernel': 'poly', 'gamma': 0.01, 'coef0': 1, 'C': 1000}
 Confusion matrix of PPMI training set:

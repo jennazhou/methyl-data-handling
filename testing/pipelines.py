@@ -43,13 +43,39 @@ local_params = {
     "xgb":{}
 }
 '''
+
+## Construct clf_dict based on the format accepted by evalfw
+## Due to ram constrained, can only do one by one for each clf type
+def get_clf_dict(dr, clf, overall_hparams, X_train, y_train, gpu_id):
+    clf_dict = {
+        clf:{},
+    }
+
+    clf2ptype_dict={}
+#     for dr in ["ica"]:#"pca", "ica", "umap", "fs"
+    ptype = dr+"_"+clf
+    params = {}
+    for i in range(5):
+        p_dr_num = dr+"_"+clf+"_dr"+str(i+1)
+        p_clf_num = dr+"_"+clf+"_clf"+str(i+1)
+        params[p_dr_num] = overall_hparams[p_dr_num]
+        params[p_clf_num] = overall_hparams[p_clf_num]
+
+    print("Current ptype:", ptype)
+    clf2ptype_dict[ptype] = get_5pipelines(dr, clf, params,  X_train, y_train, gpu_id)
+    print("Complete constructing 5 pipelines for pipeline type", ptype)
+    clf_dict[clf] = clf2ptype_dict
+    return clf_dict
+    
+    
 def get_5pipelines(dr_name, clf_name, params, X_train, y_train, gpu_id):
     re_clf_dict = {}
-    for i in range(0):
+    for i in range(5):
         cur_params = {
             dr_name:params[dr_name+"_"+clf_name+"_dr"+str(i+1)],
             clf_name:params[dr_name+"_"+clf_name+"_clf"+str(i+1)],
         }
+        print(cur_params)
         re_clf_dict[i] = get_pipeline(dr_name, clf_name, cur_params, X_train, y_train, gpu_id)
     
     return re_clf_dict
@@ -63,9 +89,8 @@ def get_pipeline(dr_name, clf_name, params, X_train, y_train, gpu_id):
     elif dr_name == "umap":
         dr = UMAP(
             n_components=params["umap"]["n"], 
-            n_neighbours=params["umap"]["n_neighbours"],
+            n_neighbors=params["umap"]["n_neighbours"],
             min_dist=params["umap"]["min_dist"],
-            max_depth=params["umap"]["min_dist"],
         )
     elif dr_name == "fs":
         dr = SelectFromModel(Lasso(alpha=params["fs"]["a"], tol=0.01, random_state=42))

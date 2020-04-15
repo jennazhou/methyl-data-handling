@@ -1,0 +1,16 @@
+The final pipelines and their metrics for each classifier are:
+{'lr': {'ptype': 'pca_lr', 'pipeline': Pipeline(memory=None,
+         steps=[('dr',
+                 PCA(copy=True, iterated_power='auto', n_components=30,
+                     random_state=None, svd_solver='auto', tol=0.0,
+                     whiten=False)),
+                ('clf',
+                 LogisticRegression(C=0.01, class_weight=None, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=None,
+                                    solver='saga', tol=0.1, verbose=0,
+                                    warm_start=False))],
+         verbose=False), 'metrics': {'acc': 0.5454545454545454, 'prec': 0.72, 'recall': 0.5806451612903226, 'f1': 0.6428571428571428, 'auc': 0.5210918114143921, 'cm': array([[12, 14],
+       [26, 36]])}}}

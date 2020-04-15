@@ -26,9 +26,9 @@ def get_default_clf_dict(X_train, y_train, gpu_id):
     default_params_clf = {
         "lr":{},
         "svm":{},
-#         "xgb":{},
+        "xgb":{},
     }
-    for clf_name in ["lr", "svm"]:
+    for clf_name in ["lr", "svm", "xgb"]:
         for dr_name in ["pca", "ica", "umap"]:  
             print ("Current pipeline is:", dr_name + " " + clf_name)
             if dr_name == "pca":

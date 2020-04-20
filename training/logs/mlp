@@ -1,0 +1,13 @@
+Final ppg metrics
+ [[113  89]
+ [ 86  73]]
+ppg accuracy: 0.51523546
+ppg precision: 0.45132743362831856
+ppg f1:
+
+ppmi testing 
+[[17 9]
+ [28 34]]
+ accuracy: 0.57954545
+ precision: 0.7906976
+ 

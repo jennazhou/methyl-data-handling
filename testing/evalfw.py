@@ -77,6 +77,8 @@ def eval_ppg(ptype, clf_dict, X, y):
     # plots for confusion matrix
     get_confmat_plots(final_ppls, X, y, "ppg")
     
+    print(overall_metrics_scores)
+    
     f_ppg_ppl.close()
     f_ppg_metrics.close()
 
@@ -197,7 +199,7 @@ def get_mean_std(overall_metrics_score):
             res[cur_clf_type][cur_ppl_type] = {}
             for key in overall_metrics_score[cur_clf_type][cur_ppl_type]:
                 cur_scores = np.array(overall_metrics_score[cur_clf_type][cur_ppl_type][key])
-                mean_sd[key][0] = np.mean(cur_scores)
+                mean_std[key][0] = np.mean(cur_scores)
                 mean_std[key][1] = np.std(cur_scores)
             res[cur_clf_type][cur_ppl_type] = mean_std
     return res

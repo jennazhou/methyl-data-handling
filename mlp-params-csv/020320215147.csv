@@ -1,7 +1,0 @@
-round_epochs,loss,accuracy,activation,batch_size,dropout,epochs,first_neuron,hidden_layer_neuron,kernel_initializer,last_activation,losses,lr,optimizer
-10,2.7224488478807087,0.95884776,relu,10,0,10,256,32,uniform,sigmoid,binary_crossentropy,0.8,Adam
-10,2.5066063377937438,0.97119343,relu,10,0,10,256,32,uniform,sigmoid,binary_crossentropy,0.8666666666666667,Adam
-10,0.33338022651404475,0.93621397,relu,10,0,10,256,32,uniform,sigmoid,binary_crossentropy,0.9333333333333333,Adam
-10,0.1211783051331022,0.93415636,relu,10,0,10,512,32,uniform,sigmoid,binary_crossentropy,0.8,Adam
-10,0.38926748937540095,0.80452675,relu,10,0,10,512,32,uniform,sigmoid,binary_crossentropy,0.8666666666666667,Adam
-10,1.7545591064472417,0.9115226,relu,10,0,10,512,32,uniform,sigmoid,binary_crossentropy,0.9333333333333333,Adam

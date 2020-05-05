@@ -1,6 +1,6 @@
 # Handling High-Dimensional Methylation Data for Parkinson's Disease Prediction
 
-This project is to comparatively analyse different approaches to handle high-dimensional methylation data for Parkinson's disease prediction. 
+This project is to comparatively analyse different approaches to handle high-dimensional methylation data for binary Parkinson's disease (PD) prediction. Each pipeline includes dimensionality reduction and classification for PD prediction, either from two seperate algorithms or as an integrated model (Multi-Layer Perceptron). Finally, all pipelines are evaluated to identify the best approach to solve the problem.
 
 The repository contains the following subdirectories and files for different parts of the project:
 - preprocessing: data transformation to obtain an appriopriate format for training and testing
